@@ -99,7 +99,7 @@
     {
       "a": 7
     },
-    "",
+    "\n\n\n\nMacro",
     "",
     "",
     "",
@@ -140,13 +140,13 @@
     {
       "f": 3
     },
-    "H",
+    "H\n\n\n\n<i class='fa fa-angle-left'></i>",
     {
       "a": 7
     },
-    "",
-    "",
-    "",
+    "\n\n\n\n<i class='fa fa-angle-down'></i>",
+    "\n\n\n\n<i class='fa fa-angle-up'></i>",
+    "\n\n\n\n<i class='fa fa-angle-right'></i>",
     "",
     "",
     {
@@ -283,10 +283,17 @@
     {
       "x": 0.5,
       "c": "#454545",
-      "a": 4
+      "a": 4,
+      "f": 3
     },
     "\n\n\n1",
+    {
+      "f": 3
+    },
     "\n\n\n2",
+    {
+      "f": 3
+    },
     "\n\n\n3\n\n\n\n\n\n<i class='fa fa-angle-left'></i>",
     {
       "a": 7,
