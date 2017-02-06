@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/tom/git/keyboard/custom_pcb/custom_pcb.sch)
-    (date "Thu 02 Feb 2017 08:11:14 PM PST")
+    (date "Sun 05 Feb 2017 09:47:12 PM PST")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1425,10 +1425,10 @@
   (libraries
     (library (logical MKL02Z32VFG4)
       (uri /home/tom/git/keyboard/libs/MKL02Z32VFG4.lib))
-    (library (logical LP38691SD-ADJ)
-      (uri /home/tom/git/keyboard/libs/LP38691SD-ADJ.lib))
     (library (logical MK20DX256VLH7)
       (uri /home/tom/git/keyboard/libs/MK20DX256VLH7.lib))
+    (library (logical LP38691SD-ADJ)
+      (uri /home/tom/git/keyboard/libs/LP38691SD-ADJ.lib))
     (library (logical keyboard_parts)
       (uri /home/tom/git/NOFORK/kicad_lib_tmk/keyboard_parts.lib)))
   (nets
