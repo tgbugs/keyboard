@@ -1,7 +1,7 @@
 #lang racket
 (provide NUMKEYS)
 ; BOM?
-(define NUMKEYS 92)
+(define NUMKEYS 92) ; -3 because the mouse is run off the trackpoint
 (microcontroller 'teensy-3.2 (must "trackpoint" "matrix" "led")
                  (define PINOUT (outputs (digital 34))))
 (instances NUMKEYS (switch mx-series (color UNKNOWN)
@@ -17,3 +17,4 @@
 ; STP16CP05 ; consider for led driver (16 output shift register 100mA...) STP16CP05PTR
 (mounting-plate WHEEE)
 (pcb OHGODNO) ; MAX DIODES
+(connector 'molex 0532610871) ; needs the male half
