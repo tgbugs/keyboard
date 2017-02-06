@@ -59,8 +59,30 @@ $EndComp
 $Comp
 L KEYSW K0
 U 1 1 5894086E
+P 3300 1150
+F 0 "K0" H 3250 1150 60  0000 C CNN
+F 1 "KEYSW" H 3300 1050 60  0001 C CNN
+F 2 "cherry_rgb:CHERRY_PLATE_NH_100H" H 3300 1150 60  0001 C CNN
+F 3 "" H 3300 1150 60  0000 C CNN
+	1    3300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K2
+U 1 1 58940BCD
+P 4400 1150
+F 0 "K2" H 4350 1150 60  0000 C CNN
+F 1 "KEYSW" H 4400 1050 60  0001 C CNN
+F 2 "cherry_rgb:CHERRY_PLATE_NH_100H" H 4400 1150 60  0001 C CNN
+F 3 "" H 4400 1150 60  0000 C CNN
+	1    4400 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K1
+U 1 1 58940C88
 P 3300 1650
-F 0 "K0" H 3250 1650 60  0000 C CNN
+F 0 "K1" H 3250 1650 60  0000 C CNN
 F 1 "KEYSW" H 3300 1550 60  0001 C CNN
 F 2 "cherry_rgb:CHERRY_PLATE_NH_100H" H 3300 1650 60  0001 C CNN
 F 3 "" H 3300 1650 60  0000 C CNN
@@ -68,10 +90,10 @@ F 3 "" H 3300 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K2
-U 1 1 58940BCD
+L KEYSW K3
+U 1 1 58940C8E
 P 4400 1650
-F 0 "K2" H 4350 1650 60  0000 C CNN
+F 0 "K3" H 4350 1650 60  0000 C CNN
 F 1 "KEYSW" H 4400 1550 60  0001 C CNN
 F 2 "cherry_rgb:CHERRY_PLATE_NH_100H" H 4400 1650 60  0001 C CNN
 F 3 "" H 4400 1650 60  0000 C CNN
@@ -79,32 +101,32 @@ F 3 "" H 4400 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KEYSW K1
-U 1 1 58940C88
-P 3300 2150
-F 0 "K1" H 3250 2150 60  0000 C CNN
-F 1 "KEYSW" H 3300 2050 60  0001 C CNN
-F 2 "cherry_rgb:CHERRY_PLATE_NH_100H" H 3300 2150 60  0001 C CNN
-F 3 "" H 3300 2150 60  0000 C CNN
-	1    3300 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L KEYSW K3
-U 1 1 58940C8E
-P 4400 2150
-F 0 "K3" H 4350 2150 60  0000 C CNN
-F 1 "KEYSW" H 4400 2050 60  0001 C CNN
-F 2 "cherry_rgb:CHERRY_PLATE_NH_100H" H 4400 2150 60  0001 C CNN
-F 3 "" H 4400 2150 60  0000 C CNN
-	1    4400 2150
-	1    0    0    -1  
-$EndComp
-$Comp
 L D D0
 U 1 1 58940C9B
+P 3000 1350
+F 0 "D0" V 2850 1300 60  0000 C CNN
+F 1 "D" V 3150 1300 60  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 3000 1350 60  0001 C CNN
+F 3 "" H 3000 1350 60  0000 C CNN
+	1    3000 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D2
+U 1 1 589410AE
+P 4100 1350
+F 0 "D2" V 3950 1300 60  0000 C CNN
+F 1 "D" V 4250 1300 60  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 4100 1350 60  0001 C CNN
+F 3 "" H 4100 1350 60  0000 C CNN
+	1    4100 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D1
+U 1 1 58941204
 P 3000 1850
-F 0 "D0" V 2850 1800 60  0000 C CNN
+F 0 "D1" V 2850 1800 60  0000 C CNN
 F 1 "D" V 3150 1800 60  0001 C CNN
 F 2 "Diodes_SMD:D_SOD-123" H 3000 1850 60  0001 C CNN
 F 3 "" H 3000 1850 60  0000 C CNN
@@ -112,45 +134,23 @@ F 3 "" H 3000 1850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D2
-U 1 1 589410AE
+L D D3
+U 1 1 5894120A
 P 4100 1850
-F 0 "D2" V 3950 1800 60  0000 C CNN
+F 0 "D3" V 3950 1800 60  0000 C CNN
 F 1 "D" V 4250 1800 60  0001 C CNN
 F 2 "Diodes_SMD:D_SOD-123" H 4100 1850 60  0001 C CNN
 F 3 "" H 4100 1850 60  0000 C CNN
 	1    4100 1850
 	-1   0    0    1   
 $EndComp
-$Comp
-L D D1
-U 1 1 58941204
-P 3000 2350
-F 0 "D1" V 2850 2300 60  0000 C CNN
-F 1 "D" V 3150 2300 60  0001 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 3000 2350 60  0001 C CNN
-F 3 "" H 3000 2350 60  0000 C CNN
-	1    3000 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L D D3
-U 1 1 5894120A
-P 4100 2350
-F 0 "D3" V 3950 2300 60  0000 C CNN
-F 1 "D" V 4250 2300 60  0001 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 4100 2350 60  0001 C CNN
-F 3 "" H 4100 2350 60  0000 C CNN
-	1    4100 2350
-	-1   0    0    1   
-$EndComp
-Text GLabel 2800 1900 0    60   Input ~ 0
+Text GLabel 2800 1400 0    60   Input ~ 0
 row0
-Text GLabel 2800 2400 0    60   Input ~ 0
+Text GLabel 2800 1900 0    60   Input ~ 0
 row1
-Text GLabel 3600 2500 3    60   Input ~ 0
+Text GLabel 3600 2000 3    60   Input ~ 0
 col0
-Text GLabel 4700 2500 3    60   Input ~ 0
+Text GLabel 4700 2000 3    60   Input ~ 0
 col1
 Text GLabel 7000 2200 0    60   Input ~ 0
 row0
@@ -266,26 +266,26 @@ sr_data0
 $Comp
 L KEYSW K5
 U 1 1 58950DFF
-P 5700 2150
-F 0 "K5" H 5650 2150 60  0000 C CNN
-F 1 "KEYSW" H 5700 2050 60  0001 C CNN
-F 2 "cherry_rgb:CHERRY_PLATE_NH_100H" H 5700 2150 60  0001 C CNN
-F 3 "" H 5700 2150 60  0000 C CNN
-	1    5700 2150
+P 5700 1650
+F 0 "K5" H 5650 1650 60  0000 C CNN
+F 1 "KEYSW" H 5700 1550 60  0001 C CNN
+F 2 "cherry_rgb:CHERRY_PLATE_NH_100H" H 5700 1650 60  0001 C CNN
+F 3 "" H 5700 1650 60  0000 C CNN
+	1    5700 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L D D5
 U 1 1 58950E0B
-P 5400 2350
-F 0 "D5" V 5250 2300 60  0000 C CNN
-F 1 "D" V 5550 2300 60  0001 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 5400 2350 60  0001 C CNN
-F 3 "" H 5400 2350 60  0000 C CNN
-	1    5400 2350
+P 5400 1850
+F 0 "D5" V 5250 1800 60  0000 C CNN
+F 1 "D" V 5550 1800 60  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 5400 1850 60  0001 C CNN
+F 3 "" H 5400 1850 60  0000 C CNN
+	1    5400 1850
 	-1   0    0    1   
 $EndComp
-Text GLabel 6000 2500 3    60   Input ~ 0
+Text GLabel 6000 2000 3    60   Input ~ 0
 col2
 $Comp
 L LED_RGB SMDLED2
@@ -326,22 +326,89 @@ F 3 "" H 7200 2150 50  0000 C CNN
 	1    7200 2150
 	1    0    0    -1  
 $EndComp
+$Comp
+L 74HC595 U2
+U 1 1 58957349
+P 9050 5900
+F 0 "U2" H 9200 6500 50  0000 C CNN
+F 1 "74HC595" H 9050 5300 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 9050 5900 50  0001 C CNN
+F 3 "" H 9050 5900 50  0000 C CNN
+	1    9050 5900
+	-1   0    0    1   
+$EndComp
+Text GLabel 9750 6350 2    60   Input ~ 0
+sr_data1
+Text GLabel 10650 5300 0    60   Input ~ 0
+sr_data1
+$Comp
+L CONN_01X08 P1
+U 1 1 58957DB2
+P 10850 4950
+F 0 "P1" H 10850 5400 50  0000 C CNN
+F 1 "CONN_01X08" V 10950 4950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.00mm" H 10850 4950 50  0001 C CNN
+F 3 "" H 10850 4950 50  0000 C CNN
+	1    10850 4950
+	1    0    0    -1  
+$EndComp
+Text GLabel 10650 4600 0    60   Input ~ 0
+sr_clk0
+Text GLabel 9750 4850 2    60   Input ~ 0
+sr_clk0
+Text GLabel 9750 6150 2    60   Input ~ 0
+sr_clk0
+Text GLabel 10650 4900 0    60   Input ~ 0
+GND
+Text GLabel 9750 4450 2    60   Input ~ 0
+GND
+Text GLabel 9750 5750 2    60   Input ~ 0
+GND
+Text GLabel 10650 5000 0    60   Input ~ 0
+VCC
+$Comp
+L CONN_01X08 P0
+U 1 1 5897F60A
+P 7600 3600
+F 0 "P0" H 7600 4050 50  0000 C CNN
+F 1 "CONN_01X08" V 7700 3600 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53261-0871_08x1.25mm_Angled" H 7600 3600 50  0001 C CNN
+F 3 "" H 7600 3600 50  0000 C CNN
+	1    7600 3600
+	1    0    0    -1  
+$EndComp
+Text GLabel 7400 3950 0    60   Input ~ 0
+BTN0
+Text GLabel 7400 3850 0    60   Input ~ 0
+BTN1
+Text GLabel 7400 3750 0    60   Input ~ 0
+BTN2
+Text GLabel 7400 3650 0    60   Input ~ 0
+VCC
+Text GLabel 7400 3250 0    60   Input ~ 0
+GND
+Text GLabel 7400 3350 0    60   Input ~ 0
+DATA
+Text GLabel 7400 3550 0    60   Input ~ 0
+TP_RST
+Text GLabel 7400 3450 0    60   Input ~ 0
+TP_CLK
+Wire Wire Line
+	3000 1150 3000 1200
+Wire Wire Line
+	4100 1150 4100 1200
 Wire Wire Line
 	3000 1650 3000 1700
 Wire Wire Line
 	4100 1650 4100 1700
 Wire Wire Line
-	3000 2150 3000 2200
+	2800 1900 5400 1900
 Wire Wire Line
-	4100 2150 4100 2200
-Wire Wire Line
-	2800 2400 5400 2400
-Wire Wire Line
-	2800 1900 4100 1900
-Connection ~ 3600 1650
-Connection ~ 4700 1650
+	2800 1400 4100 1400
+Connection ~ 3600 1150
+Connection ~ 4700 1150
+Connection ~ 3000 1400
 Connection ~ 3000 1900
-Connection ~ 3000 2400
 Wire Wire Line
 	4800 3150 4800 4900
 Connection ~ 4800 4700
@@ -409,8 +476,8 @@ Wire Wire Line
 Wire Wire Line
 	6000 5150 6100 5150
 Wire Wire Line
-	5400 2150 5400 2200
-Connection ~ 6000 1650
+	5400 1650 5400 1700
+Connection ~ 6000 1150
 Wire Wire Line
 	3900 3150 3900 4900
 Connection ~ 3900 4700
@@ -444,67 +511,14 @@ Connection ~ 4300 4250
 Connection ~ 4500 5150
 Connection ~ 4400 5250
 Connection ~ 4300 5350
-Connection ~ 4100 2400
-Connection ~ 3600 2150
-Connection ~ 4700 2150
-Connection ~ 6000 2150
+Connection ~ 4100 1900
+Connection ~ 3600 1650
+Connection ~ 4700 1650
+Connection ~ 6000 1650
 Wire Wire Line
-	6000 1650 6000 2500
+	6000 1150 6000 2000
 Wire Wire Line
-	4700 1650 4700 2500
+	4700 1150 4700 2000
 Wire Wire Line
-	3600 1650 3600 2500
-$Comp
-L 74HC595 U2
-U 1 1 58957349
-P 9050 5900
-F 0 "U2" H 9200 6500 50  0000 C CNN
-F 1 "74HC595" H 9050 5300 50  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 9050 5900 50  0001 C CNN
-F 3 "" H 9050 5900 50  0000 C CNN
-	1    9050 5900
-	-1   0    0    1   
-$EndComp
-Text GLabel 9750 6350 2    60   Input ~ 0
-sr_data1
-Text GLabel 10650 5300 0    60   Input ~ 0
-sr_data1
-$Comp
-L CONN_01X08 P1
-U 1 1 58957DB2
-P 10850 4950
-F 0 "P1" H 10850 5400 50  0000 C CNN
-F 1 "CONN_01X08" V 10950 4950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.00mm" H 10850 4950 50  0001 C CNN
-F 3 "" H 10850 4950 50  0000 C CNN
-	1    10850 4950
-	1    0    0    -1  
-$EndComp
-Text GLabel 10650 4600 0    60   Input ~ 0
-sr_clk0
-Text GLabel 9750 4850 2    60   Input ~ 0
-sr_clk0
-Text GLabel 9750 6150 2    60   Input ~ 0
-sr_clk0
-Text GLabel 10650 4900 0    60   Input ~ 0
-GND
-Text GLabel 9750 4450 2    60   Input ~ 0
-GND0
-Text GLabel 9750 5750 2    60   Input ~ 0
-GND1
-Text GLabel 10800 5750 2    60   Input ~ 0
-GND
-Text GLabel 10600 5850 0    60   Input ~ 0
-GND1
-Text GLabel 10600 5650 0    60   Input ~ 0
-GND0
-Wire Wire Line
-	10700 5850 10600 5850
-Wire Wire Line
-	10700 5650 10700 5850
-Wire Wire Line
-	10700 5650 10600 5650
-Wire Wire Line
-	10700 5750 10800 5750
-Connection ~ 10700 5750
+	3600 1150 3600 2000
 $EndSCHEMATC
