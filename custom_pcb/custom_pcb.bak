@@ -6939,46 +6939,46 @@ Text GLabel 9750 8500 2    60   Input ~ 0
 anode13
 Text GLabel 9750 8400 2    60   Input ~ 0
 anode14
-Text GLabel 10150 9800 2    60   Input ~ 0
+Text GLabel 10350 9800 2    60   Input ~ 0
 blue0
 Text GLabel 10900 9800 2    60   Input ~ 0
 green0
-Text GLabel 10150 10200 2    60   Input ~ 0
+Text GLabel 10350 10200 2    60   Input ~ 0
 blue1
 Text GLabel 10900 10200 2    60   Input ~ 0
 green1
-Text GLabel 10150 10600 2    60   Input ~ 0
+Text GLabel 10350 10600 2    60   Input ~ 0
 blue2
 Text GLabel 10900 10600 2    60   Input ~ 0
 green2
-Text GLabel 10200 11000 2    60   Input ~ 0
+Text GLabel 10400 11000 2    60   Input ~ 0
 blue3
 Text GLabel 10950 11000 2    60   Input ~ 0
 green3
-Text GLabel 10200 11350 2    60   Input ~ 0
+Text GLabel 10400 11350 2    60   Input ~ 0
 blue4
 Text GLabel 10950 11350 2    60   Input ~ 0
 green4
-Text GLabel 10250 11700 2    60   Input ~ 0
+Text GLabel 10450 11700 2    60   Input ~ 0
 blue5
 Text GLabel 11000 11700 2    60   Input ~ 0
 green5
-Text GLabel 10200 12050 2    60   Input ~ 0
+Text GLabel 10400 12050 2    60   Input ~ 0
 blue6
-Text GLabel 11850 12000 2    60   Input ~ 0
+Text GLabel 11550 12050 2    60   Input ~ 0
 red6
 Text GLabel 10950 12050 2    60   Input ~ 0
 green6
-Text GLabel 11900 11650 2    60   Input ~ 0
+Text GLabel 11600 11700 2    60   Input ~ 0
 red5
-Text GLabel 11850 11300 2    60   Input ~ 0
+Text GLabel 11550 11350 2    60   Input ~ 0
 red4
-Text GLabel 11850 10950 2    60   Input ~ 0
+Text GLabel 11550 11000 2    60   Input ~ 0
 red3
-Text GLabel 11800 10550 2    60   Input ~ 0
+Text GLabel 11500 10600 2    60   Input ~ 0
 red2
-Text GLabel 11800 10150 2    60   Input ~ 0
+Text GLabel 11500 10200 2    60   Input ~ 0
 red1
-Text GLabel 11800 9750 2    60   Input ~ 0
+Text GLabel 11500 9800 2    60   Input ~ 0
 red0
 $EndSCHEMATC
