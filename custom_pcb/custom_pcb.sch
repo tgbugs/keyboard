@@ -2186,7 +2186,7 @@ Text GLabel 1050 2750 0    60   Input ~ 0
 c13
 Text GLabel 1050 2550 0    60   Input ~ 0
 c14
-Text GLabel 3350 3250 0    60   Input ~ 0
+Text GLabel 1050 4150 0    60   Input ~ 0
 LED_CLK
 Text GLabel 1050 3250 0    60   Input ~ 0
 LED_DATA0
@@ -2196,7 +2196,7 @@ Text GLabel 1050 1250 0    60   Input ~ 0
 LED_DATA2
 Text GLabel 1050 3650 0    60   Input ~ 0
 TP_DATA
-Text GLabel 3350 3150 0    60   Input ~ 0
+Text GLabel 1050 1850 0    60   Input ~ 0
 TP_CLK
 Text GLabel 4500 2500 1    60   Input ~ 0
 GND

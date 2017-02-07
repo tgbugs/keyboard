@@ -2186,7 +2186,7 @@ Text GLabel 1050 2750 0    60   Input ~ 0
 c13
 Text GLabel 1050 2550 0    60   Input ~ 0
 c14
-Text GLabel 3350 3250 0    60   Input ~ 0
+Text GLabel 1050 4150 0    60   Input ~ 0
 LED_CLK
 Text GLabel 1050 3250 0    60   Input ~ 0
 LED_DATA0
@@ -2194,7 +2194,7 @@ Text GLabel 1050 1150 0    60   Input ~ 0
 LED_DATA1
 Text GLabel 1050 1250 0    60   Input ~ 0
 LED_DATA2
-Text GLabel 1050 1850 0    60   Input ~ 0
+Text GLabel 1050 3650 0    60   Input ~ 0
 TP_DATA
 Text GLabel 3350 3150 0    60   Input ~ 0
 TP_CLK
@@ -5166,6 +5166,6 @@ Text GLabel 11500 10200 2    60   Input ~ 0
 red1
 Text GLabel 11500 9800 2    60   Input ~ 0
 red0
-Text GLabel 1050 2150 0    60   Input ~ 0
+Text GLabel 1050 3550 0    60   Input ~ 0
 TP_RST
 $EndSCHEMATC
