@@ -1,3 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LED_RGB
+D LED RGB 6 pins
+K led rgb diode
+$ENDCMP
+#
+$CMP SMLVN6RGB
+D LED RGB 6 pins
+K led rgb diode
+$ENDCMP
+#
+$CMP SMLVN6RGB1U1
+D LED RGB 6 pins
+K led rgb diode
+$ENDCMP
+#
 #End Doc Library
