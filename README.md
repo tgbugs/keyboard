@@ -5,3 +5,5 @@ https://github.com/stormbard/Keyboard.pretty.git
 https://github.com/XenGi/kicad_teensy.git
 # use this guide
 https://github.com/ruiqimao/keyboard-pcb-guide
+# teensy setup on gentoo
+Need dev-embedded/teensyduino and dev-embedded/teensy_loader_cli, working ebuilds in https://github.com/tgbugs/tgbugs-overlay.
