@@ -2186,11 +2186,11 @@ Text GLabel 1050 2750 0    60   Input ~ 0
 c13
 Text GLabel 1050 2550 0    60   Input ~ 0
 c14
-Text GLabel 1050 4150 0    60   Input ~ 0
-LED_CLK
-Text GLabel 1050 3250 0    60   Input ~ 0
-LED_DATA0
 Text GLabel 1050 1150 0    60   Input ~ 0
+LED_CLK
+Text GLabel 1050 4150 0    60   Input ~ 0
+LED_DATA0
+Text GLabel 1050 3250 0    60   Input ~ 0
 LED_DATA1
 Text GLabel 1050 1250 0    60   Input ~ 0
 LED_DATA2
