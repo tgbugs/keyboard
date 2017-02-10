@@ -67,17 +67,17 @@ $EndComp
 $Comp
 L MKL02Z32VFG4 U2
 U 1 1 5892E040
-P 5400 1200
-F 0 "U2" H 4300 1750 50  0000 L CNN
-F 1 "MKL02Z32VFG4" H 4300 600 50  0000 L CNN
-F 2 "MKL02Z32VFG4:QFN50P300X300X65-17N" H 5400 1200 50  0001 L CNN
-F 3 "MKL02Z32VFG4" H 5400 1200 50  0001 L CNN
-F 4 "QFN-16 NXP Semiconductors" H 5400 1200 50  0001 L CNN "Package"
-F 5 "NXP Semiconductors" H 5400 1200 50  0001 L CNN "MF"
-F 6 "1.33 USD" H 5400 1200 50  0001 L CNN "Price"
-F 7 "32 Bit Microcontroller, Kinetis L Series Ultra Low Power, ARM Cortex-M0+, 48 MHz, 32 KB, 4 KB, 16" H 5400 1200 50  0001 L CNN "Description"
-F 8 "Good" H 5400 1200 50  0001 L CNN "Availability"
-	1    5400 1200
+P 6000 1250
+F 0 "U2" H 4900 1800 50  0000 L CNN
+F 1 "MKL02Z32VFG4" H 4900 650 50  0000 L CNN
+F 2 "MKL02Z32VFG4:QFN50P300X300X65-17N" H 6000 1250 50  0001 L CNN
+F 3 "MKL02Z32VFG4" H 6000 1250 50  0001 L CNN
+F 4 "QFN-16 NXP Semiconductors" H 6000 1250 50  0001 L CNN "Package"
+F 5 "NXP Semiconductors" H 6000 1250 50  0001 L CNN "MF"
+F 6 "1.33 USD" H 6000 1250 50  0001 L CNN "Price"
+F 7 "32 Bit Microcontroller, Kinetis L Series Ultra Low Power, ARM Cortex-M0+, 48 MHz, 32 KB, 4 KB, 16" H 6000 1250 50  0001 L CNN "Description"
+F 8 "Good" H 6000 1250 50  0001 L CNN "Availability"
+	1    6000 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1089,12 +1089,12 @@ $EndComp
 $Comp
 L USB_mini_micro_B J1
 U 1 1 589DEC60
-P 3950 1000
-F 0 "J1" H 3550 950 60  0000 C CNN
-F 1 "USB_mini_micro_B" H 3800 1250 60  0001 C CNN
-F 2 "keyboard_parts:USB_miniB_hirose_5S8" H 3900 1000 60  0001 C CNN
-F 3 "" H 3900 1000 60  0000 C CNN
-	1    3950 1000
+P 4250 1000
+F 0 "J1" H 3850 950 60  0000 C CNN
+F 1 "USB_mini_micro_B" H 4100 1250 60  0001 C CNN
+F 2 "keyboard_parts:USB_miniB_hirose_5S8" H 4200 1000 60  0001 C CNN
+F 3 "" H 4200 1000 60  0000 C CNN
+	1    4250 1000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2198,8 +2198,6 @@ Text GLabel 1050 3650 0    60   Input ~ 0
 TP_DATA
 Text GLabel 1050 1850 0    60   Input ~ 0
 TP_CLK
-Text GLabel 4500 2500 1    60   Input ~ 0
-GND
 Text GLabel 4200 2500 1    60   Input ~ 0
 TP_DATA
 Text GLabel 4300 2500 1    60   Input ~ 0
@@ -2220,16 +2218,8 @@ Text GLabel 4500 3350 2    60   Input ~ 0
 BTN1
 Text GLabel 4500 3650 2    60   Input ~ 0
 BTN2
-Text GLabel 3350 1950 2    60   Input ~ 0
-GND
 Text Notes 3650 4150 0    60   ~ 0
 Note that when wiring the LVC9 -> mainboard \nconnector the BTN0 and BTN2 leads need to be\nswapped since the order is reversed here to simplify routing.
-Text GLabel 3900 3050 0    60   Input ~ 0
-GND
-Text GLabel 3900 3350 0    60   Input ~ 0
-GND
-Text GLabel 3900 3650 0    60   Input ~ 0
-GND
 Text GLabel 8600 8000 0    60   Input ~ 0
 LED_DATA0
 Text GLabel 11250 8000 0    60   Input ~ 0
@@ -3479,12 +3469,49 @@ Text GLabel 10250 9000 2    60   Input ~ 0
 red0
 Text GLabel 1050 3550 0    60   Input ~ 0
 TP_RST
-Text GLabel 8600 7900 0    60   Input ~ 0
-GND
-Text GLabel 11250 7900 0    60   Input ~ 0
-GND
-Text GLabel 13200 7900 0    60   Input ~ 0
-GND
+Text GLabel 9750 7900 2    60   Input ~ 0
+V3.3
+Text GLabel 12400 7900 2    60   Input ~ 0
+V3.3
+Text GLabel 14350 7900 2    60   Input ~ 0
+V3.3
+Text GLabel 3350 850  2    60   Input ~ 0
+V3.3
+Text GLabel 4400 1150 3    60   Input ~ 0
+VCC
+$Comp
+L GND #PWR01
+U 1 1 589EB648
+P 4000 1250
+F 0 "#PWR01" H 4000 1000 50  0001 C CNN
+F 1 "GND" H 4000 1100 50  0000 C CNN
+F 2 "" H 4000 1250 50  0000 C CNN
+F 3 "" H 4000 1250 50  0000 C CNN
+	1    4000 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 589ED4FE
+P 3350 2250
+F 0 "#PWR02" H 3350 2000 50  0001 C CNN
+F 1 "GND" H 3350 2100 50  0000 C CNN
+F 2 "" H 3350 2250 50  0000 C CNN
+F 3 "" H 3350 2250 50  0000 C CNN
+	1    3350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 589EDA95
+P 4700 2500
+F 0 "#PWR03" H 4700 2250 50  0001 C CNN
+F 1 "GND" H 4700 2350 50  0000 C CNN
+F 2 "" H 4700 2500 50  0000 C CNN
+F 3 "" H 4700 2500 50  0000 C CNN
+	1    4700 2500
+	1    0    0    -1  
+$EndComp
 Connection ~ 7950 9850
 Connection ~ 7450 9850
 Connection ~ 7200 10450
@@ -5174,10 +5201,103 @@ Connection ~ 8700 1800
 Connection ~ 8200 2000
 Connection ~ 8200 1800
 Connection ~ 8200 2200
-Text GLabel 9750 7900 2    60   Input ~ 0
-V3.3
-Text GLabel 12400 7900 2    60   Input ~ 0
-V3.3
-Text GLabel 14350 7900 2    60   Input ~ 0
-V3.3
+Wire Wire Line
+	4000 1150 4000 1250
+Wire Wire Line
+	4500 2500 4700 2500
+$Comp
+L GND #PWR04
+U 1 1 589F0C49
+P 3900 3050
+F 0 "#PWR04" H 3900 2800 50  0001 C CNN
+F 1 "GND" H 3900 2900 50  0000 C CNN
+F 2 "" H 3900 3050 50  0000 C CNN
+F 3 "" H 3900 3050 50  0000 C CNN
+	1    3900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 589F1F30
+P 3900 3350
+F 0 "#PWR05" H 3900 3100 50  0001 C CNN
+F 1 "GND" H 3900 3200 50  0000 C CNN
+F 2 "" H 3900 3350 50  0000 C CNN
+F 3 "" H 3900 3350 50  0000 C CNN
+	1    3900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 589F2A53
+P 3900 3650
+F 0 "#PWR06" H 3900 3400 50  0001 C CNN
+F 1 "GND" H 3900 3500 50  0000 C CNN
+F 2 "" H 3900 3650 50  0000 C CNN
+F 3 "" H 3900 3650 50  0000 C CNN
+	1    3900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 589F4307
+P 8450 7650
+F 0 "#PWR07" H 8450 7400 50  0001 C CNN
+F 1 "GND" H 8450 7500 50  0000 C CNN
+F 2 "" H 8450 7650 50  0000 C CNN
+F 3 "" H 8450 7650 50  0000 C CNN
+	1    8450 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 7900 8600 7650
+Wire Wire Line
+	8600 7650 8450 7650
+$Comp
+L GND #PWR08
+U 1 1 589F720F
+P 11000 7750
+F 0 "#PWR08" H 11000 7500 50  0001 C CNN
+F 1 "GND" H 11000 7600 50  0000 C CNN
+F 2 "" H 11000 7750 50  0000 C CNN
+F 3 "" H 11000 7750 50  0000 C CNN
+	1    11000 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 589F7E4E
+P 12850 7750
+F 0 "#PWR09" H 12850 7500 50  0001 C CNN
+F 1 "GND" H 12850 7600 50  0000 C CNN
+F 2 "" H 12850 7750 50  0000 C CNN
+F 3 "" H 12850 7750 50  0000 C CNN
+	1    12850 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 7900 13000 7900
+Wire Wire Line
+	13000 7900 13000 7750
+Wire Wire Line
+	13000 7750 12850 7750
+Wire Wire Line
+	11250 7900 11250 7750
+Wire Wire Line
+	11250 7750 11000 7750
+$Comp
+L GND #PWR?
+U 1 1 58A0FDAB
+P 3800 1200
+F 0 "#PWR?" H 3800 950 50  0001 C CNN
+F 1 "GND" H 3800 1050 50  0000 C CNN
+F 2 "" H 3800 1200 50  0000 C CNN
+F 3 "" H 3800 1200 50  0000 C CNN
+	1    3800 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1150 3800 1150
+Wire Wire Line
+	3800 1150 3800 1200
 $EndSCHEMATC
