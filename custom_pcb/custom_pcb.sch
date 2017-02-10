@@ -3289,91 +3289,91 @@ green6
 $Comp
 L R R6
 U 1 1 58B730FD
-P 11000 8900
-F 0 "R6" V 11080 8900 50  0000 C CNN
-F 1 "R" V 11000 8900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 11000 8900 60  0001 C CNN
-F 3 "" H 11000 8900 60  0000 C CNN
-	1    11000 8900
-	0    -1   1    0   
+P 10000 9000
+F 0 "R6" V 10080 9000 50  0000 C CNN
+F 1 "R" V 10000 9000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 10000 9000 60  0001 C CNN
+F 3 "" H 10000 9000 60  0000 C CNN
+	1    10000 9000
+	0    1    1    0   
 $EndComp
 Text GLabel 15600 6200 2    60   Input ~ 0
 red5
 $Comp
 L R R5
 U 1 1 58B806A8
-P 11000 8800
-F 0 "R5" V 11080 8800 50  0000 C CNN
-F 1 "R" V 11000 8800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 11000 8800 60  0001 C CNN
-F 3 "" H 11000 8800 60  0000 C CNN
-	1    11000 8800
-	0    -1   1    0   
+P 10000 8900
+F 0 "R5" V 10080 8900 50  0000 C CNN
+F 1 "R" V 10000 8900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 10000 8900 60  0001 C CNN
+F 3 "" H 10000 8900 60  0000 C CNN
+	1    10000 8900
+	0    1    1    0   
 $EndComp
 Text GLabel 15600 5350 2    60   Input ~ 0
 red4
 $Comp
 L R R4
 U 1 1 58B80FEF
-P 11000 8700
-F 0 "R4" V 11080 8700 50  0000 C CNN
-F 1 "R" V 11000 8700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 11000 8700 60  0001 C CNN
-F 3 "" H 11000 8700 60  0000 C CNN
-	1    11000 8700
-	0    -1   1    0   
+P 10000 8800
+F 0 "R4" V 10080 8800 50  0000 C CNN
+F 1 "R" V 10000 8800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 10000 8800 60  0001 C CNN
+F 3 "" H 10000 8800 60  0000 C CNN
+	1    10000 8800
+	0    1    1    0   
 $EndComp
 Text GLabel 15600 4500 2    60   Input ~ 0
 red3
 $Comp
 L R R3
 U 1 1 58B80FF6
-P 11000 8600
-F 0 "R3" V 11080 8600 50  0000 C CNN
-F 1 "R" V 11000 8600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 11000 8600 60  0001 C CNN
-F 3 "" H 11000 8600 60  0000 C CNN
-	1    11000 8600
-	0    -1   1    0   
+P 10000 8700
+F 0 "R3" V 10080 8700 50  0000 C CNN
+F 1 "R" V 10000 8700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 10000 8700 60  0001 C CNN
+F 3 "" H 10000 8700 60  0000 C CNN
+	1    10000 8700
+	0    1    1    0   
 $EndComp
 Text GLabel 15600 3650 2    60   Input ~ 0
 red2
 $Comp
 L R R2
 U 1 1 58B81E39
-P 11000 8500
-F 0 "R2" V 11080 8500 50  0000 C CNN
-F 1 "R" V 11000 8500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 11000 8500 60  0001 C CNN
-F 3 "" H 11000 8500 60  0000 C CNN
-	1    11000 8500
-	0    -1   1    0   
+P 10000 8600
+F 0 "R2" V 10080 8600 50  0000 C CNN
+F 1 "R" V 10000 8600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 10000 8600 60  0001 C CNN
+F 3 "" H 10000 8600 60  0000 C CNN
+	1    10000 8600
+	0    1    1    0   
 $EndComp
 Text GLabel 15600 2800 2    60   Input ~ 0
 red1
 $Comp
 L R R1
 U 1 1 58B81E40
-P 11000 8400
-F 0 "R1" V 11080 8400 50  0000 C CNN
-F 1 "R" V 11000 8400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 11000 8400 60  0001 C CNN
-F 3 "" H 11000 8400 60  0000 C CNN
-	1    11000 8400
-	0    -1   1    0   
+P 10000 8500
+F 0 "R1" V 10080 8500 50  0000 C CNN
+F 1 "R" V 10000 8500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 10000 8500 60  0001 C CNN
+F 3 "" H 10000 8500 60  0000 C CNN
+	1    10000 8500
+	0    1    1    0   
 $EndComp
 Text GLabel 15600 1950 2    60   Input ~ 0
 red0
 $Comp
 L R R0
 U 1 1 58B827F9
-P 11000 8300
-F 0 "R0" V 11080 8300 50  0000 C CNN
-F 1 "R" V 11000 8300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 11000 8300 60  0001 C CNN
-F 3 "" H 11000 8300 60  0000 C CNN
-	1    11000 8300
-	0    -1   1    0   
+P 10000 8400
+F 0 "R0" V 10080 8400 50  0000 C CNN
+F 1 "R" V 10000 8400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 10000 8400 60  0001 C CNN
+F 3 "" H 10000 8400 60  0000 C CNN
+	1    10000 8400
+	0    1    1    0   
 $EndComp
 Text GLabel 8200 1550 1    60   Input ~ 0
 anode0
@@ -3435,47 +3435,47 @@ Text GLabel 13200 8700 0    60   Input ~ 0
 anode13
 Text GLabel 13200 8600 0    60   Input ~ 0
 anode14
-Text GLabel 10150 9250 2    60   Input ~ 0
+Text GLabel 8600 8400 0    60   Input ~ 0
 blue0
-Text GLabel 10700 9250 2    60   Input ~ 0
+Text GLabel 11250 8400 0    60   Input ~ 0
 green0
-Text GLabel 10150 9650 2    60   Input ~ 0
+Text GLabel 8600 9000 0    60   Input ~ 0
 blue1
-Text GLabel 10700 9650 2    60   Input ~ 0
+Text GLabel 11250 8500 0    60   Input ~ 0
 green1
-Text GLabel 10150 10050 2    60   Input ~ 0
+Text GLabel 8600 8900 0    60   Input ~ 0
 blue2
-Text GLabel 10700 10050 2    60   Input ~ 0
+Text GLabel 11250 8600 0    60   Input ~ 0
 green2
-Text GLabel 10200 10450 2    60   Input ~ 0
+Text GLabel 8600 8800 0    60   Input ~ 0
 blue3
-Text GLabel 10750 10450 2    60   Input ~ 0
+Text GLabel 11250 8700 0    60   Input ~ 0
 green3
-Text GLabel 8300 9500 2    60   Input ~ 0
+Text GLabel 8600 8700 0    60   Input ~ 0
 blue4
-Text GLabel 8850 9500 2    60   Input ~ 0
+Text GLabel 11250 8800 0    60   Input ~ 0
 green4
-Text GLabel 8350 9850 2    60   Input ~ 0
+Text GLabel 8600 8600 0    60   Input ~ 0
 blue5
-Text GLabel 8900 9850 2    60   Input ~ 0
+Text GLabel 11250 8900 0    60   Input ~ 0
 green5
-Text GLabel 8300 10200 2    60   Input ~ 0
+Text GLabel 8600 8500 0    60   Input ~ 0
 blue6
-Text GLabel 10750 8900 0    60   Input ~ 0
+Text GLabel 10250 9000 2    60   Input ~ 0
 red6
-Text GLabel 8850 10200 2    60   Input ~ 0
+Text GLabel 11250 9000 0    60   Input ~ 0
 green6
-Text GLabel 10750 8800 0    60   Input ~ 0
+Text GLabel 10250 8900 2    60   Input ~ 0
 red5
-Text GLabel 10750 8700 0    60   Input ~ 0
+Text GLabel 10250 8800 2    60   Input ~ 0
 red4
-Text GLabel 10750 8600 0    60   Input ~ 0
+Text GLabel 10250 8700 2    60   Input ~ 0
 red3
-Text GLabel 10750 8500 0    60   Input ~ 0
+Text GLabel 10250 8600 2    60   Input ~ 0
 red2
-Text GLabel 10750 8400 0    60   Input ~ 0
+Text GLabel 10250 8500 2    60   Input ~ 0
 red1
-Text GLabel 10750 8300 0    60   Input ~ 0
+Text GLabel 10250 8400 2    60   Input ~ 0
 red0
 Text GLabel 1050 3550 0    60   Input ~ 0
 TP_RST
@@ -3532,7 +3532,7 @@ Wire Wire Line
 Connection ~ 600  5350
 Connection ~ 7950 4750
 Wire Wire Line
-	7950 4600 7950 9850
+	7950 4700 7950 9950
 Wire Wire Line
 	7450 4600 7450 9850
 Wire Wire Line
@@ -5174,4 +5174,10 @@ Connection ~ 8700 1800
 Connection ~ 8200 2000
 Connection ~ 8200 1800
 Connection ~ 8200 2200
+Text GLabel 9750 7900 2    60   Input ~ 0
+V3.3
+Text GLabel 12400 7900 2    60   Input ~ 0
+V3.3
+Text GLabel 14350 7900 2    60   Input ~ 0
+V3.3
 $EndSCHEMATC
