@@ -3425,15 +3425,15 @@ Text GLabel 14350 8900 2    60   Input ~ 0
 anode8
 Text GLabel 14350 9000 2    60   Input ~ 0
 anode9
-Text GLabel 13200 9000 0    60   Input ~ 0
+Text GLabel 13200 8600 0    60   Input ~ 0
 anode10
-Text GLabel 13200 8900 0    60   Input ~ 0
+Text GLabel 13200 8700 0    60   Input ~ 0
 anode11
 Text GLabel 13200 8800 0    60   Input ~ 0
 anode12
-Text GLabel 13200 8700 0    60   Input ~ 0
+Text GLabel 13200 8900 0    60   Input ~ 0
 anode13
-Text GLabel 13200 8600 0    60   Input ~ 0
+Text GLabel 13200 9000 0    60   Input ~ 0
 anode14
 Text GLabel 8600 8400 0    60   Input ~ 0
 blue0
