@@ -3532,7 +3532,7 @@ Wire Wire Line
 Connection ~ 600  5350
 Connection ~ 7950 4750
 Wire Wire Line
-	7950 4700 7950 9950
+	7950 4600 7950 9950
 Wire Wire Line
 	7450 4600 7450 9850
 Wire Wire Line
