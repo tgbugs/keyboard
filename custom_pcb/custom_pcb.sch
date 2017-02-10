@@ -3289,39 +3289,39 @@ green6
 $Comp
 L R R6
 U 1 1 58B730FD
-P 10000 9000
-F 0 "R6" V 10080 9000 50  0000 C CNN
-F 1 "R" V 10000 9000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 10000 9000 60  0001 C CNN
-F 3 "" H 10000 9000 60  0000 C CNN
-	1    10000 9000
-	0    1    1    0   
+P 10000 8400
+F 0 "R6" V 10080 8400 50  0000 C CNN
+F 1 "R" V 10000 8400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 10000 8400 60  0001 C CNN
+F 3 "" H 10000 8400 60  0000 C CNN
+	1    10000 8400
+	0    1    -1   0   
 $EndComp
 Text GLabel 15600 6200 2    60   Input ~ 0
 red5
 $Comp
 L R R5
 U 1 1 58B806A8
-P 10000 8900
-F 0 "R5" V 10080 8900 50  0000 C CNN
-F 1 "R" V 10000 8900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 10000 8900 60  0001 C CNN
-F 3 "" H 10000 8900 60  0000 C CNN
-	1    10000 8900
-	0    1    1    0   
+P 10000 8500
+F 0 "R5" V 10080 8500 50  0000 C CNN
+F 1 "R" V 10000 8500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 10000 8500 60  0001 C CNN
+F 3 "" H 10000 8500 60  0000 C CNN
+	1    10000 8500
+	0    1    -1   0   
 $EndComp
 Text GLabel 15600 5350 2    60   Input ~ 0
 red4
 $Comp
 L R R4
 U 1 1 58B80FEF
-P 10000 8800
-F 0 "R4" V 10080 8800 50  0000 C CNN
-F 1 "R" V 10000 8800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 10000 8800 60  0001 C CNN
-F 3 "" H 10000 8800 60  0000 C CNN
-	1    10000 8800
-	0    1    1    0   
+P 10000 8600
+F 0 "R4" V 10080 8600 50  0000 C CNN
+F 1 "R" V 10000 8600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 10000 8600 60  0001 C CNN
+F 3 "" H 10000 8600 60  0000 C CNN
+	1    10000 8600
+	0    1    -1   0   
 $EndComp
 Text GLabel 15600 4500 2    60   Input ~ 0
 red3
@@ -3334,46 +3334,46 @@ F 1 "R" V 10000 8700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" H 10000 8700 60  0001 C CNN
 F 3 "" H 10000 8700 60  0000 C CNN
 	1    10000 8700
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 Text GLabel 15600 3650 2    60   Input ~ 0
 red2
 $Comp
 L R R2
 U 1 1 58B81E39
-P 10000 8600
-F 0 "R2" V 10080 8600 50  0000 C CNN
-F 1 "R" V 10000 8600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 10000 8600 60  0001 C CNN
-F 3 "" H 10000 8600 60  0000 C CNN
-	1    10000 8600
-	0    1    1    0   
+P 10000 8800
+F 0 "R2" V 10080 8800 50  0000 C CNN
+F 1 "R" V 10000 8800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 10000 8800 60  0001 C CNN
+F 3 "" H 10000 8800 60  0000 C CNN
+	1    10000 8800
+	0    1    -1   0   
 $EndComp
 Text GLabel 15600 2800 2    60   Input ~ 0
 red1
 $Comp
 L R R1
 U 1 1 58B81E40
-P 10000 8500
-F 0 "R1" V 10080 8500 50  0000 C CNN
-F 1 "R" V 10000 8500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 10000 8500 60  0001 C CNN
-F 3 "" H 10000 8500 60  0000 C CNN
-	1    10000 8500
-	0    1    1    0   
+P 10000 8900
+F 0 "R1" V 10080 8900 50  0000 C CNN
+F 1 "R" V 10000 8900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 10000 8900 60  0001 C CNN
+F 3 "" H 10000 8900 60  0000 C CNN
+	1    10000 8900
+	0    1    -1   0   
 $EndComp
 Text GLabel 15600 1950 2    60   Input ~ 0
 red0
 $Comp
 L R R0
 U 1 1 58B827F9
-P 10000 8400
-F 0 "R0" V 10080 8400 50  0000 C CNN
-F 1 "R" V 10000 8400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 10000 8400 60  0001 C CNN
-F 3 "" H 10000 8400 60  0000 C CNN
-	1    10000 8400
-	0    1    1    0   
+P 10000 9000
+F 0 "R0" V 10080 9000 50  0000 C CNN
+F 1 "R" V 10000 9000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 10000 9000 60  0001 C CNN
+F 3 "" H 10000 9000 60  0000 C CNN
+	1    10000 9000
+	0    1    -1   0   
 $EndComp
 Text GLabel 8200 1550 1    60   Input ~ 0
 anode0
@@ -3461,21 +3461,21 @@ Text GLabel 11250 8900 0    60   Input ~ 0
 green5
 Text GLabel 8600 8500 0    60   Input ~ 0
 blue6
-Text GLabel 10250 9000 2    60   Input ~ 0
+Text GLabel 10250 8400 2    60   Input ~ 0
 red6
 Text GLabel 11250 9000 0    60   Input ~ 0
 green6
-Text GLabel 10250 8900 2    60   Input ~ 0
+Text GLabel 10250 8500 2    60   Input ~ 0
 red5
-Text GLabel 10250 8800 2    60   Input ~ 0
+Text GLabel 10250 8600 2    60   Input ~ 0
 red4
 Text GLabel 10250 8700 2    60   Input ~ 0
 red3
-Text GLabel 10250 8600 2    60   Input ~ 0
+Text GLabel 10250 8800 2    60   Input ~ 0
 red2
-Text GLabel 10250 8500 2    60   Input ~ 0
+Text GLabel 10250 8900 2    60   Input ~ 0
 red1
-Text GLabel 10250 8400 2    60   Input ~ 0
+Text GLabel 10250 9000 2    60   Input ~ 0
 red0
 Text GLabel 1050 3550 0    60   Input ~ 0
 TP_RST
