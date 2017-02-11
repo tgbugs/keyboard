@@ -18,3 +18,4 @@
 (mounting-plate WHEEE)
 (pcb OHGODNO) ; MAX DIODES
 (connector 'molex 0532610871) ; needs the male half
+; a note on the layout of the original thinkpad keyboard: g and h keys are not the usual 19mm appart, they are 20mm, aand fg hj spacing is 18.5mm to compensate. IBM also had the luxury of being able to rotate their switch upside down the free up more space for the hole. They compensated by shifting the attach points on the underside of the keys because they had control over the entire process. Our advantage is that we don't have to fit the nub through the hole, just the extender.
