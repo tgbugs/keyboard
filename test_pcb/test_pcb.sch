@@ -359,19 +359,19 @@ Text GLabel 5400 2850 2    60   Input ~ 0
 green2
 Text GLabel 7650 3250 2    60   Input ~ 0
 blue0
-Text GLabel 8150 3550 2    60   Input ~ 0
+Text GLabel 7650 3550 2    60   Input ~ 0
 red0
 Text GLabel 7650 3850 2    60   Input ~ 0
 green0
 Text GLabel 7650 3350 2    60   Input ~ 0
 blue1
-Text GLabel 8150 3650 2    60   Input ~ 0
+Text GLabel 7650 3650 2    60   Input ~ 0
 red1
 Text GLabel 7650 3950 2    60   Input ~ 0
 green1
 Text GLabel 7650 3450 2    60   Input ~ 0
 blue2
-Text GLabel 8150 3750 2    60   Input ~ 0
+Text GLabel 7650 3750 2    60   Input ~ 0
 red2
 Text GLabel 6500 3950 3    60   Input ~ 0
 green2
@@ -871,39 +871,6 @@ Text GLabel 4200 6350 2    60   Input ~ 0
 r4
 Text GLabel 4200 6850 2    60   Input ~ 0
 r5
-$Comp
-L R R0
-U 1 1 58A20587
-P 7900 3550
-F 0 "R0" V 7980 3550 50  0000 C CNN
-F 1 "R" V 7900 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7900 3550 60  0001 C CNN
-F 3 "" H 7900 3550 60  0000 C CNN
-	1    7900 3550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R1
-U 1 1 58A2074A
-P 7900 3650
-F 0 "R1" V 7980 3650 50  0000 C CNN
-F 1 "R" V 7900 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7900 3650 60  0001 C CNN
-F 3 "" H 7900 3650 60  0000 C CNN
-	1    7900 3650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R2
-U 1 1 58A2088F
-P 7900 3750
-F 0 "R2" V 7980 3750 50  0000 C CNN
-F 1 "R" V 7900 3750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7900 3750 60  0001 C CNN
-F 3 "" H 7900 3750 60  0000 C CNN
-	1    7900 3750
-	0    -1   -1   0   
-$EndComp
 Text GLabel 2650 3350 3    60   Input ~ 0
 a3-10-0
 Text GLabel 2750 3350 3    60   Input ~ 0
