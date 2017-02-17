@@ -61,27 +61,27 @@ NoConn ~ -3200 7450
 $Comp
 L CONN_01X08 P0
 U 1 1 5897F60A
-P 7600 5300
-F 0 "P0" H 7600 5750 50  0000 C CNN
-F 1 "CONN_01X08" V 7700 5300 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_PicoBlade_53261-0871_08x1.25mm_Angled" H 7600 5300 50  0001 C CNN
-F 3 "" H 7600 5300 50  0000 C CNN
-	1    7600 5300
+P 9900 5300
+F 0 "P0" H 9900 5750 50  0000 C CNN
+F 1 "CONN_01X08" V 10000 5300 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53261-0871_08x1.25mm_Angled" H 9900 5300 50  0001 C CNN
+F 3 "" H 9900 5300 50  0000 C CNN
+	1    9900 5300
 	1    0    0    -1  
 $EndComp
-Text GLabel 7400 5650 0    60   Input ~ 0
+Text GLabel 9700 5650 0    60   Input ~ 0
 BTN0
-Text GLabel 7400 5550 0    60   Input ~ 0
+Text GLabel 9700 5550 0    60   Input ~ 0
 BTN1
-Text GLabel 7400 5450 0    60   Input ~ 0
+Text GLabel 9700 5450 0    60   Input ~ 0
 BTN2
-Text GLabel 7400 5350 0    60   Input ~ 0
+Text GLabel 9700 5350 0    60   Input ~ 0
 VCC
-Text GLabel 7400 5050 0    60   Input ~ 0
+Text GLabel 9700 5050 0    60   Input ~ 0
 DATA
-Text GLabel 7400 5250 0    60   Input ~ 0
+Text GLabel 9700 5250 0    60   Input ~ 0
 TP_RST
-Text GLabel 7400 5150 0    60   Input ~ 0
+Text GLabel 9700 5150 0    60   Input ~ 0
 TP_CLK
 $Comp
 L SMLVN6RGB SMD_LED0
@@ -359,19 +359,19 @@ Text GLabel 5400 2850 2    60   Input ~ 0
 green2
 Text GLabel 7650 3250 2    60   Input ~ 0
 blue0
-Text GLabel 7650 3550 2    60   Input ~ 0
+Text GLabel 8150 3550 2    60   Input ~ 0
 red0
 Text GLabel 7650 3850 2    60   Input ~ 0
 green0
 Text GLabel 7650 3350 2    60   Input ~ 0
 blue1
-Text GLabel 7650 3650 2    60   Input ~ 0
+Text GLabel 8150 3650 2    60   Input ~ 0
 red1
 Text GLabel 7650 3950 2    60   Input ~ 0
 green1
 Text GLabel 7650 3450 2    60   Input ~ 0
 blue2
-Text GLabel 7650 3750 2    60   Input ~ 0
+Text GLabel 8150 3750 2    60   Input ~ 0
 red2
 Text GLabel 6500 3950 3    60   Input ~ 0
 green2
@@ -1516,27 +1516,117 @@ a3-17-1
 Text GLabel 3150 3350 3    60   Input ~ 0
 a3-17-2
 $Comp
-L GND #PWR?
+L GND #PWR01
 U 1 1 58A59EDB
-P 7150 4950
-F 0 "#PWR?" H 7150 4700 50  0001 C CNN
-F 1 "GND" H 7150 4800 50  0000 C CNN
-F 2 "" H 7150 4950 50  0000 C CNN
-F 3 "" H 7150 4950 50  0000 C CNN
-	1    7150 4950
+P 9450 4950
+F 0 "#PWR01" H 9450 4700 50  0001 C CNN
+F 1 "GND" H 9450 4800 50  0000 C CNN
+F 2 "" H 9450 4950 50  0000 C CNN
+F 3 "" H 9450 4950 50  0000 C CNN
+	1    9450 4950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7400 4950 7150 4950
+	9700 4950 9450 4950
 $Comp
-L GND #PWR?
+L GND #PWR02
 U 1 1 58A5AE89
 P 6500 2850
-F 0 "#PWR?" H 6500 2600 50  0001 C CNN
+F 0 "#PWR02" H 6500 2600 50  0001 C CNN
 F 1 "GND" H 6500 2700 50  0000 C CNN
 F 2 "" H 6500 2850 50  0000 C CNN
 F 3 "" H 6500 2850 50  0000 C CNN
 	1    6500 2850
 	0    1    1    0   
 $EndComp
+Text GLabel 7750 5100 0    60   Input ~ 0
+a3-10-0
+Text GLabel 7750 5200 0    60   Input ~ 0
+a3-10-1
+Text GLabel 7750 5300 0    60   Input ~ 0
+a3-10-2
+Text GLabel 7750 5400 0    60   Input ~ 0
+a3-17-0
+Text GLabel 7750 5500 0    60   Input ~ 0
+a3-17-1
+Text GLabel 7750 5600 0    60   Input ~ 0
+a3-17-2
+$Comp
+L +3.3V #PWR03
+U 1 1 58A3C033
+P 7650 2850
+F 0 "#PWR03" H 7650 2700 50  0001 C CNN
+F 1 "+3.3V" H 7650 2990 50  0000 C CNN
+F 2 "" H 7650 2850 50  0000 C CNN
+F 3 "" H 7650 2850 50  0000 C CNN
+	1    7650 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R0
+U 1 1 58A3D228
+P 7900 3550
+F 0 "R0" V 7980 3550 50  0000 C CNN
+F 1 "R" V 7900 3550 50  0000 C CNN
+F 2 "" H 7900 3550 60  0000 C CNN
+F 3 "" H 7900 3550 60  0000 C CNN
+	1    7900 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58A3D3E0
+P 7900 3650
+F 0 "R?" V 7980 3650 50  0000 C CNN
+F 1 "R" V 7900 3650 50  0000 C CNN
+F 2 "" H 7900 3650 60  0000 C CNN
+F 3 "" H 7900 3650 60  0000 C CNN
+	1    7900 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58A3D4D0
+P 7900 3750
+F 0 "R?" V 7980 3750 50  0000 C CNN
+F 1 "R" V 7900 3750 50  0000 C CNN
+F 2 "" H 7900 3750 60  0000 C CNN
+F 3 "" H 7900 3750 60  0000 C CNN
+	1    7900 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X08 P1
+U 1 1 58A3B45B
+P 7950 5450
+F 0 "P1" H 7950 5900 50  0000 C CNN
+F 1 "CONN_01X08" V 8050 5450 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53261-0871_08x1.25mm_Angled" H 7950 5450 50  0001 C CNN
+F 3 "" H 7950 5450 50  0000 C CNN
+	1    7950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 P2
+U 1 1 58A3CB40
+P 7950 6250
+F 0 "P2" H 7950 6700 50  0000 C CNN
+F 1 "CONN_01X08" V 8050 6250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53261-0871_08x1.25mm_Angled" H 7950 6250 50  0001 C CNN
+F 3 "" H 7950 6250 50  0000 C CNN
+	1    7950 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7750 5700 0    60   Input ~ 0
+blue1
+Text GLabel 7750 5800 0    60   Input ~ 0
+red1
+Text GLabel 7750 5900 0    60   Input ~ 0
+green1
+Text GLabel 7750 6000 0    60   Input ~ 0
+blue2
+Text GLabel 7750 6100 0    60   Input ~ 0
+red2
+Text GLabel 7800 6200 0    60   Input ~ 0
+green2
 $EndSCHEMATC
