@@ -1,0 +1,571 @@
+EESchema Schematic File Version 2
+LIBS:tgbugs_custom
+LIBS:keyboard_parts
+LIBS:MKL02Z32VFG4
+LIBS:LP38691SD-ADJ
+LIBS:MK20DX256VLH7
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L KEYSW K0
+U 1 1 58ABFA01
+P 4300 2200
+F 0 "K0" H 4250 2200 60  0000 C CNN
+F 1 "KEYSW" H 4300 2100 60  0001 C CNN
+F 2 "cherry_rgb:CHERRY_PLATE_NH_100H" H 4300 2200 60  0001 C CNN
+F 3 "" H 4300 2200 60  0000 C CNN
+	1    4300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D0
+U 1 1 58ABFD0C
+P 3750 2200
+F 0 "D0" V 3600 2150 60  0000 C CNN
+F 1 "D" V 3900 2150 60  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 3750 2200 60  0001 C CNN
+F 3 "" H 3750 2200 60  0000 C CNN
+	1    3750 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X08 P0
+U 1 1 58ABFDEF
+P 7650 4200
+F 0 "P0" H 7650 4650 50  0000 C CNN
+F 1 "CONN_01X08" V 7750 4200 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53261-0871_08x1.25mm_Angled" H 7650 4200 50  0001 C CNN
+F 3 "" H 7650 4200 50  0000 C CNN
+	1    7650 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KEYSW K1
+U 1 1 58AC0A74
+P 5300 2200
+F 0 "K1" H 5250 2200 60  0000 C CNN
+F 1 "KEYSW" H 5300 2100 60  0001 C CNN
+F 2 "cherry_rgb:CHERRY_PLATE_NH_100H" H 5300 2200 60  0001 C CNN
+F 3 "" H 5300 2200 60  0000 C CNN
+	1    5300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D1
+U 1 1 58AC0A7A
+P 4750 2200
+F 0 "D1" V 4600 2150 60  0000 C CNN
+F 1 "D" V 4900 2150 60  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 4750 2200 60  0001 C CNN
+F 3 "" H 4750 2200 60  0000 C CNN
+	1    4750 2200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6600 2000 2    60   Input ~ 0
+r0
+Text GLabel 6600 2800 2    60   Input ~ 0
+r2
+$Comp
+L KEYSW K2
+U 1 1 58AC1433
+P 4300 2600
+F 0 "K2" H 4250 2600 60  0000 C CNN
+F 1 "KEYSW" H 4300 2500 60  0001 C CNN
+F 2 "cherry_rgb:CHERRY_PLATE_NH_100H" H 4300 2600 60  0001 C CNN
+F 3 "" H 4300 2600 60  0000 C CNN
+	1    4300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D2
+U 1 1 58AC1439
+P 3750 2600
+F 0 "D2" V 3600 2550 60  0000 C CNN
+F 1 "D" V 3900 2550 60  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 3750 2600 60  0001 C CNN
+F 3 "" H 3750 2600 60  0000 C CNN
+	1    3750 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KEYSW K3
+U 1 1 58AC1445
+P 5300 2600
+F 0 "K3" H 5250 2600 60  0000 C CNN
+F 1 "KEYSW" H 5300 2500 60  0001 C CNN
+F 2 "cherry_rgb:CHERRY_PLATE_NH_5000H" H 5300 2600 60  0001 C CNN
+F 3 "" H 5300 2600 60  0000 C CNN
+	1    5300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D3
+U 1 1 58AC144B
+P 4750 2600
+F 0 "D3" V 4600 2550 60  0000 C CNN
+F 1 "D" V 4900 2550 60  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 4750 2600 60  0001 C CNN
+F 3 "" H 4750 2600 60  0000 C CNN
+	1    4750 2600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6600 2400 2    60   Input ~ 0
+r1
+Text GLabel 3700 1800 1    60   Input ~ 0
+c0
+Text GLabel 4700 1800 1    60   Input ~ 0
+c1
+Text GLabel 5700 1800 1    60   Input ~ 0
+c2
+$Comp
+L KEYSW K4
+U 1 1 58AC21D5
+P 4250 3800
+F 0 "K4" H 4200 3800 60  0000 C CNN
+F 1 "KEYSW" H 4250 3700 60  0001 C CNN
+F 2 "cherry_rgb:CHERRY_PLATE_175H" H 4250 3800 60  0001 C CNN
+F 3 "" H 4250 3800 60  0000 C CNN
+	1    4250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K5
+U 1 1 58AC2260
+P 5200 3800
+F 0 "K5" H 5150 3800 60  0000 C CNN
+F 1 "KEYSW" H 5200 3700 60  0001 C CNN
+F 2 "cherry_rgb:CHERRY_PLATE_NH_100H" H 5200 3800 60  0001 C CNN
+F 3 "" H 5200 3800 60  0000 C CNN
+	1    5200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYSW K6
+U 1 1 58AC22C8
+P 6100 3800
+F 0 "K6" H 6050 3800 60  0000 C CNN
+F 1 "KEYSW" H 6100 3700 60  0001 C CNN
+F 2 "cherry_rgb:CHERRY_PLATE_175H" H 6100 3800 60  0001 C CNN
+F 3 "" H 6100 3800 60  0000 C CNN
+	1    6100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR1
+U 1 1 58AC27C9
+P 3950 3800
+F 0 "#PWR1" H 3950 3550 50  0001 C CNN
+F 1 "GND" H 3950 3650 50  0000 C CNN
+F 2 "" H 3950 3800 50  0000 C CNN
+F 3 "" H 3950 3800 50  0000 C CNN
+	1    3950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 58AC28A0
+P 4900 3800
+F 0 "#PWR2" H 4900 3550 50  0001 C CNN
+F 1 "GND" H 4900 3650 50  0000 C CNN
+F 2 "" H 4900 3800 50  0000 C CNN
+F 3 "" H 4900 3800 50  0000 C CNN
+	1    4900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 58AC28D2
+P 5800 3800
+F 0 "#PWR3" H 5800 3550 50  0001 C CNN
+F 1 "GND" H 5800 3650 50  0000 C CNN
+F 2 "" H 5800 3800 50  0000 C CNN
+F 3 "" H 5800 3800 50  0000 C CNN
+	1    5800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR4
+U 1 1 58AC2904
+P 7300 4400
+F 0 "#PWR4" H 7300 4150 50  0001 C CNN
+F 1 "GND" H 7300 4250 50  0000 C CNN
+F 2 "" H 7300 4400 50  0000 C CNN
+F 3 "" H 7300 4400 50  0000 C CNN
+	1    7300 4400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4550 3800 1    60   Input ~ 0
+BTN0
+Text GLabel 5500 3800 1    60   Input ~ 0
+BTN1
+Text GLabel 6400 3800 1    60   Input ~ 0
+BTN2
+Text GLabel 8000 4400 3    60   Input ~ 0
+BTN0
+Text GLabel 7900 4400 3    60   Input ~ 0
+BTN1
+Text GLabel 7800 4400 3    60   Input ~ 0
+BTN2
+Wire Wire Line
+	3900 2200 4000 2200
+Wire Wire Line
+	4600 2200 4600 2000
+Wire Wire Line
+	4600 2000 6600 2000
+Connection ~ 4600 2000
+Connection ~ 5600 2000
+Wire Wire Line
+	3700 1800 3700 3000
+Wire Wire Line
+	4900 2200 5000 2200
+Wire Wire Line
+	5600 2000 5600 2200
+Connection ~ 6600 2000
+Wire Wire Line
+	4700 1800 4700 3000
+Wire Wire Line
+	5700 1800 5700 3000
+Wire Wire Line
+	6600 2000 6600 2200
+Wire Wire Line
+	4600 3000 4600 2800
+Wire Wire Line
+	4600 2800 6600 2800
+Connection ~ 4600 2800
+Connection ~ 5600 2800
+Wire Wire Line
+	5600 2800 5600 3000
+Connection ~ 6600 2800
+Wire Wire Line
+	6600 2800 6600 3000
+Wire Wire Line
+	3900 2600 4000 2600
+Wire Wire Line
+	4600 2600 4600 2400
+Wire Wire Line
+	4600 2400 6600 2400
+Connection ~ 4600 2400
+Connection ~ 5600 2400
+Wire Wire Line
+	4900 2600 5000 2600
+Wire Wire Line
+	5600 2400 5600 2600
+Connection ~ 6600 2400
+Wire Wire Line
+	6600 2400 6600 2600
+Wire Wire Line
+	4950 5650 4950 5600
+Wire Wire Line
+	3150 5600 5550 5600
+Wire Wire Line
+	4950 5850 4950 5800
+Wire Wire Line
+	3150 5800 5550 5800
+Wire Wire Line
+	4950 6050 4950 6000
+Wire Wire Line
+	3150 6000 5550 6000
+Connection ~ 5550 5600
+Connection ~ 5550 5800
+Connection ~ 5550 6000
+$Comp
+L SMLVN6RGB SMD_LED0
+U 1 1 58AC3420
+P 2950 5850
+F 0 "SMD_LED0" H 2950 6220 50  0000 C CNN
+F 1 "SMLVN6RGB" H 2950 5500 50  0000 C CNN
+F 2 "cherry_rgb:SMLVN6RGB" H 2950 5800 50  0001 C CNN
+F 3 "" H 2950 5800 50  0000 C CNN
+	1    2950 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 5400 2750 7100
+Wire Wire Line
+	3150 5650 3150 5600
+Wire Wire Line
+	3150 5850 3150 5800
+Wire Wire Line
+	3150 6050 3150 6000
+Connection ~ 3750 5600
+Connection ~ 3750 5800
+Connection ~ 3750 6000
+Connection ~ 2750 6050
+Connection ~ 2750 5850
+Connection ~ 2750 5650
+$Comp
+L SMLVN6RGB SMD_LED1
+U 1 1 58AC34DB
+P 3550 5850
+F 0 "SMD_LED1" H 3550 6220 50  0000 C CNN
+F 1 "SMLVN6RGB" H 3550 5500 50  0000 C CNN
+F 2 "cherry_rgb:SMLVN6RGB" H 3550 5800 50  0001 C CNN
+F 3 "" H 3550 5800 50  0000 C CNN
+	1    3550 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5400 3350 7100
+Wire Wire Line
+	3750 5650 3750 5600
+Wire Wire Line
+	3750 5850 3750 5800
+Wire Wire Line
+	3750 6050 3750 6000
+Connection ~ 4350 5600
+Connection ~ 4350 5800
+Connection ~ 4350 6000
+Connection ~ 3350 6050
+Connection ~ 3350 5850
+Connection ~ 3350 5650
+$Comp
+L SMLVN6RGB SMD_LED2
+U 1 1 58AC358E
+P 4150 5850
+F 0 "SMD_LED2" H 4150 6220 50  0000 C CNN
+F 1 "SMLVN6RGB" H 4150 5500 50  0000 C CNN
+F 2 "cherry_rgb:SMLVN6RGB" H 4150 5800 50  0001 C CNN
+F 3 "" H 4150 5800 50  0000 C CNN
+	1    4150 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5400 3950 7100
+Wire Wire Line
+	4350 5650 4350 5600
+Wire Wire Line
+	4350 5850 4350 5800
+Wire Wire Line
+	4350 6050 4350 6000
+Connection ~ 4950 5600
+Connection ~ 4950 5800
+Connection ~ 4950 6000
+Connection ~ 3950 6050
+Connection ~ 3950 5850
+Connection ~ 3950 5650
+$Comp
+L SMLVN6RGB SMD_LED3
+U 1 1 58AC3A5D
+P 4750 5850
+F 0 "SMD_LED3" H 4750 6220 50  0000 C CNN
+F 1 "SMLVN6RGB" H 4750 5500 50  0000 C CNN
+F 2 "cherry_rgb:SMLVN6RGB" H 4750 5800 50  0001 C CNN
+F 3 "" H 4750 5800 50  0000 C CNN
+	1    4750 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5400 4550 7100
+Connection ~ 4550 6050
+Connection ~ 4550 5850
+Connection ~ 4550 5650
+Text GLabel 2750 5400 0    60   Input ~ 0
+a0
+Text GLabel 3350 5400 0    60   Input ~ 0
+a1
+Text GLabel 3950 5400 0    60   Input ~ 0
+a2
+Text GLabel 4550 5400 0    60   Input ~ 0
+a3
+Text GLabel 5550 5800 2    60   Input ~ 0
+red0
+Text GLabel 5550 6000 2    60   Input ~ 0
+green0
+Text GLabel 5550 5600 2    60   Input ~ 0
+blue0
+$Comp
+L SMLVN6RGB SMD_LED4
+U 1 1 58AC417F
+P 2950 6700
+F 0 "SMD_LED4" H 2950 7070 50  0000 C CNN
+F 1 "SMLVN6RGB" H 2950 6350 50  0000 C CNN
+F 2 "cherry_rgb:SMLVN6RGB" H 2950 6650 50  0001 C CNN
+F 3 "" H 2950 6650 50  0000 C CNN
+	1    2950 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6500 3150 6450
+Wire Wire Line
+	3150 6450 5550 6450
+Wire Wire Line
+	3150 6700 3150 6650
+Wire Wire Line
+	3150 6650 5550 6650
+Wire Wire Line
+	3150 6900 3150 6850
+Wire Wire Line
+	3150 6850 5550 6850
+Connection ~ 3750 6450
+Connection ~ 3750 6650
+Connection ~ 3750 6850
+Connection ~ 2750 6900
+Connection ~ 2750 6700
+Connection ~ 2750 6500
+$Comp
+L SMLVN6RGB SMD_LED5
+U 1 1 58AC4192
+P 3550 6700
+F 0 "SMD_LED5" H 3550 7070 50  0000 C CNN
+F 1 "SMLVN6RGB" H 3550 6350 50  0000 C CNN
+F 2 "cherry_rgb:SMLVN6RGB" H 3550 6650 50  0001 C CNN
+F 3 "" H 3550 6650 50  0000 C CNN
+	1    3550 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 6450 3750 6500
+Wire Wire Line
+	3750 6650 3750 6700
+Wire Wire Line
+	3750 6850 3750 6900
+Connection ~ 4350 6450
+Connection ~ 4350 6650
+Connection ~ 4350 6850
+Connection ~ 3350 6900
+Connection ~ 3350 6700
+Connection ~ 3350 6500
+$Comp
+L SMLVN6RGB SMD_LED6
+U 1 1 58AC41A5
+P 4150 6700
+F 0 "SMD_LED6" H 4150 7070 50  0000 C CNN
+F 1 "SMLVN6RGB" H 4150 6350 50  0000 C CNN
+F 2 "cherry_rgb:SMLVN6RGB" H 4150 6650 50  0001 C CNN
+F 3 "" H 4150 6650 50  0000 C CNN
+	1    4150 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 6450 4350 6500
+Wire Wire Line
+	4350 6650 4350 6700
+Wire Wire Line
+	4350 6850 4350 6900
+Connection ~ 3950 6900
+Connection ~ 3950 6700
+Connection ~ 3950 6500
+$Comp
+L SMLVN6RGB SMD_LED7
+U 1 1 58AC41B5
+P 4750 6700
+F 0 "SMD_LED7" H 4750 7070 50  0000 C CNN
+F 1 "SMLVN6RGB" H 4750 6350 50  0000 C CNN
+F 2 "cherry_rgb:SMLVN6RGB" H 4750 6650 50  0001 C CNN
+F 3 "" H 4750 6650 50  0000 C CNN
+	1    4750 6700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 6900
+Connection ~ 4550 6700
+Connection ~ 4550 6500
+Wire Wire Line
+	4950 6450 4950 6500
+Wire Wire Line
+	4950 6650 4950 6700
+Wire Wire Line
+	4950 6850 4950 6900
+Connection ~ 5550 6450
+Connection ~ 5550 6650
+Connection ~ 5550 6850
+Connection ~ 4950 6450
+Connection ~ 4950 6650
+Connection ~ 4950 6850
+Text GLabel 5550 6650 2    60   Input ~ 0
+red1
+Text GLabel 5550 6850 2    60   Input ~ 0
+green1
+Text GLabel 5550 6450 2    60   Input ~ 0
+blue1
+$Comp
+L CONN_01X08 P1
+U 1 1 58AC4548
+P 7200 5500
+F 0 "P1" H 7200 5950 50  0000 C CNN
+F 1 "CONN_01X08" V 7300 5500 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm" H 7200 5500 50  0001 C CNN
+F 3 "" H 7200 5500 50  0000 C CNN
+	1    7200 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X06 P2
+U 1 1 58AC4B91
+P 8350 5500
+F 0 "P2" H 8350 5850 50  0000 C CNN
+F 1 "CONN_01X06" V 8450 5500 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm" H 8350 5500 50  0001 C CNN
+F 3 "" H 8350 5500 50  0000 C CNN
+	1    8350 5500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8200 5700 3    60   Input ~ 0
+red0
+Text GLabel 8300 5700 3    60   Input ~ 0
+green0
+Text GLabel 8100 5700 3    60   Input ~ 0
+blue0
+Text GLabel 8500 5700 3    60   Input ~ 0
+red1
+Text GLabel 8600 5700 3    60   Input ~ 0
+green1
+Text GLabel 8400 5700 3    60   Input ~ 0
+blue1
+Text GLabel 6850 5700 3    60   Input ~ 0
+a0
+Text GLabel 6950 5700 3    60   Input ~ 0
+a1
+Text GLabel 7050 5700 3    60   Input ~ 0
+a2
+Text GLabel 7150 5700 3    60   Input ~ 0
+a3
+Text GLabel 7700 4400 3    60   Input ~ 0
+CLK
+Text GLabel 7600 4400 3    60   Input ~ 0
+DATA
+Text GLabel 7500 4400 3    60   Input ~ 0
+VCC
+Text GLabel 7400 4400 3    60   Input ~ 0
+RST
+$EndSCHEMATC
