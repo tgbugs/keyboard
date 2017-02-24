@@ -24,6 +24,8 @@
       (path pcb 0  33500 -35000  33500 -25500  318500 -25500  318500 -177500
             33500 -177500  33500 -35000  33500 -35000)
     )
+    (plane GND (polygon F.Cu 0  318500 -177500  33500 -177500  33500 -25500  318500 -25500))
+    (plane GND (polygon B.Cu 0  318500 -177500  33500 -177500  33500 -25500  318500 -25500))
     (via "Via[0-1]_600:400_um" "Via[0-1]_1000:800_um")
     (rule
       (width 250)
@@ -251,110 +253,118 @@
       (place K54 161750 -149000 front 0 (PN KEYSW))
     )
     (component Resistors_SMD:R_0402
-      (place R0 110750 -34250 back 90 (PN R))
-      (place R1 112000 -34250 back 90 (PN R))
-      (place R2 113250 -34250 back 90 (PN R))
-      (place R3 114500 -34250 back 90 (PN R))
+      (place R0 116000 -44750 back 270 (PN R))
+      (place R1 114750 -44750 back 270 (PN R))
+      (place R2 113500 -44750 back 270 (PN R))
+      (place R3 112250 -44750 back 270 (PN R))
       (place R4 109750 -38000 back 180 (PN R))
       (place R5 109750 -39250 back 180 (PN R))
       (place R6 109750 -40500 back 180 (PN R))
     )
-    (component cherry_rgb:SMLVN6RGB
-      (place SMD_LED7 195000 -39000 front 0 (PN SMLVN6RGB))
-      (place SMD_LED8 214000 -39500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED9 233000 -39500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED10 252000 -39500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED11 275500 -49500 front 90 (PN SMLVN6RGB))
-      (place SMD_LED12 290000 -39500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED13 309000 -39500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED15 47500 -49250 front 270 (PN SMLVN6RGB))
-      (place SMD_LED16 62000 -58500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED17 81000 -58500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED18 100000 -58500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED19 119000 -58500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED20 138000 -58500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED21 157000 -58500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED22 176000 -58500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED23 195000 -58500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED24 214000 -58500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED25 233000 -58500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED26 252000 -58500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED27 290000 -58500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED28 309000 -58500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED30 43000 -77500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED31 62000 -77500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED32 81000 -77500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED33 100000 -77500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED34 119000 -77500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED35 138000 -77500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED36 157000 -77500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED37 176000 -77500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED38 195000 -77500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED39 214000 -77500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED40 233000 -77500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED41 252000 -77500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED42 271000 -77500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED43 299500 -77500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED45 47750 -96500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED46 71500 -96500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED47 90500 -96500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED48 109500 -96500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED49 128500 -96500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED50 147500 -96500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED51 166500 -96500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED52 185500 -96500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED53 204500 -96500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED54 223500 -96500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED55 242500 -96500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED56 261500 -96500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED57 280500 -96500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED58 304250 -96500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED60 50125 -115500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED61 76250 -115500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED62 95250 -115500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED63 114250 -115500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED64 133250 -115500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED65 152250 -115500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED66 171250 -115500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED67 190250 -115500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED68 209250 -115500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED69 228250 -115500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED70 247250 -115500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED71 266250 -115500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED72 297125 -115500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED75 54875 -134500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED76 85750 -134500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED77 104750 -134500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED78 123750 -134500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED79 142750 -134500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED80 161750 -153000 front 0 (PN SMLVN6RGB))
-      (place SMD_LED81 161750 -134500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED82 180750 -134500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED83 199750 -134500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED84 218750 -134500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED85 237750 -134500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED86 256750 -134500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED87 292375 -134500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED88 290000 -153500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED89 309000 -153500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED90 43000 -153500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED91 64375 -153500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED92 85750 -153500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED93 104750 -153500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED94 133250 -149000 front 0 (PN SMLVN6RGB))
-      (place SMD_LED95 135500 -172500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED96 162000 -172500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED97 188000 -172500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED98 190250 -149000 front 0 (PN SMLVN6RGB))
-      (place SMD_LED99 221250 -153500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED100 247250 -153500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED101 271000 -153500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED102 271000 -172500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED103 290000 -172500 front 0 (PN SMLVN6RGB))
-      (place SMD_LED104 309000 -172500 front 0 (PN SMLVN6RGB))
-    )
     (component cherry_rgb:LVC9_HOLES
       (place LVC9_HOLES 161750 -119500 front 0 (PN "LVC9 Attach"))
+    )
+    (component Resistors_SMD:R_0402::1
+      (place R7 109750 -41500 back 180 (PN R))
+      (place R8 111250 -34250 back 270 (PN R))
+      (place R9 112250 -34250 back 270 (PN R))
+      (place R10 113250 -34250 back 270 (PN R))
+      (place R11 114250 -34250 back 270 (PN R))
+      (place R12 115250 -34250 back 270 (PN R))
+    )
+    (component cherry_rgb:SMLVN6RGB_CA
+      (place SMD_LED7 195000 -39000 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED8 214000 -39500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED9 233000 -39500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED10 252000 -39500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED11 275500 -49500 front 90 (PN SMLVN6RGB_CA))
+      (place SMD_LED12 290000 -39500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED13 309000 -39500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED15 47500 -49250 front 270 (PN SMLVN6RGB_CA))
+      (place SMD_LED16 62000 -58500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED17 81000 -58500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED18 100000 -58500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED19 119000 -58500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED20 138000 -58500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED21 157000 -58500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED22 176000 -58500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED23 195000 -58500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED24 214000 -58500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED25 233000 -58500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED26 252000 -58500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED27 290000 -58500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED28 309000 -58500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED30 43000 -77500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED31 62000 -77500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED32 81000 -77500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED33 100000 -77500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED34 119000 -77500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED35 138000 -77500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED36 157000 -77500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED37 176000 -77500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED38 195000 -77500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED39 214000 -77500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED40 233000 -77500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED41 252000 -77500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED42 271000 -77500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED43 299500 -77500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED45 47750 -96500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED46 71500 -96500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED47 90500 -96500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED48 109500 -96500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED49 128500 -96500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED50 147500 -96500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED51 166500 -96500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED52 185500 -96500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED53 204500 -96500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED54 223500 -96500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED55 242500 -96500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED56 261500 -96500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED57 280500 -96500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED58 304250 -96500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED60 50125 -115500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED61 76250 -115500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED62 95250 -115500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED63 114250 -115500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED64 133250 -115500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED65 152250 -115500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED66 171250 -115500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED67 190250 -115500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED68 209250 -115500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED69 228250 -115500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED70 247250 -115500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED71 266250 -115500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED72 297125 -115500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED75 54875 -134500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED76 85750 -134500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED77 104750 -134500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED78 123750 -134500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED79 142750 -134500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED80 161750 -153000 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED81 161750 -134500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED82 180750 -134500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED83 199750 -134500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED84 218750 -134500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED85 237750 -134500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED86 256750 -134500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED87 292375 -134500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED88 290000 -153500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED89 309000 -153500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED90 43000 -153500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED91 64375 -153500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED92 85750 -153500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED93 104750 -153500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED94 133250 -149000 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED95 135500 -172500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED96 162000 -172500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED97 188000 -172500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED98 190250 -149000 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED99 221250 -153500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED100 247250 -153500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED101 271000 -153500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED102 271000 -172500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED103 290000 -172500 front 0 (PN SMLVN6RGB_CA))
+      (place SMD_LED104 309000 -172500 front 0 (PN SMLVN6RGB_CA))
     )
   )
   (library
@@ -1082,14 +1092,6 @@
       (pin Rect[T]Pad_400x600_um 1 -450 0)
       (pin Rect[T]Pad_400x600_um 2 450 0)
     )
-    (image cherry_rgb:SMLVN6RGB
-      (pin Rect[T]Pad_600x1450_um (rotate 270) 5 1525 0)
-      (pin Rect[T]Pad_600x1450_um (rotate 270) 2 -1525 0)
-      (pin Rect[T]Pad_800x1450_um (rotate 270) 3 -1525 -1050)
-      (pin Rect[T]Pad_800x1450_um (rotate 270) 1 -1525 1050)
-      (pin Rect[T]Pad_800x1450_um (rotate 270) 4 1525 -1050)
-      (pin Rect[T]Pad_800x1450_um (rotate 270) 6 1525 1050)
-    )
     (image cherry_rgb:LVC9_HOLES
       (outline (path signal 150  -14500 7500  12000 7500))
       (outline (path signal 150  13500 6000  13500 -21000))
@@ -1101,6 +1103,26 @@
       (pin Round[A]Pad_3000_um @4 -9500 0)
       (keepout "" (circle F.Cu 7800))
       (keepout "" (circle B.Cu 7800))
+    )
+    (image Resistors_SMD:R_0402::1
+      (outline (path signal 100  -500 -250  -500 250))
+      (outline (path signal 100  500 -250  -500 -250))
+      (outline (path signal 100  500 250  500 -250))
+      (outline (path signal 100  -500 250  500 250))
+      (outline (path signal 120  250 530  -250 530))
+      (outline (path signal 120  -250 -530  250 -530))
+      (outline (path signal 50  -800 450  800 450))
+      (outline (path signal 50  -800 450  -800 -450))
+      (outline (path signal 50  800 -450  800 450))
+      (outline (path signal 50  800 -450  -800 -450))
+      (pin Rect[T]Pad_400x600_um 1 -450 0)
+      (pin Rect[T]Pad_400x600_um 2 450 0)
+    )
+    (image cherry_rgb:SMLVN6RGB_CA
+      (pin Rect[T]Pad_600x1450_um (rotate 270) 5 1525 0)
+      (pin Rect[T]Pad_2900x1450_um (rotate 270) 1 -1525 0)
+      (pin Rect[T]Pad_800x1450_um (rotate 270) 4 1525 -1050)
+      (pin Rect[T]Pad_800x1450_um (rotate 270) 6 1525 1050)
     )
     (padstack Round[A]Pad_2286_um
       (shape (circle F.Cu 2286))
@@ -1127,6 +1149,10 @@
     )
     (padstack Rect[T]Pad_279.4x1473.2_um
       (shape (rect F.Cu -139.7 -736.6 139.7 736.6))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2900x1450_um
+      (shape (rect F.Cu -1450 -725 1450 725))
       (attach off)
     )
     (padstack Rect[T]Pad_400x600_um
@@ -1607,30 +1633,6 @@
     (net "Net-(U4-Pad23)"
       (pins U4-23)
     )
-    (net "Net-(U5-Pad13)"
-      (pins U5-13)
-    )
-    (net "Net-(U5-Pad14)"
-      (pins U5-14)
-    )
-    (net "Net-(U5-Pad15)"
-      (pins U5-15)
-    )
-    (net "Net-(U5-Pad16)"
-      (pins U5-16)
-    )
-    (net "Net-(U5-Pad17)"
-      (pins U5-17)
-    )
-    (net "Net-(U5-Pad18)"
-      (pins U5-18)
-    )
-    (net "Net-(U5-Pad19)"
-      (pins U5-19)
-    )
-    (net "Net-(U5-Pad20)"
-      (pins U5-20)
-    )
     (net "Net-(U5-Pad21)"
       (pins U5-21)
     )
@@ -1642,9 +1644,6 @@
     )
     (net "Net-(U6-Pad4)"
       (pins U6-4)
-    )
-    (net "Net-(U6-Pad20)"
-      (pins U6-20)
     )
     (net "Net-(U6-Pad21)"
       (pins U6-21)
@@ -1774,182 +1773,117 @@
       (pins K60-1 K61-1 K62-1 K63-1 K65-1 K66-1 U1-35)
     )
     (net red0
-      (pins R0-1 SMD_LED7-5 SMD_LED8-5 SMD_LED9-5 SMD_LED10-5 SMD_LED11-5 SMD_LED12-5
-        SMD_LED13-5)
+      (pins R0-1 SMD_LED15-5 SMD_LED30-5 SMD_LED45-5 SMD_LED60-5 SMD_LED75-5 SMD_LED90-5
+        SMD_LED97-5)
     )
     (net red1
-      (pins R1-1 SMD_LED15-5 SMD_LED16-5 SMD_LED17-5 SMD_LED18-5 SMD_LED19-5 SMD_LED20-5
-        SMD_LED21-5 SMD_LED22-5 SMD_LED23-5 SMD_LED24-5 SMD_LED25-5 SMD_LED26-5 SMD_LED27-5
-        SMD_LED28-5)
+      (pins R1-1 SMD_LED16-5 SMD_LED31-5 SMD_LED46-5 SMD_LED61-5 SMD_LED76-5 SMD_LED91-5
+        SMD_LED98-5)
     )
     (net red2
-      (pins R2-1 SMD_LED30-5 SMD_LED31-5 SMD_LED32-5 SMD_LED33-5 SMD_LED34-5 SMD_LED35-5
-        SMD_LED36-5 SMD_LED37-5 SMD_LED38-5 SMD_LED39-5 SMD_LED40-5 SMD_LED41-5 SMD_LED42-5
-        SMD_LED43-5)
+      (pins R2-1 SMD_LED17-5 SMD_LED32-5 SMD_LED47-5 SMD_LED62-5 SMD_LED77-5 SMD_LED92-5
+        SMD_LED99-5)
     )
     (net red3
-      (pins R3-1 SMD_LED45-5 SMD_LED46-5 SMD_LED47-5 SMD_LED48-5 SMD_LED49-5 SMD_LED50-5
-        SMD_LED51-5 SMD_LED52-5 SMD_LED53-5 SMD_LED54-5 SMD_LED55-5 SMD_LED56-5 SMD_LED57-5
-        SMD_LED58-5)
+      (pins R3-1 SMD_LED18-5 SMD_LED33-5 SMD_LED48-5 SMD_LED63-5 SMD_LED78-5 SMD_LED93-5
+        SMD_LED100-5)
     )
     (net red4
-      (pins R4-1 SMD_LED60-5 SMD_LED61-5 SMD_LED62-5 SMD_LED63-5 SMD_LED64-5 SMD_LED65-5
-        SMD_LED66-5 SMD_LED67-5 SMD_LED68-5 SMD_LED69-5 SMD_LED70-5 SMD_LED71-5 SMD_LED72-5)
+      (pins R4-1 SMD_LED19-5 SMD_LED34-5 SMD_LED49-5 SMD_LED64-5 SMD_LED79-5 SMD_LED94-5
+        SMD_LED101-5)
     )
     (net red5
-      (pins R5-1 SMD_LED75-5 SMD_LED76-5 SMD_LED77-5 SMD_LED78-5 SMD_LED79-5 SMD_LED80-5
-        SMD_LED81-5 SMD_LED82-5 SMD_LED83-5 SMD_LED84-5 SMD_LED85-5 SMD_LED86-5 SMD_LED87-5
-        SMD_LED88-5 SMD_LED89-5)
+      (pins R5-1 SMD_LED20-5 SMD_LED35-5 SMD_LED50-5 SMD_LED65-5 SMD_LED80-5 SMD_LED95-5
+        SMD_LED102-5)
     )
     (net red6
-      (pins R6-1 SMD_LED90-5 SMD_LED91-5 SMD_LED92-5 SMD_LED93-5 SMD_LED94-5 SMD_LED95-5
-        SMD_LED96-5 SMD_LED97-5 SMD_LED98-5 SMD_LED99-5 SMD_LED100-5 SMD_LED101-5
-        SMD_LED102-5 SMD_LED103-5 SMD_LED104-5)
+      (pins R6-1 SMD_LED21-5 SMD_LED36-5 SMD_LED51-5 SMD_LED66-5 SMD_LED81-5 SMD_LED96-5
+        SMD_LED103-5)
     )
     (net anode0
-      (pins U6-5 SMD_LED15-2 SMD_LED15-3 SMD_LED15-1 SMD_LED30-2 SMD_LED30-3 SMD_LED30-1
-        SMD_LED45-2 SMD_LED45-3 SMD_LED45-1 SMD_LED60-2 SMD_LED60-3 SMD_LED60-1 SMD_LED75-2
-        SMD_LED75-3 SMD_LED75-1 SMD_LED90-2 SMD_LED90-3 SMD_LED90-1)
+      (pins U6-20 SMD_LED7-1 SMD_LED8-1 SMD_LED9-1 SMD_LED10-1 SMD_LED11-1 SMD_LED12-1
+        SMD_LED15-1 SMD_LED16-1 SMD_LED17-1 SMD_LED18-1 SMD_LED19-1 SMD_LED20-1 SMD_LED21-1)
     )
     (net green0
-      (pins U5-6 SMD_LED7-4 SMD_LED8-4 SMD_LED9-4 SMD_LED10-4 SMD_LED11-4 SMD_LED12-4
-        SMD_LED13-4)
+      (pins U6-5 SMD_LED15-4 SMD_LED30-4 SMD_LED45-4 SMD_LED60-4 SMD_LED75-4 SMD_LED90-4
+        SMD_LED97-4)
     )
     (net blue0
-      (pins U4-6 SMD_LED7-6 SMD_LED8-6 SMD_LED9-6 SMD_LED10-6 SMD_LED11-6 SMD_LED12-6
-        SMD_LED13-6)
+      (pins U5-5 SMD_LED15-6 SMD_LED30-6 SMD_LED45-6 SMD_LED60-6 SMD_LED75-6 SMD_LED90-6
+        SMD_LED97-6)
     )
     (net anode1
-      (pins U6-6 SMD_LED16-2 SMD_LED16-3 SMD_LED16-1 SMD_LED31-2 SMD_LED31-3 SMD_LED31-1
-        SMD_LED46-2 SMD_LED46-3 SMD_LED46-1 SMD_LED61-2 SMD_LED61-3 SMD_LED61-1 SMD_LED76-2
-        SMD_LED76-3 SMD_LED76-1 SMD_LED91-2 SMD_LED91-3 SMD_LED91-1)
+      (pins U6-19 SMD_LED22-1 SMD_LED23-1 SMD_LED24-1 SMD_LED25-1 SMD_LED26-1 SMD_LED27-1
+        SMD_LED30-1 SMD_LED31-1 SMD_LED32-1 SMD_LED33-1 SMD_LED34-1 SMD_LED35-1 SMD_LED36-1)
     )
     (net anode2
-      (pins U6-7 SMD_LED17-2 SMD_LED17-3 SMD_LED17-1 SMD_LED32-2 SMD_LED32-3 SMD_LED32-1
-        SMD_LED47-2 SMD_LED47-3 SMD_LED47-1 SMD_LED62-2 SMD_LED62-3 SMD_LED62-1 SMD_LED77-2
-        SMD_LED77-3 SMD_LED77-1 SMD_LED92-2 SMD_LED92-3 SMD_LED92-1)
+      (pins U6-18 SMD_LED37-1 SMD_LED38-1 SMD_LED39-1 SMD_LED40-1 SMD_LED41-1 SMD_LED42-1
+        SMD_LED45-1 SMD_LED46-1 SMD_LED47-1 SMD_LED48-1 SMD_LED49-1 SMD_LED50-1 SMD_LED51-1)
     )
     (net anode3
-      (pins U6-19 SMD_LED18-2 SMD_LED18-3 SMD_LED18-1 SMD_LED33-2 SMD_LED33-3 SMD_LED33-1
-        SMD_LED48-2 SMD_LED48-3 SMD_LED48-1 SMD_LED63-2 SMD_LED63-3 SMD_LED63-1 SMD_LED78-2
-        SMD_LED78-3 SMD_LED78-1 SMD_LED93-2 SMD_LED93-3 SMD_LED93-1)
+      (pins U5-20 SMD_LED52-1 SMD_LED53-1 SMD_LED54-1 SMD_LED55-1 SMD_LED56-1 SMD_LED57-1
+        SMD_LED60-1 SMD_LED61-1 SMD_LED62-1 SMD_LED63-1 SMD_LED64-1 SMD_LED65-1 SMD_LED66-1)
     )
     (net anode4
-      (pins U6-18 SMD_LED19-2 SMD_LED19-3 SMD_LED19-1 SMD_LED34-2 SMD_LED34-3 SMD_LED34-1
-        SMD_LED49-2 SMD_LED49-3 SMD_LED49-1 SMD_LED64-2 SMD_LED64-3 SMD_LED64-1 SMD_LED79-2
-        SMD_LED79-3 SMD_LED79-1 SMD_LED94-2 SMD_LED94-3 SMD_LED94-1)
+      (pins U5-19 SMD_LED67-1 SMD_LED68-1 SMD_LED69-1 SMD_LED70-1 SMD_LED71-1 SMD_LED72-1
+        SMD_LED75-1 SMD_LED76-1 SMD_LED77-1 SMD_LED78-1 SMD_LED79-1 SMD_LED80-1 SMD_LED81-1)
     )
     (net anode5
-      (pins U6-17 SMD_LED20-2 SMD_LED20-3 SMD_LED20-1 SMD_LED35-2 SMD_LED35-3 SMD_LED35-1
-        SMD_LED50-2 SMD_LED50-3 SMD_LED50-1 SMD_LED65-2 SMD_LED65-3 SMD_LED65-1 SMD_LED80-2
-        SMD_LED80-3 SMD_LED80-1 SMD_LED95-2 SMD_LED95-3 SMD_LED95-1)
+      (pins U5-18 SMD_LED82-1 SMD_LED83-1 SMD_LED84-1 SMD_LED85-1 SMD_LED86-1 SMD_LED87-1
+        SMD_LED90-1 SMD_LED91-1 SMD_LED92-1 SMD_LED93-1 SMD_LED94-1 SMD_LED95-1 SMD_LED96-1)
     )
     (net anode6
-      (pins U6-16 SMD_LED21-2 SMD_LED21-3 SMD_LED21-1 SMD_LED36-2 SMD_LED36-3 SMD_LED36-1
-        SMD_LED51-2 SMD_LED51-3 SMD_LED51-1 SMD_LED66-2 SMD_LED66-3 SMD_LED66-1 SMD_LED81-2
-        SMD_LED81-3 SMD_LED81-1 SMD_LED96-2 SMD_LED96-3 SMD_LED96-1)
-    )
-    (net anode7
-      (pins U6-15 SMD_LED7-2 SMD_LED7-3 SMD_LED7-1 SMD_LED22-2 SMD_LED22-3 SMD_LED22-1
-        SMD_LED37-2 SMD_LED37-3 SMD_LED37-1 SMD_LED52-2 SMD_LED52-3 SMD_LED52-1 SMD_LED67-2
-        SMD_LED67-3 SMD_LED67-1 SMD_LED82-2 SMD_LED82-3 SMD_LED82-1 SMD_LED97-2 SMD_LED97-3
-        SMD_LED97-1)
-    )
-    (net anode8
-      (pins U6-14 SMD_LED8-2 SMD_LED8-3 SMD_LED8-1 SMD_LED23-2 SMD_LED23-3 SMD_LED23-1
-        SMD_LED38-2 SMD_LED38-3 SMD_LED38-1 SMD_LED53-2 SMD_LED53-3 SMD_LED53-1 SMD_LED68-2
-        SMD_LED68-3 SMD_LED68-1 SMD_LED83-2 SMD_LED83-3 SMD_LED83-1 SMD_LED98-2 SMD_LED98-3
-        SMD_LED98-1)
-    )
-    (net anode9
-      (pins U6-13 SMD_LED9-2 SMD_LED9-3 SMD_LED9-1 SMD_LED24-2 SMD_LED24-3 SMD_LED24-1
-        SMD_LED39-2 SMD_LED39-3 SMD_LED39-1 SMD_LED54-2 SMD_LED54-3 SMD_LED54-1 SMD_LED69-2
-        SMD_LED69-3 SMD_LED69-1 SMD_LED84-2 SMD_LED84-3 SMD_LED84-1 SMD_LED99-2 SMD_LED99-3
-        SMD_LED99-1)
-    )
-    (net anode10
-      (pins U6-8 SMD_LED10-2 SMD_LED10-3 SMD_LED10-1 SMD_LED25-2 SMD_LED25-3 SMD_LED25-1
-        SMD_LED40-2 SMD_LED40-3 SMD_LED40-1 SMD_LED55-2 SMD_LED55-3 SMD_LED55-1 SMD_LED70-2
-        SMD_LED70-3 SMD_LED70-1 SMD_LED85-2 SMD_LED85-3 SMD_LED85-1 SMD_LED100-2 SMD_LED100-3
-        SMD_LED100-1)
-    )
-    (net anode11
-      (pins U6-9 SMD_LED11-2 SMD_LED11-3 SMD_LED11-1 SMD_LED26-2 SMD_LED26-3 SMD_LED26-1
-        SMD_LED41-2 SMD_LED41-3 SMD_LED41-1 SMD_LED56-2 SMD_LED56-3 SMD_LED56-1 SMD_LED71-2
-        SMD_LED71-3 SMD_LED71-1 SMD_LED86-2 SMD_LED86-3 SMD_LED86-1 SMD_LED101-2 SMD_LED101-3
-        SMD_LED101-1)
-    )
-    (net anode12
-      (pins U6-10 SMD_LED12-2 SMD_LED12-3 SMD_LED12-1 SMD_LED27-2 SMD_LED27-3 SMD_LED27-1
-        SMD_LED42-2 SMD_LED42-3 SMD_LED42-1 SMD_LED57-2 SMD_LED57-3 SMD_LED57-1 SMD_LED72-2
-        SMD_LED72-3 SMD_LED72-1 SMD_LED87-2 SMD_LED87-3 SMD_LED87-1 SMD_LED102-2 SMD_LED102-3
-        SMD_LED102-1)
-    )
-    (net anode13
-      (pins U6-11 SMD_LED13-2 SMD_LED13-3 SMD_LED13-1 SMD_LED28-2 SMD_LED28-3 SMD_LED28-1
-        SMD_LED43-2 SMD_LED43-3 SMD_LED43-1 SMD_LED58-2 SMD_LED58-3 SMD_LED58-1 SMD_LED88-2
-        SMD_LED88-3 SMD_LED88-1 SMD_LED103-2 SMD_LED103-3 SMD_LED103-1)
-    )
-    (net anode14
-      (pins U6-12 SMD_LED89-2 SMD_LED89-3 SMD_LED89-1 SMD_LED104-2 SMD_LED104-3 SMD_LED104-1)
+      (pins U4-18 SMD_LED28-1 SMD_LED43-1 SMD_LED58-1 SMD_LED88-1 SMD_LED89-1 SMD_LED97-1
+        SMD_LED98-1 SMD_LED99-1 SMD_LED100-1 SMD_LED101-1 SMD_LED102-1 SMD_LED103-1
+        SMD_LED104-1)
     )
     (net green1
-      (pins U5-7 SMD_LED15-4 SMD_LED16-4 SMD_LED17-4 SMD_LED18-4 SMD_LED19-4 SMD_LED20-4
-        SMD_LED21-4 SMD_LED22-4 SMD_LED23-4 SMD_LED24-4 SMD_LED25-4 SMD_LED26-4 SMD_LED27-4
-        SMD_LED28-4)
+      (pins U6-6 SMD_LED16-4 SMD_LED31-4 SMD_LED46-4 SMD_LED61-4 SMD_LED76-4 SMD_LED91-4
+        SMD_LED98-4)
     )
     (net blue1
-      (pins U4-12 SMD_LED15-6 SMD_LED16-6 SMD_LED17-6 SMD_LED18-6 SMD_LED19-6 SMD_LED20-6
-        SMD_LED21-6 SMD_LED22-6 SMD_LED23-6 SMD_LED24-6 SMD_LED25-6 SMD_LED26-6 SMD_LED27-6
-        SMD_LED28-6)
+      (pins U5-6 SMD_LED16-6 SMD_LED31-6 SMD_LED46-6 SMD_LED61-6 SMD_LED76-6 SMD_LED91-6
+        SMD_LED98-6)
     )
     (net green2
-      (pins U5-8 SMD_LED30-4 SMD_LED31-4 SMD_LED32-4 SMD_LED33-4 SMD_LED34-4 SMD_LED35-4
-        SMD_LED36-4 SMD_LED37-4 SMD_LED38-4 SMD_LED39-4 SMD_LED40-4 SMD_LED41-4 SMD_LED42-4
-        SMD_LED43-4)
+      (pins U6-7 SMD_LED17-4 SMD_LED32-4 SMD_LED47-4 SMD_LED62-4 SMD_LED77-4 SMD_LED92-4
+        SMD_LED99-4)
     )
     (net blue2
-      (pins U4-11 SMD_LED30-6 SMD_LED31-6 SMD_LED32-6 SMD_LED33-6 SMD_LED34-6 SMD_LED35-6
-        SMD_LED36-6 SMD_LED37-6 SMD_LED38-6 SMD_LED39-6 SMD_LED40-6 SMD_LED41-6 SMD_LED42-6
-        SMD_LED43-6)
+      (pins U5-7 SMD_LED17-6 SMD_LED32-6 SMD_LED47-6 SMD_LED62-6 SMD_LED77-6 SMD_LED92-6
+        SMD_LED99-6)
     )
     (net green3
-      (pins U5-9 SMD_LED45-4 SMD_LED46-4 SMD_LED47-4 SMD_LED48-4 SMD_LED49-4 SMD_LED50-4
-        SMD_LED51-4 SMD_LED52-4 SMD_LED53-4 SMD_LED54-4 SMD_LED55-4 SMD_LED56-4 SMD_LED57-4
-        SMD_LED58-4)
+      (pins U6-8 SMD_LED18-4 SMD_LED33-4 SMD_LED48-4 SMD_LED63-4 SMD_LED78-4 SMD_LED93-4
+        SMD_LED100-4)
     )
     (net blue3
-      (pins U4-10 SMD_LED45-6 SMD_LED46-6 SMD_LED47-6 SMD_LED48-6 SMD_LED49-6 SMD_LED50-6
-        SMD_LED51-6 SMD_LED52-6 SMD_LED53-6 SMD_LED54-6 SMD_LED55-6 SMD_LED56-6 SMD_LED57-6
-        SMD_LED58-6)
+      (pins U5-8 SMD_LED18-6 SMD_LED33-6 SMD_LED48-6 SMD_LED63-6 SMD_LED78-6 SMD_LED93-6
+        SMD_LED100-6)
     )
     (net green4
-      (pins U5-10 SMD_LED60-4 SMD_LED61-4 SMD_LED62-4 SMD_LED63-4 SMD_LED64-4 SMD_LED65-4
-        SMD_LED66-4 SMD_LED67-4 SMD_LED68-4 SMD_LED69-4 SMD_LED70-4 SMD_LED71-4 SMD_LED72-4)
+      (pins U6-9 SMD_LED19-4 SMD_LED34-4 SMD_LED49-4 SMD_LED64-4 SMD_LED79-4 SMD_LED94-4
+        SMD_LED101-4)
     )
     (net blue4
-      (pins U4-9 SMD_LED60-6 SMD_LED61-6 SMD_LED62-6 SMD_LED63-6 SMD_LED64-6 SMD_LED65-6
-        SMD_LED66-6 SMD_LED67-6 SMD_LED68-6 SMD_LED69-6 SMD_LED70-6 SMD_LED71-6 SMD_LED72-6)
+      (pins U5-9 SMD_LED19-6 SMD_LED34-6 SMD_LED49-6 SMD_LED64-6 SMD_LED79-6 SMD_LED94-6
+        SMD_LED101-6)
     )
     (net green5
-      (pins U5-11 SMD_LED75-4 SMD_LED76-4 SMD_LED77-4 SMD_LED78-4 SMD_LED79-4 SMD_LED80-4
-        SMD_LED81-4 SMD_LED82-4 SMD_LED83-4 SMD_LED84-4 SMD_LED85-4 SMD_LED86-4 SMD_LED87-4
-        SMD_LED88-4 SMD_LED89-4)
+      (pins U6-10 SMD_LED20-4 SMD_LED35-4 SMD_LED50-4 SMD_LED65-4 SMD_LED80-4 SMD_LED95-4
+        SMD_LED102-4)
     )
     (net blue5
-      (pins U4-8 SMD_LED75-6 SMD_LED76-6 SMD_LED77-6 SMD_LED78-6 SMD_LED79-6 SMD_LED80-6
-        SMD_LED81-6 SMD_LED82-6 SMD_LED83-6 SMD_LED84-6 SMD_LED85-6 SMD_LED86-6 SMD_LED87-6
-        SMD_LED88-6 SMD_LED89-6)
+      (pins U5-10 SMD_LED20-6 SMD_LED35-6 SMD_LED50-6 SMD_LED65-6 SMD_LED80-6 SMD_LED95-6
+        SMD_LED102-6)
     )
     (net green6
-      (pins U5-12 SMD_LED90-4 SMD_LED91-4 SMD_LED92-4 SMD_LED93-4 SMD_LED94-4 SMD_LED95-4
-        SMD_LED96-4 SMD_LED97-4 SMD_LED98-4 SMD_LED99-4 SMD_LED100-4 SMD_LED101-4
-        SMD_LED102-4 SMD_LED103-4 SMD_LED104-4)
+      (pins U6-11 SMD_LED21-4 SMD_LED36-4 SMD_LED51-4 SMD_LED66-4 SMD_LED81-4 SMD_LED96-4
+        SMD_LED103-4)
     )
     (net blue6
-      (pins U4-7 SMD_LED90-6 SMD_LED91-6 SMD_LED92-6 SMD_LED93-6 SMD_LED94-6 SMD_LED95-6
-        SMD_LED96-6 SMD_LED97-6 SMD_LED98-6 SMD_LED99-6 SMD_LED100-6 SMD_LED101-6
-        SMD_LED102-6 SMD_LED103-6 SMD_LED104-6)
+      (pins U5-11 SMD_LED21-6 SMD_LED36-6 SMD_LED51-6 SMD_LED66-6 SMD_LED81-6 SMD_LED96-6
+        SMD_LED103-6)
     )
     (net "Net-(U1-Pad1)"
       (pins U1-1)
@@ -1958,43 +1892,142 @@
       (pins U1-2)
     )
     (net "Net-(R0-Pad2)"
-      (pins U4-13 R0-2)
+      (pins U4-5 R0-2)
     )
     (net "Net-(R1-Pad2)"
-      (pins U4-14 R1-2)
+      (pins U4-6 R1-2)
     )
     (net "Net-(R2-Pad2)"
-      (pins U4-15 R2-2)
+      (pins U4-7 R2-2)
     )
     (net "Net-(R3-Pad2)"
-      (pins U4-16 R3-2)
+      (pins U4-8 R3-2)
     )
     (net "Net-(R4-Pad2)"
-      (pins U4-17 R4-2)
+      (pins U4-9 R4-2)
     )
     (net "Net-(R5-Pad2)"
-      (pins U4-18 R5-2)
+      (pins U4-10 R5-2)
     )
     (net "Net-(R6-Pad2)"
-      (pins U4-19 R6-2)
+      (pins U4-11 R6-2)
     )
     (net "Net-(U5-Pad4)"
       (pins U5-4)
     )
-    (net "Net-(U4-Pad5)"
-      (pins U4-5)
-    )
     (net V3.3
       (pins U6-24 U4-24 U1-7 U5-24)
-    )
-    (net "Net-(U5-Pad5)"
-      (pins U5-5)
     )
     (net VCC
       (pins J1-1)
     )
     (net "Net-(U1-Pad15)"
       (pins U1-15)
+    )
+    (net red7
+      (pins R7-1 SMD_LED7-5 SMD_LED22-5 SMD_LED37-5 SMD_LED52-5 SMD_LED67-5 SMD_LED82-5
+        SMD_LED104-5)
+    )
+    (net "Net-(R7-Pad2)"
+      (pins U4-12 R7-2)
+    )
+    (net "Net-(R8-Pad1)"
+      (pins U4-13 R8-1)
+    )
+    (net red8
+      (pins R8-2 SMD_LED8-5 SMD_LED23-5 SMD_LED38-5 SMD_LED53-5 SMD_LED68-5 SMD_LED83-5
+        SMD_LED88-5)
+    )
+    (net "Net-(R9-Pad1)"
+      (pins U4-14 R9-1)
+    )
+    (net red9
+      (pins R9-2 SMD_LED9-5 SMD_LED24-5 SMD_LED39-5 SMD_LED54-5 SMD_LED69-5 SMD_LED84-5
+        SMD_LED89-5)
+    )
+    (net "Net-(R10-Pad1)"
+      (pins U4-15 R10-1)
+    )
+    (net red10
+      (pins R10-2 SMD_LED10-5 SMD_LED25-5 SMD_LED40-5 SMD_LED55-5 SMD_LED58-5 SMD_LED70-5
+        SMD_LED85-5)
+    )
+    (net "Net-(R11-Pad1)"
+      (pins U4-16 R11-1)
+    )
+    (net red11
+      (pins R11-2 SMD_LED11-5 SMD_LED26-5 SMD_LED41-5 SMD_LED43-5 SMD_LED56-5 SMD_LED71-5
+        SMD_LED86-5)
+    )
+    (net "Net-(R12-Pad1)"
+      (pins U4-17 R12-1)
+    )
+    (net red12
+      (pins R12-2 SMD_LED12-5 SMD_LED27-5 SMD_LED28-5 SMD_LED42-5 SMD_LED57-5 SMD_LED72-5
+        SMD_LED87-5)
+    )
+    (net green7
+      (pins U6-12 SMD_LED7-4 SMD_LED22-4 SMD_LED37-4 SMD_LED52-4 SMD_LED67-4 SMD_LED82-4
+        SMD_LED104-4)
+    )
+    (net blue7
+      (pins U5-12 SMD_LED7-6 SMD_LED22-6 SMD_LED37-6 SMD_LED52-6 SMD_LED67-6 SMD_LED82-6
+        SMD_LED104-6)
+    )
+    (net green8
+      (pins U6-13 SMD_LED8-4 SMD_LED23-4 SMD_LED38-4 SMD_LED53-4 SMD_LED68-4 SMD_LED83-4
+        SMD_LED88-4)
+    )
+    (net blue8
+      (pins U5-13 SMD_LED8-6 SMD_LED23-6 SMD_LED38-6 SMD_LED53-6 SMD_LED68-6 SMD_LED83-6
+        SMD_LED88-6)
+    )
+    (net green9
+      (pins U6-14 SMD_LED9-4 SMD_LED24-4 SMD_LED39-4 SMD_LED54-4 SMD_LED69-4 SMD_LED84-4
+        SMD_LED89-4)
+    )
+    (net blue9
+      (pins U5-14 SMD_LED9-6 SMD_LED24-6 SMD_LED39-6 SMD_LED54-6 SMD_LED69-6 SMD_LED84-6
+        SMD_LED89-6)
+    )
+    (net green10
+      (pins U6-15 SMD_LED10-4 SMD_LED25-4 SMD_LED40-4 SMD_LED55-4 SMD_LED58-4 SMD_LED70-4
+        SMD_LED85-4)
+    )
+    (net blue10
+      (pins U5-15 SMD_LED10-6 SMD_LED25-6 SMD_LED40-6 SMD_LED55-6 SMD_LED58-6 SMD_LED70-6
+        SMD_LED85-6)
+    )
+    (net green11
+      (pins U6-16 SMD_LED11-4 SMD_LED26-4 SMD_LED41-4 SMD_LED43-4 SMD_LED56-4 SMD_LED71-4
+        SMD_LED86-4)
+    )
+    (net blue11
+      (pins U5-16 SMD_LED11-6 SMD_LED26-6 SMD_LED41-6 SMD_LED43-6 SMD_LED56-6 SMD_LED71-6
+        SMD_LED86-6)
+    )
+    (net green12
+      (pins U6-17 SMD_LED12-4 SMD_LED27-4 SMD_LED28-4 SMD_LED42-4 SMD_LED57-4 SMD_LED72-4
+        SMD_LED87-4)
+    )
+    (net blue12
+      (pins U5-17 SMD_LED12-6 SMD_LED27-6 SMD_LED28-6 SMD_LED42-6 SMD_LED57-6 SMD_LED72-6
+        SMD_LED87-6)
+    )
+    (net "Net-(SMD_LED13-Pad5)"
+      (pins SMD_LED13-5)
+    )
+    (net "Net-(SMD_LED13-Pad1)"
+      (pins SMD_LED13-1)
+    )
+    (net "Net-(SMD_LED13-Pad4)"
+      (pins SMD_LED13-4)
+    )
+    (net "Net-(SMD_LED13-Pad6)"
+      (pins SMD_LED13-6)
+    )
+    (net "Net-(U4-Pad19)"
+      (pins U4-19)
     )
     (class kicad_default "" BTN0 BTN1 BTN2 GND LED_CLK LED_DATA0 LED_DATA1
       LED_DATA2 "Net-(D0-Pad2)" "Net-(D1-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)"
@@ -2017,9 +2050,40 @@
       "Net-(D76-Pad2)" "Net-(D77-Pad2)" "Net-(D78-Pad2)" "Net-(D79-Pad2)"
       "Net-(D8-Pad2)" "Net-(D80-Pad2)" "Net-(D81-Pad2)" "Net-(D82-Pad2)" "Net-(D83-Pad2)"
       "Net-(D84-Pad2)" "Net-(D85-Pad2)" "Net-(D86-Pad2)" "Net-(D9-Pad2)" "Net-(J1-Pad2)"
-      "Net-(J1-Pad3)" "Net-(J1-Pad4)" "Net-(R0-Pad2)" "Net-(R1-Pad2)" "Net-(R2-Pad2)"
-      "Net-(R3-Pad2)" "Net-(R4-Pad2)" "Net-(R5-Pad2)" "Net-(R6-Pad2)" "Net-(U1-Pad1)"
-      "Net-(U1-Pad10)" "Net-(U1-Pad11)" "Net-(U1-Pad12)" "Net-(U1-Pad13)"
+      "Net-(J1-Pad3)" "Net-(J1-Pad4)" "Net-(R0-Pad2)" "Net-(R1-Pad2)" "Net-(R10-Pad1)"
+      "Net-(R11-Pad1)" "Net-(R12-Pad1)" "Net-(R2-Pad2)" "Net-(R3-Pad2)" "Net-(R4-Pad2)"
+      "Net-(R5-Pad2)" "Net-(R6-Pad2)" "Net-(R7-Pad2)" "Net-(R8-Pad1)" "Net-(R9-Pad1)"
+      "Net-(SMD_LED10-Pad1)" "Net-(SMD_LED100-Pad1)" "Net-(SMD_LED101-Pad1)"
+      "Net-(SMD_LED102-Pad1)" "Net-(SMD_LED103-Pad1)" "Net-(SMD_LED104-Pad1)"
+      "Net-(SMD_LED11-Pad1)" "Net-(SMD_LED12-Pad1)" "Net-(SMD_LED13-Pad1)"
+      "Net-(SMD_LED13-Pad2)" "Net-(SMD_LED13-Pad3)" "Net-(SMD_LED13-Pad4)"
+      "Net-(SMD_LED13-Pad5)" "Net-(SMD_LED13-Pad6)" "Net-(SMD_LED16-Pad1)"
+      "Net-(SMD_LED17-Pad1)" "Net-(SMD_LED18-Pad1)" "Net-(SMD_LED19-Pad1)"
+      "Net-(SMD_LED20-Pad1)" "Net-(SMD_LED21-Pad1)" "Net-(SMD_LED22-Pad1)"
+      "Net-(SMD_LED23-Pad1)" "Net-(SMD_LED24-Pad1)" "Net-(SMD_LED25-Pad1)"
+      "Net-(SMD_LED26-Pad1)" "Net-(SMD_LED27-Pad1)" "Net-(SMD_LED28-Pad1)"
+      "Net-(SMD_LED31-Pad1)" "Net-(SMD_LED32-Pad1)" "Net-(SMD_LED33-Pad1)"
+      "Net-(SMD_LED34-Pad1)" "Net-(SMD_LED35-Pad1)" "Net-(SMD_LED36-Pad1)"
+      "Net-(SMD_LED37-Pad1)" "Net-(SMD_LED38-Pad1)" "Net-(SMD_LED39-Pad1)"
+      "Net-(SMD_LED40-Pad1)" "Net-(SMD_LED41-Pad1)" "Net-(SMD_LED42-Pad1)"
+      "Net-(SMD_LED43-Pad1)" "Net-(SMD_LED46-Pad1)" "Net-(SMD_LED47-Pad1)"
+      "Net-(SMD_LED48-Pad1)" "Net-(SMD_LED49-Pad1)" "Net-(SMD_LED50-Pad1)"
+      "Net-(SMD_LED51-Pad1)" "Net-(SMD_LED52-Pad1)" "Net-(SMD_LED53-Pad1)"
+      "Net-(SMD_LED54-Pad1)" "Net-(SMD_LED55-Pad1)" "Net-(SMD_LED56-Pad1)"
+      "Net-(SMD_LED57-Pad1)" "Net-(SMD_LED58-Pad1)" "Net-(SMD_LED61-Pad1)"
+      "Net-(SMD_LED62-Pad1)" "Net-(SMD_LED63-Pad1)" "Net-(SMD_LED64-Pad1)"
+      "Net-(SMD_LED65-Pad1)" "Net-(SMD_LED66-Pad1)" "Net-(SMD_LED67-Pad1)"
+      "Net-(SMD_LED68-Pad1)" "Net-(SMD_LED69-Pad1)" "Net-(SMD_LED7-Pad1)"
+      "Net-(SMD_LED70-Pad1)" "Net-(SMD_LED71-Pad1)" "Net-(SMD_LED72-Pad1)"
+      "Net-(SMD_LED76-Pad1)" "Net-(SMD_LED77-Pad1)" "Net-(SMD_LED78-Pad1)"
+      "Net-(SMD_LED79-Pad1)" "Net-(SMD_LED8-Pad1)" "Net-(SMD_LED80-Pad1)"
+      "Net-(SMD_LED81-Pad1)" "Net-(SMD_LED82-Pad1)" "Net-(SMD_LED83-Pad1)"
+      "Net-(SMD_LED84-Pad1)" "Net-(SMD_LED85-Pad1)" "Net-(SMD_LED86-Pad1)"
+      "Net-(SMD_LED87-Pad1)" "Net-(SMD_LED88-Pad1)" "Net-(SMD_LED89-Pad1)"
+      "Net-(SMD_LED9-Pad1)" "Net-(SMD_LED91-Pad1)" "Net-(SMD_LED92-Pad1)"
+      "Net-(SMD_LED93-Pad1)" "Net-(SMD_LED94-Pad1)" "Net-(SMD_LED95-Pad1)"
+      "Net-(SMD_LED96-Pad1)" "Net-(SMD_LED98-Pad1)" "Net-(SMD_LED99-Pad1)"
+      "Net-(U1-Pad1)" "Net-(U1-Pad10)" "Net-(U1-Pad11)" "Net-(U1-Pad12)" "Net-(U1-Pad13)"
       "Net-(U1-Pad14)" "Net-(U1-Pad15)" "Net-(U1-Pad16)" "Net-(U1-Pad17)"
       "Net-(U1-Pad18)" "Net-(U1-Pad19)" "Net-(U1-Pad2)" "Net-(U1-Pad20)" "Net-(U1-Pad21)"
       "Net-(U1-Pad22)" "Net-(U1-Pad23)" "Net-(U1-Pad24)" "Net-(U1-Pad25)"
@@ -2030,17 +2094,19 @@
       "Net-(U2-Pad17)" "Net-(U2-Pad2)" "Net-(U2-Pad3)" "Net-(U2-Pad4)" "Net-(U2-Pad5)"
       "Net-(U2-Pad6)" "Net-(U2-Pad7)" "Net-(U2-Pad8)" "Net-(U2-Pad9)" "Net-(U3-Pad1)"
       "Net-(U3-Pad2)" "Net-(U3-Pad3)" "Net-(U3-Pad4)" "Net-(U3-Pad5)" "Net-(U3-Pad6)"
-      "Net-(U3-Pad7)" "Net-(U4-Pad20)" "Net-(U4-Pad21)" "Net-(U4-Pad22)" "Net-(U4-Pad23)"
-      "Net-(U4-Pad4)" "Net-(U4-Pad5)" "Net-(U5-Pad13)" "Net-(U5-Pad14)" "Net-(U5-Pad15)"
-      "Net-(U5-Pad16)" "Net-(U5-Pad17)" "Net-(U5-Pad18)" "Net-(U5-Pad19)"
-      "Net-(U5-Pad20)" "Net-(U5-Pad21)" "Net-(U5-Pad22)" "Net-(U5-Pad23)"
-      "Net-(U5-Pad4)" "Net-(U5-Pad5)" "Net-(U6-Pad20)" "Net-(U6-Pad21)" "Net-(U6-Pad22)"
-      "Net-(U6-Pad23)" "Net-(U6-Pad4)" TP_5V TP_CLK TP_DATA TP_RST V3.3 VCC
-      anode0 anode1 anode10 anode11 anode12 anode13 anode14 anode2 anode3
-      anode4 anode5 anode6 anode7 anode8 anode9 blue0 blue1 blue2 blue3 blue4
-      blue5 blue6 c0 c1 c10 c11 c12 c13 c14 c2 c3 c4 c5 c6 c7 c8 c9 green0
-      green1 green2 green3 green4 green5 green6 r0 r1 r2 r3 r4 r5 r6 red0
-      red1 red2 red3 red4 red5 red6
+      "Net-(U3-Pad7)" "Net-(U4-Pad19)" "Net-(U4-Pad20)" "Net-(U4-Pad21)" "Net-(U4-Pad22)"
+      "Net-(U4-Pad23)" "Net-(U4-Pad4)" "Net-(U4-Pad5)" "Net-(U5-Pad13)" "Net-(U5-Pad14)"
+      "Net-(U5-Pad15)" "Net-(U5-Pad16)" "Net-(U5-Pad17)" "Net-(U5-Pad18)"
+      "Net-(U5-Pad19)" "Net-(U5-Pad20)" "Net-(U5-Pad21)" "Net-(U5-Pad22)"
+      "Net-(U5-Pad23)" "Net-(U5-Pad4)" "Net-(U5-Pad5)" "Net-(U6-Pad20)" "Net-(U6-Pad21)"
+      "Net-(U6-Pad22)" "Net-(U6-Pad23)" "Net-(U6-Pad4)" TP_5V TP_CLK TP_DATA
+      TP_RST V3.3 VCC anode0 anode1 anode10 anode11 anode12 anode13 anode14
+      anode2 anode3 anode4 anode5 anode6 anode7 anode8 anode9 blue0 blue1
+      blue10 blue11 blue12 blue2 blue3 blue4 blue5 blue6 blue7 blue8 blue9
+      c0 c1 c10 c11 c12 c13 c14 c2 c3 c4 c5 c6 c7 c8 c9 green0 green1 green10
+      green11 green12 green2 green3 green4 green5 green6 green7 green8 green9
+      r0 r1 r2 r3 r4 r5 r6 red0 red1 red10 red11 red12 red2 red3 red4 red5
+      red6 red7 red8 red9
       (circuit
         (use_via Via[0-1]_600:400_um)
       )
@@ -2060,190 +2126,5 @@
     )
   )
   (wiring
-    (wire (path F.Cu 250  41475 -77500  41475 -78550)(net anode0)(type protect))
-    (wire (path F.Cu 250  41475 -76450  41475 -77500)(net anode0)(type protect))
-    (wire (path F.Cu 250  41475 -153500  41475 -152450)(net anode0)(type protect))
-    (wire (path F.Cu 250  41475 -154550  41475 -153500)(net anode0)(type protect))
-    (wire (path F.Cu 250  53350 -134500  53350 -133450)(net anode0)(type protect))
-    (wire (path F.Cu 250  53350 -135550  53350 -134500)(net anode0)(type protect))
-    (wire (path F.Cu 250  48600 -115500  48600 -114450)(net anode0)(type protect))
-    (wire (path F.Cu 250  48600 -116550  48600 -115500)(net anode0)(type protect))
-    (wire (path F.Cu 250  46225 -96500  46225 -95450)(net anode0)(type protect))
-    (wire (path F.Cu 250  46225 -97550  46225 -96500)(net anode0)(type protect))
-    (wire (path F.Cu 250  47500 -47725  48550 -47725)(net anode0)(type protect))
-    (wire (path F.Cu 250  46450 -47725  47500 -47725)(net anode0)(type protect))
-    (wire (path F.Cu 250  60475 -77500  60475 -78550)(net anode1)(type protect))
-    (wire (path F.Cu 250  60475 -76450  60475 -77500)(net anode1)(type protect))
-    (wire (path F.Cu 250  62850 -153500  62850 -152450)(net anode1)(type protect))
-    (wire (path F.Cu 250  62850 -154550  62850 -153500)(net anode1)(type protect))
-    (wire (path F.Cu 250  84225 -134500  84225 -133450)(net anode1)(type protect))
-    (wire (path F.Cu 250  84225 -135550  84225 -134500)(net anode1)(type protect))
-    (wire (path F.Cu 250  74725 -115500  74725 -114450)(net anode1)(type protect))
-    (wire (path F.Cu 250  74725 -116550  74725 -115500)(net anode1)(type protect))
-    (wire (path F.Cu 250  69975 -96500  69975 -95450)(net anode1)(type protect))
-    (wire (path F.Cu 250  69975 -97550  69975 -96500)(net anode1)(type protect))
-    (wire (path F.Cu 250  60475 -58500  60475 -59550)(net anode1)(type protect))
-    (wire (path F.Cu 250  60475 -57450  60475 -58500)(net anode1)(type protect))
-    (wire (path F.Cu 250  79475 -77500  79475 -78550)(net anode2)(type protect))
-    (wire (path F.Cu 250  79475 -76450  79475 -77500)(net anode2)(type protect))
-    (wire (path F.Cu 250  84225 -153500  84225 -152450)(net anode2)(type protect))
-    (wire (path F.Cu 250  84225 -154550  84225 -153500)(net anode2)(type protect))
-    (wire (path F.Cu 250  103225 -134500  103225 -133450)(net anode2)(type protect))
-    (wire (path F.Cu 250  103225 -135550  103225 -134500)(net anode2)(type protect))
-    (wire (path F.Cu 250  93725 -115500  93725 -114450)(net anode2)(type protect))
-    (wire (path F.Cu 250  93725 -116550  93725 -115500)(net anode2)(type protect))
-    (wire (path F.Cu 250  88975 -96500  88975 -95450)(net anode2)(type protect))
-    (wire (path F.Cu 250  88975 -97550  88975 -96500)(net anode2)(type protect))
-    (wire (path F.Cu 250  79475 -58500  79475 -59550)(net anode2)(type protect))
-    (wire (path F.Cu 250  79475 -57450  79475 -58500)(net anode2)(type protect))
-    (wire (path F.Cu 250  98475 -77500  98475 -78550)(net anode3)(type protect))
-    (wire (path F.Cu 250  98475 -76450  98475 -77500)(net anode3)(type protect))
-    (wire (path F.Cu 250  103225 -153500  103225 -152450)(net anode3)(type protect))
-    (wire (path F.Cu 250  103225 -154550  103225 -153500)(net anode3)(type protect))
-    (wire (path F.Cu 250  122225 -134500  122225 -133450)(net anode3)(type protect))
-    (wire (path F.Cu 250  122225 -135550  122225 -134500)(net anode3)(type protect))
-    (wire (path F.Cu 250  112725 -115500  112725 -114450)(net anode3)(type protect))
-    (wire (path F.Cu 250  112725 -116550  112725 -115500)(net anode3)(type protect))
-    (wire (path F.Cu 250  107975 -96500  107975 -95450)(net anode3)(type protect))
-    (wire (path F.Cu 250  107975 -97550  107975 -96500)(net anode3)(type protect))
-    (wire (path F.Cu 250  98475 -58500  98475 -59550)(net anode3)(type protect))
-    (wire (path F.Cu 250  98475 -57450  98475 -58500)(net anode3)(type protect))
-    (wire (path F.Cu 250  117475 -77500  117475 -78550)(net anode4)(type protect))
-    (wire (path F.Cu 250  117475 -76450  117475 -77500)(net anode4)(type protect))
-    (wire (path F.Cu 250  131725 -149000  131725 -147950)(net anode4)(type protect))
-    (wire (path F.Cu 250  131725 -150050  131725 -149000)(net anode4)(type protect))
-    (wire (path F.Cu 250  141225 -134500  141225 -133450)(net anode4)(type protect))
-    (wire (path F.Cu 250  141225 -135550  141225 -134500)(net anode4)(type protect))
-    (wire (path F.Cu 250  131725 -115500  131725 -114450)(net anode4)(type protect))
-    (wire (path F.Cu 250  131725 -116550  131725 -115500)(net anode4)(type protect))
-    (wire (path F.Cu 250  126975 -96500  126975 -95450)(net anode4)(type protect))
-    (wire (path F.Cu 250  126975 -97550  126975 -96500)(net anode4)(type protect))
-    (wire (path F.Cu 250  117475 -58500  117475 -59550)(net anode4)(type protect))
-    (wire (path F.Cu 250  117475 -57450  117475 -58500)(net anode4)(type protect))
-    (wire (path F.Cu 250  136475 -77500  136475 -78550)(net anode5)(type protect))
-    (wire (path F.Cu 250  136475 -76450  136475 -77500)(net anode5)(type protect))
-    (wire (path F.Cu 250  133975 -172500  133975 -173550)(net anode5)(type protect))
-    (wire (path F.Cu 250  133975 -171450  133975 -172500)(net anode5)(type protect))
-    (wire (path F.Cu 250  160225 -151950  160225 -153000)(net anode5)(type protect))
-    (wire (path F.Cu 250  160225 -154050  160225 -153000)(net anode5)(type protect))
-    (wire (path F.Cu 250  150725 -115275  150725 -114450)(net anode5)(type protect))
-    (wire (path F.Cu 250  150725 -115500  150725 -115275)(net anode5)(type protect))
-    (wire (path F.Cu 250  150725 -116550  150725 -115500)(net anode5)(type protect))
-    (wire (path F.Cu 250  145975 -96500  145975 -95450)(net anode5)(type protect))
-    (wire (path F.Cu 250  145975 -97550  145975 -96500)(net anode5)(type protect))
-    (wire (path F.Cu 250  136475 -58500  136475 -59550)(net anode5)(type protect))
-    (wire (path F.Cu 250  136475 -57450  136475 -58500)(net anode5)(type protect))
-    (wire (path F.Cu 250  155475 -77500  155475 -78550)(net anode6)(type protect))
-    (wire (path F.Cu 250  155475 -76450  155475 -77500)(net anode6)(type protect))
-    (wire (path F.Cu 250  160475 -172500  160475 -173550)(net anode6)(type protect))
-    (wire (path F.Cu 250  160475 -171450  160475 -172500)(net anode6)(type protect))
-    (wire (path F.Cu 250  160225 -134500  160225 -133450)(net anode6)(type protect))
-    (wire (path F.Cu 250  160225 -135550  160225 -134500)(net anode6)(type protect))
-    (wire (path F.Cu 250  169725 -115500  169725 -114450)(net anode6)(type protect))
-    (wire (path F.Cu 250  169725 -116550  169725 -115500)(net anode6)(type protect))
-    (wire (path F.Cu 250  164975 -96500  164975 -95450)(net anode6)(type protect))
-    (wire (path F.Cu 250  164975 -97550  164975 -96500)(net anode6)(type protect))
-    (wire (path F.Cu 250  155475 -58500  155475 -59550)(net anode6)(type protect))
-    (wire (path F.Cu 250  155475 -57450  155475 -58500)(net anode6)(type protect))
-    (wire (path F.Cu 250  174475 -77500  174475 -78550)(net anode7)(type protect))
-    (wire (path F.Cu 250  174475 -76450  174475 -77500)(net anode7)(type protect))
-    (wire (path F.Cu 250  186475 -172500  186475 -173550)(net anode7)(type protect))
-    (wire (path F.Cu 250  186475 -171450  186475 -172500)(net anode7)(type protect))
-    (wire (path F.Cu 250  179225 -134500  179225 -133450)(net anode7)(type protect))
-    (wire (path F.Cu 250  179225 -135550  179225 -134500)(net anode7)(type protect))
-    (wire (path F.Cu 250  188725 -115500  188725 -114450)(net anode7)(type protect))
-    (wire (path F.Cu 250  188725 -116550  188725 -115500)(net anode7)(type protect))
-    (wire (path F.Cu 250  183975 -96500  183975 -95450)(net anode7)(type protect))
-    (wire (path F.Cu 250  183975 -97550  183975 -96500)(net anode7)(type protect))
-    (wire (path F.Cu 250  193475 -39000  193475 -37950)(net anode7)(type protect))
-    (wire (path F.Cu 250  193475 -40050  193475 -39000)(net anode7)(type protect))
-    (wire (path F.Cu 250  174475 -58500  174475 -59550)(net anode7)(type protect))
-    (wire (path F.Cu 250  174475 -57450  174475 -58500)(net anode7)(type protect))
-    (wire (path F.Cu 250  193475 -77500  193475 -78550)(net anode8)(type protect))
-    (wire (path F.Cu 250  193475 -76450  193475 -77500)(net anode8)(type protect))
-    (wire (path F.Cu 250  188725 -149000  188725 -147950)(net anode8)(type protect))
-    (wire (path F.Cu 250  188725 -150050  188725 -149000)(net anode8)(type protect))
-    (wire (path F.Cu 250  198225 -134500  198225 -133450)(net anode8)(type protect))
-    (wire (path F.Cu 250  198225 -135550  198225 -134500)(net anode8)(type protect))
-    (wire (path F.Cu 250  207725 -115500  207725 -114450)(net anode8)(type protect))
-    (wire (path F.Cu 250  207725 -116550  207725 -115500)(net anode8)(type protect))
-    (wire (path F.Cu 250  202975 -96500  202975 -95450)(net anode8)(type protect))
-    (wire (path F.Cu 250  202975 -97550  202975 -96500)(net anode8)(type protect))
-    (wire (path F.Cu 250  212475 -39500  212475 -38450)(net anode8)(type protect))
-    (wire (path F.Cu 250  212475 -40550  212475 -39500)(net anode8)(type protect))
-    (wire (path F.Cu 250  193475 -58500  193475 -59550)(net anode8)(type protect))
-    (wire (path F.Cu 250  193475 -57450  193475 -58500)(net anode8)(type protect))
-    (wire (path F.Cu 250  212475 -77500  212475 -78550)(net anode9)(type protect))
-    (wire (path F.Cu 250  212475 -76450  212475 -77500)(net anode9)(type protect))
-    (wire (path F.Cu 250  219725 -153500  219725 -152450)(net anode9)(type protect))
-    (wire (path F.Cu 250  219725 -154550  219725 -153500)(net anode9)(type protect))
-    (wire (path F.Cu 250  217225 -134500  217225 -133450)(net anode9)(type protect))
-    (wire (path F.Cu 250  217225 -135550  217225 -134500)(net anode9)(type protect))
-    (wire (path F.Cu 250  226725 -115500  226725 -114450)(net anode9)(type protect))
-    (wire (path F.Cu 250  226725 -116550  226725 -115500)(net anode9)(type protect))
-    (wire (path F.Cu 250  221975 -96500  221975 -95450)(net anode9)(type protect))
-    (wire (path F.Cu 250  221975 -97550  221975 -96500)(net anode9)(type protect))
-    (wire (path F.Cu 250  231475 -39500  231475 -38450)(net anode9)(type protect))
-    (wire (path F.Cu 250  231475 -40550  231475 -39500)(net anode9)(type protect))
-    (wire (path F.Cu 250  212475 -58500  212475 -59550)(net anode9)(type protect))
-    (wire (path F.Cu 250  212475 -57450  212475 -58500)(net anode9)(type protect))
-    (wire (path F.Cu 250  231475 -77500  231475 -78550)(net anode10)(type protect))
-    (wire (path F.Cu 250  231475 -76450  231475 -77500)(net anode10)(type protect))
-    (wire (path F.Cu 250  245725 -153500  245725 -152450)(net anode10)(type protect))
-    (wire (path F.Cu 250  245725 -154550  245725 -153500)(net anode10)(type protect))
-    (wire (path F.Cu 250  236225 -134500  236225 -133450)(net anode10)(type protect))
-    (wire (path F.Cu 250  236225 -135550  236225 -134500)(net anode10)(type protect))
-    (wire (path F.Cu 250  245725 -115500  245725 -114450)(net anode10)(type protect))
-    (wire (path F.Cu 250  245725 -116550  245725 -115500)(net anode10)(type protect))
-    (wire (path F.Cu 250  240975 -96500  240975 -95450)(net anode10)(type protect))
-    (wire (path F.Cu 250  240975 -97550  240975 -96500)(net anode10)(type protect))
-    (wire (path F.Cu 250  250475 -39500  250475 -38450)(net anode10)(type protect))
-    (wire (path F.Cu 250  250475 -40550  250475 -39500)(net anode10)(type protect))
-    (wire (path F.Cu 250  231475 -58500  231475 -59550)(net anode10)(type protect))
-    (wire (path F.Cu 250  231475 -57450  231475 -58500)(net anode10)(type protect))
-    (wire (path F.Cu 250  250475 -77500  250475 -78550)(net anode11)(type protect))
-    (wire (path F.Cu 250  250475 -76450  250475 -77500)(net anode11)(type protect))
-    (wire (path F.Cu 250  269475 -153500  269475 -152450)(net anode11)(type protect))
-    (wire (path F.Cu 250  269475 -154550  269475 -153500)(net anode11)(type protect))
-    (wire (path F.Cu 250  255225 -134500  255225 -133450)(net anode11)(type protect))
-    (wire (path F.Cu 250  255225 -135550  255225 -134500)(net anode11)(type protect))
-    (wire (path F.Cu 250  264725 -115500  264725 -114450)(net anode11)(type protect))
-    (wire (path F.Cu 250  264725 -116550  264725 -115500)(net anode11)(type protect))
-    (wire (path F.Cu 250  259975 -96500  259975 -95450)(net anode11)(type protect))
-    (wire (path F.Cu 250  259975 -97550  259975 -96500)(net anode11)(type protect))
-    (wire (path F.Cu 250  275500 -51025  276550 -51025)(net anode11)(type protect))
-    (wire (path F.Cu 250  274450 -51025  275500 -51025)(net anode11)(type protect))
-    (wire (path F.Cu 250  250475 -58500  250475 -59550)(net anode11)(type protect))
-    (wire (path F.Cu 250  250475 -57450  250475 -58500)(net anode11)(type protect))
-    (wire (path F.Cu 250  269475 -77500  269475 -78550)(net anode12)(type protect))
-    (wire (path F.Cu 250  269475 -76450  269475 -77500)(net anode12)(type protect))
-    (wire (path F.Cu 250  269475 -172500  269475 -173550)(net anode12)(type protect))
-    (wire (path F.Cu 250  269475 -171450  269475 -172500)(net anode12)(type protect))
-    (wire (path F.Cu 250  290850 -134500  290850 -133450)(net anode12)(type protect))
-    (wire (path F.Cu 250  290850 -135550  290850 -134500)(net anode12)(type protect))
-    (wire (path F.Cu 250  295600 -115500  295600 -114450)(net anode12)(type protect))
-    (wire (path F.Cu 250  295600 -116550  295600 -115500)(net anode12)(type protect))
-    (wire (path F.Cu 250  278975 -96500  278975 -95450)(net anode12)(type protect))
-    (wire (path F.Cu 250  278975 -97550  278975 -96500)(net anode12)(type protect))
-    (wire (path F.Cu 250  288475 -39500  288475 -38450)(net anode12)(type protect))
-    (wire (path F.Cu 250  288475 -40550  288475 -39500)(net anode12)(type protect))
-    (wire (path F.Cu 250  288475 -58500  288475 -59550)(net anode12)(type protect))
-    (wire (path F.Cu 250  288475 -57450  288475 -58500)(net anode12)(type protect))
-    (wire (path F.Cu 250  297975 -77500  297975 -78550)(net anode13)(type protect))
-    (wire (path F.Cu 250  297975 -76450  297975 -77500)(net anode13)(type protect))
-    (wire (path F.Cu 250  288475 -172500  288475 -173550)(net anode13)(type protect))
-    (wire (path F.Cu 250  288475 -171450  288475 -172500)(net anode13)(type protect))
-    (wire (path F.Cu 250  288475 -153500  288475 -154550)(net anode13)(type protect))
-    (wire (path F.Cu 250  288475 -152450  288475 -153500)(net anode13)(type protect))
-    (wire (path F.Cu 250  302725 -96500  302725 -95450)(net anode13)(type protect))
-    (wire (path F.Cu 250  302725 -97550  302725 -96500)(net anode13)(type protect))
-    (wire (path F.Cu 250  307475 -39500  307475 -38450)(net anode13)(type protect))
-    (wire (path F.Cu 250  307475 -40550  307475 -39500)(net anode13)(type protect))
-    (wire (path F.Cu 250  307475 -58500  307475 -59550)(net anode13)(type protect))
-    (wire (path F.Cu 250  307475 -57450  307475 -58500)(net anode13)(type protect))
-    (wire (path F.Cu 250  307475 -172500  307475 -173550)(net anode14)(type protect))
-    (wire (path F.Cu 250  307475 -171450  307475 -172500)(net anode14)(type protect))
-    (wire (path F.Cu 250  307475 -153500  307475 -154550)(net anode14)(type protect))
-    (wire (path F.Cu 250  307475 -152450  307475 -153500)(net anode14)(type protect))
   )
 )
