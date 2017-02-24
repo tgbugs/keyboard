@@ -10,7 +10,7 @@ D LED RGB 6 pins
 K led rgb diode
 $ENDCMP
 #
-$CMP SMLVN6RGB1U1
+$CMP SMLVN6RGB_CA
 D LED RGB 6 pins
 K led rgb diode
 $ENDCMP
