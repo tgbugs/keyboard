@@ -46,43 +46,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Teensy3.2 U0
-U 1 1 5894073C
-P 10000 2000
-F 0 "U0" H 10000 3500 60  0000 C CNN
-F 1 "Teensy3.2" H 10000 500 60  0000 C CNN
-F 2 "Teensy:Teensy30_31_32_LC" H 10000 1200 60  0001 C CNN
-F 3 "" H 10000 1200 60  0000 C CNN
-	1    10000 2000
-	1    0    0    -1  
-$EndComp
 NoConn ~ -3200 7450
-$Comp
-L CONN_01X08 P0
-U 1 1 5897F60A
-P 9900 5300
-F 0 "P0" H 9900 5750 50  0000 C CNN
-F 1 "CONN_01X08" V 10000 5300 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_PicoBlade_53261-0871_08x1.25mm_Angled" H 9900 5300 50  0001 C CNN
-F 3 "" H 9900 5300 50  0000 C CNN
-	1    9900 5300
-	1    0    0    -1  
-$EndComp
-Text GLabel 9700 5650 0    60   Input ~ 0
-BTN0
-Text GLabel 9700 5550 0    60   Input ~ 0
-BTN1
-Text GLabel 9700 5450 0    60   Input ~ 0
-BTN2
-Text GLabel 9700 5350 0    60   Input ~ 0
-VCC
-Text GLabel 9700 5050 0    60   Input ~ 0
-DATA
-Text GLabel 9700 5250 0    60   Input ~ 0
-TP_RST
-Text GLabel 9700 5150 0    60   Input ~ 0
-TP_CLK
 $Comp
 L SMLVN6RGB SMD_LED0
 U 1 1 58A0BD18
@@ -1516,19 +1480,6 @@ a3-17-1
 Text GLabel 3150 3350 3    60   Input ~ 0
 a3-17-2
 $Comp
-L GND #PWR01
-U 1 1 58A59EDB
-P 9450 4950
-F 0 "#PWR01" H 9450 4700 50  0001 C CNN
-F 1 "GND" H 9450 4800 50  0000 C CNN
-F 2 "" H 9450 4950 50  0000 C CNN
-F 3 "" H 9450 4950 50  0000 C CNN
-	1    9450 4950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9700 4950 9450 4950
-$Comp
 L GND #PWR02
 U 1 1 58A5AE89
 P 6500 2850
@@ -1539,17 +1490,17 @@ F 3 "" H 6500 2850 50  0000 C CNN
 	1    6500 2850
 	0    1    1    0   
 $EndComp
-Text GLabel 7750 5100 0    60   Input ~ 0
+Text GLabel 8000 4800 0    60   Input ~ 0
 a3-10-0
-Text GLabel 7750 5200 0    60   Input ~ 0
+Text GLabel 8000 4900 0    60   Input ~ 0
 a3-10-1
-Text GLabel 7750 5300 0    60   Input ~ 0
+Text GLabel 8000 5000 0    60   Input ~ 0
 a3-10-2
-Text GLabel 7750 5400 0    60   Input ~ 0
+Text GLabel 8000 5100 0    60   Input ~ 0
 a3-17-0
-Text GLabel 7750 5500 0    60   Input ~ 0
+Text GLabel 8000 5200 0    60   Input ~ 0
 a3-17-1
-Text GLabel 7750 5600 0    60   Input ~ 0
+Text GLabel 8000 5300 0    60   Input ~ 0
 a3-17-2
 $Comp
 L +3.3V #PWR03
@@ -1598,35 +1549,35 @@ $EndComp
 $Comp
 L CONN_01X08 P1
 U 1 1 58A3B45B
-P 7950 5450
-F 0 "P1" H 7950 5900 50  0000 C CNN
-F 1 "CONN_01X08" V 8050 5450 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm" H 7950 5450 50  0001 C CNN
-F 3 "" H 7950 5450 50  0000 C CNN
-	1    7950 5450
+P 8200 5150
+F 0 "P1" H 8200 5600 50  0000 C CNN
+F 1 "CONN_01X08" V 8300 5150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm" H 8200 5150 50  0001 C CNN
+F 3 "" H 8200 5150 50  0000 C CNN
+	1    8200 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X08 P2
 U 1 1 58A3CB40
-P 7950 6250
-F 0 "P2" H 7950 6700 50  0000 C CNN
-F 1 "CONN_01X08" V 8050 6250 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm" H 7950 6250 50  0001 C CNN
-F 3 "" H 7950 6250 50  0000 C CNN
-	1    7950 6250
+P 7000 6050
+F 0 "P2" H 7000 6500 50  0000 C CNN
+F 1 "CONN_01X08" V 7100 6050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm" H 7000 6050 50  0001 C CNN
+F 3 "" H 7000 6050 50  0000 C CNN
+	1    7000 6050
 	1    0    0    -1  
 $EndComp
-Text GLabel 7750 5700 0    60   Input ~ 0
+Text GLabel 8000 5400 0    60   Input ~ 0
 blue1
-Text GLabel 7750 5800 0    60   Input ~ 0
+Text GLabel 8000 5500 0    60   Input ~ 0
 red1
-Text GLabel 7750 5900 0    60   Input ~ 0
+Text GLabel 6800 5700 0    60   Input ~ 0
 green1
-Text GLabel 7750 6000 0    60   Input ~ 0
+Text GLabel 6800 5800 0    60   Input ~ 0
 blue2
-Text GLabel 7750 6100 0    60   Input ~ 0
+Text GLabel 6800 5900 0    60   Input ~ 0
 red2
-Text GLabel 7800 6200 0    60   Input ~ 0
+Text GLabel 6850 6000 0    60   Input ~ 0
 green2
 $EndSCHEMATC
