@@ -693,10 +693,10 @@
       (pins K0-1 K1-1 K2-1 K3-1 P2-1)
     )
     (net r1
-      (pins K6-1 K4-1 K7-1 K5-1 P2-2)
+      (pins K6-1 K4-1 K7-1 K5-1 P2-7)
     )
     (net r2
-      (pins K9-1 K8-1 K10-1 P2-3)
+      (pins K9-1 K8-1 K10-1 P2-6)
     )
     (net r3
       (pins K12-1 K13-1 K14-1 K15-1 P3-4)
@@ -728,7 +728,7 @@
         SMD_LED6-6)
     )
     (net green1
-      (pins U1-13 P2-4 SMD_LED7-4 SMD_LED8-4 SMD_LED9-4 SMD_LED11-4 SMD_LED12-4 SMD_LED13-4
+      (pins U1-13 P2-8 SMD_LED7-4 SMD_LED8-4 SMD_LED9-4 SMD_LED11-4 SMD_LED12-4 SMD_LED13-4
         SMD_LED10-4)
     )
     (net blue1
@@ -765,16 +765,16 @@
       (pins U1-12 SMD_LED6-1 SMD_LED13-1 SMD_LED20-1)
     )
     (net c0
-      (pins D0-1 D4-1 D8-1 D12-1 D16-1 D20-1 P2-5)
+      (pins D0-1 D4-1 D8-1 D12-1 D16-1 D20-1 P2-2)
     )
     (net c1
-      (pins D1-1 D5-1 D9-1 D13-1 D17-1 P2-6)
+      (pins D1-1 D5-1 D9-1 D13-1 D17-1 P2-3)
     )
     (net c2
-      (pins D2-1 D6-1 D10-1 D14-1 D18-1 D21-1 P2-7)
+      (pins D2-1 D6-1 D10-1 D14-1 D18-1 D21-1 P2-4)
     )
     (net c3
-      (pins D3-1 D7-1 D15-1 D22-1 P2-8)
+      (pins D3-1 D7-1 D15-1 D22-1 P2-5)
     )
     (net "a3-10-1"
       (pins SMD_LED10-2 JP4-1 P1-3)
