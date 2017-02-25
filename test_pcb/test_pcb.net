@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/tom/git/keyboard/test_pcb/test_pcb.sch)
-    (date "Sat 25 Feb 2017 02:19:42 AM PST")
+    (date "Sat 25 Feb 2017 01:33:31 PM PST")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -461,7 +461,7 @@
       (tstamp 58BA67F2))
     (comp (ref JP4)
       (value Jumper_NC_Small)
-      (footprint Pin_Headers:Pin_Header_Angled_1x02_Pitch1.27mm)
+      (footprint cherry_rgb:Pin_Header_Angled_1x02_Pitch1.27mm_flipped)
       (libsource (lib device) (part Jumper_NC_Small))
       (sheetpath (names /) (tstamps /))
       (tstamp 58BA68F6))
