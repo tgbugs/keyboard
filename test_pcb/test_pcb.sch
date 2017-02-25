@@ -281,12 +281,12 @@ $EndComp
 $Comp
 L STP16CP05 U1
 U 1 1 58A11F65
-P 6700 4000
-F 0 "U1" H 7100 5250 60  0000 C CNN
-F 1 "STP16CP05" H 7050 3950 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 6700 5550 60  0001 C CNN
-F 3 "" H 6700 5550 60  0001 C CNN
-	1    6700 4000
+P 7950 3700
+F 0 "U1" H 8350 4950 60  0000 C CNN
+F 1 "STP16CP05" H 8300 3650 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 7950 5250 60  0001 C CNN
+F 3 "" H 7950 5250 60  0001 C CNN
+	1    7950 3700
 	1    0    0    -1  
 $EndComp
 Text GLabel 800  550  0    60   Input ~ 0
@@ -321,37 +321,37 @@ Text GLabel 5400 2650 2    60   Input ~ 0
 red2
 Text GLabel 5400 2850 2    60   Input ~ 0
 green2
-Text GLabel 7650 3250 2    60   Input ~ 0
+Text GLabel 8900 2950 2    60   Input ~ 0
 blue0
-Text GLabel 8150 3750 2    60   Input ~ 0
+Text GLabel 9400 3450 2    60   Input ~ 0
 red0
-Text GLabel 7650 3850 2    60   Input ~ 0
+Text GLabel 8900 3550 2    60   Input ~ 0
 green0
-Text GLabel 7650 3350 2    60   Input ~ 0
+Text GLabel 8900 3050 2    60   Input ~ 0
 blue1
-Text GLabel 8150 3650 2    60   Input ~ 0
+Text GLabel 9400 3350 2    60   Input ~ 0
 red1
-Text GLabel 7650 3950 2    60   Input ~ 0
+Text GLabel 8900 3650 2    60   Input ~ 0
 green1
-Text GLabel 7650 3450 2    60   Input ~ 0
+Text GLabel 8900 3150 2    60   Input ~ 0
 blue2
-Text GLabel 8150 3550 2    60   Input ~ 0
+Text GLabel 9400 3250 2    60   Input ~ 0
 red2
-Text GLabel 6500 3950 0    60   Input ~ 0
+Text GLabel 7750 2950 0    60   Input ~ 0
 green2
-Text GLabel 6500 3250 0    60   Input ~ 0
+Text GLabel 7750 3050 0    60   Input ~ 0
 a0
-Text GLabel 6500 3350 0    60   Input ~ 0
+Text GLabel 7750 3150 0    60   Input ~ 0
 a1
-Text GLabel 6500 3450 0    60   Input ~ 0
+Text GLabel 7750 3250 0    60   Input ~ 0
 a2
-Text GLabel 6500 3550 0    60   Input ~ 0
+Text GLabel 7750 3350 0    60   Input ~ 0
 a3
-Text GLabel 6500 3650 0    60   Input ~ 0
+Text GLabel 7750 3450 0    60   Input ~ 0
 a4
-Text GLabel 6500 3750 0    60   Input ~ 0
+Text GLabel 7750 3550 0    60   Input ~ 0
 a5
-Text GLabel 6500 3850 0    60   Input ~ 0
+Text GLabel 7750 3650 0    60   Input ~ 0
 a6
 $Comp
 L KEYSW K0
@@ -848,204 +848,204 @@ a3-17-1
 Text GLabel 3150 3350 3    60   Input ~ 0
 a3-17-2
 $Comp
-L GND #PWR01
+L GND #PWR1
 U 1 1 58A5AE89
-P 6500 2850
-F 0 "#PWR01" H 6500 2600 50  0001 C CNN
-F 1 "GND" H 6500 2700 50  0000 C CNN
-F 2 "" H 6500 2850 50  0000 C CNN
-F 3 "" H 6500 2850 50  0000 C CNN
-	1    6500 2850
+P 7750 2550
+F 0 "#PWR1" H 7750 2300 50  0001 C CNN
+F 1 "GND" H 7750 2400 50  0000 C CNN
+F 2 "" H 7750 2550 50  0000 C CNN
+F 3 "" H 7750 2550 50  0000 C CNN
+	1    7750 2550
 	0    1    1    0   
 $EndComp
-Text GLabel 8000 4900 0    60   Input ~ 0
+Text GLabel 10600 2850 0    60   Input ~ 0
 a3-10-0
-Text GLabel 8000 4800 0    60   Input ~ 0
+Text GLabel 10600 2950 0    60   Input ~ 0
 a3-10-1
-Text GLabel 8000 4700 0    60   Input ~ 0
+Text GLabel 10600 2750 0    60   Input ~ 0
 a3-10-2
-Text GLabel 8000 5400 0    60   Input ~ 0
+Text GLabel 10600 3450 0    60   Input ~ 0
 a3-17-0
-Text GLabel 8000 5500 0    60   Input ~ 0
+Text GLabel 10600 3550 0    60   Input ~ 0
 a3-17-1
-Text GLabel 8000 5600 0    60   Input ~ 0
+Text GLabel 10600 3650 0    60   Input ~ 0
 a3-17-2
 $Comp
-L +3.3V #PWR02
+L +3.3V #PWR2
 U 1 1 58A3C033
-P 7650 2850
-F 0 "#PWR02" H 7650 2700 50  0001 C CNN
-F 1 "+3.3V" H 7650 2990 50  0000 C CNN
-F 2 "" H 7650 2850 50  0000 C CNN
-F 3 "" H 7650 2850 50  0000 C CNN
-	1    7650 2850
+P 8900 2550
+F 0 "#PWR2" H 8900 2400 50  0001 C CNN
+F 1 "+3.3V" H 8900 2690 50  0000 C CNN
+F 2 "" H 8900 2550 50  0000 C CNN
+F 3 "" H 8900 2550 50  0000 C CNN
+	1    8900 2550
 	0    1    1    0   
 $EndComp
 $Comp
 L R R0
 U 1 1 58A3D228
-P 7900 3750
-F 0 "R0" V 7980 3750 50  0000 C CNN
-F 1 "R" V 7900 3750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7900 3750 60  0001 C CNN
-F 3 "" H 7900 3750 60  0000 C CNN
-	1    7900 3750
+P 9150 3450
+F 0 "R0" V 9230 3450 50  0000 C CNN
+F 1 "R" V 9150 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 9150 3450 60  0001 C CNN
+F 3 "" H 9150 3450 60  0000 C CNN
+	1    9150 3450
 	0    1    -1   0   
 $EndComp
 $Comp
 L R R1
 U 1 1 58A3D3E0
-P 7900 3650
-F 0 "R1" V 7980 3650 50  0000 C CNN
-F 1 "R" V 7900 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7900 3650 60  0001 C CNN
-F 3 "" H 7900 3650 60  0000 C CNN
-	1    7900 3650
+P 9150 3350
+F 0 "R1" V 9230 3350 50  0000 C CNN
+F 1 "R" V 9150 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 9150 3350 60  0001 C CNN
+F 3 "" H 9150 3350 60  0000 C CNN
+	1    9150 3350
 	0    1    -1   0   
 $EndComp
 $Comp
 L R R2
 U 1 1 58A3D4D0
-P 7900 3550
-F 0 "R2" V 7980 3550 50  0000 C CNN
-F 1 "R" V 7900 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7900 3550 60  0001 C CNN
-F 3 "" H 7900 3550 60  0000 C CNN
-	1    7900 3550
+P 9150 3250
+F 0 "R2" V 9230 3250 50  0000 C CNN
+F 1 "R" V 9150 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 9150 3250 60  0001 C CNN
+F 3 "" H 9150 3250 60  0000 C CNN
+	1    9150 3250
 	0    1    -1   0   
 $EndComp
 $Comp
 L CONN_01X10 P1
 U 1 1 58A3B45B
-P 8200 5150
-F 0 "P1" H 8200 5600 50  0000 C CNN
-F 1 "CONN_01X10" V 8300 5150 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.54mm" H 8200 5150 50  0001 C CNN
-F 3 "" H 8200 5150 50  0000 C CNN
-	1    8200 5150
+P 10800 3200
+F 0 "P1" H 10800 3650 50  0000 C CNN
+F 1 "CONN_01X10" V 10900 3200 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.54mm" H 10800 3200 50  0001 C CNN
+F 3 "" H 10800 3200 50  0000 C CNN
+	1    10800 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X08 P2
 U 1 1 58A3CB40
-P 7000 6050
-F 0 "P2" H 7000 6500 50  0000 C CNN
-F 1 "CONN_01X08" V 7100 6050 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm" H 7000 6050 50  0001 C CNN
-F 3 "" H 7000 6050 50  0000 C CNN
-	1    7000 6050
+P 10750 1600
+F 0 "P2" H 10750 2050 50  0000 C CNN
+F 1 "CONN_01X08" V 10850 1600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm" H 10750 1600 50  0001 C CNN
+F 3 "" H 10750 1600 50  0000 C CNN
+	1    10750 1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 8000 5200 0    60   Input ~ 0
+Text GLabel 10600 3250 0    60   Input ~ 0
 blue1
-Text GLabel 8000 5300 0    60   Input ~ 0
+Text GLabel 10600 3350 0    60   Input ~ 0
 red1
-Text GLabel 6800 5700 0    60   Input ~ 0
+Text GLabel 10550 1550 0    60   Input ~ 0
 green1
-Text GLabel 6800 5800 0    60   Input ~ 0
+Text GLabel 10550 4250 0    60   Input ~ 0
 blue2
-Text GLabel 6800 5900 0    60   Input ~ 0
+Text GLabel 10550 4350 0    60   Input ~ 0
 red2
-Text GLabel 6800 6000 0    60   Input ~ 0
+Text GLabel 10550 4450 0    60   Input ~ 0
 green2
 $Comp
 L CONN_01X06 P3
 U 1 1 58B0E912
-P 5500 5400
-F 0 "P3" H 5500 5750 50  0000 C CNN
-F 1 "CONN_01X06" V 5600 5400 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm" H 5500 5400 50  0001 C CNN
-F 3 "" H 5500 5400 50  0000 C CNN
-	1    5500 5400
+P 10750 4500
+F 0 "P3" H 10750 4850 50  0000 C CNN
+F 1 "CONN_01X06" V 10850 4500 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm" H 10750 4500 50  0001 C CNN
+F 3 "" H 10750 4500 50  0000 C CNN
+	1    10750 4500
 	1    0    0    -1  
 $EndComp
-Text GLabel 6800 6100 0    60   Input ~ 0
+Text GLabel 10550 1650 0    60   Input ~ 0
 c0
-Text GLabel 6800 6200 0    60   Input ~ 0
+Text GLabel 10550 1750 0    60   Input ~ 0
 c1
-Text GLabel 6800 6300 0    60   Input ~ 0
+Text GLabel 10550 1850 0    60   Input ~ 0
 c2
-Text GLabel 6800 6400 0    60   Input ~ 0
+Text GLabel 10550 1950 0    60   Input ~ 0
 c3
-Text GLabel 5300 5150 0    60   Input ~ 0
+Text GLabel 10550 1250 0    60   Input ~ 0
 r0
-Text GLabel 5300 5250 0    60   Input ~ 0
+Text GLabel 10550 1350 0    60   Input ~ 0
 r1
-Text GLabel 5300 5350 0    60   Input ~ 0
+Text GLabel 10550 1450 0    60   Input ~ 0
 r2
-Text GLabel 5300 5450 0    60   Input ~ 0
+Text GLabel 10550 4550 0    60   Input ~ 0
 r3
-Text GLabel 5300 5550 0    60   Input ~ 0
+Text GLabel 10550 4650 0    60   Input ~ 0
 r4
-Text GLabel 5300 5650 0    60   Input ~ 0
+Text GLabel 10550 4750 0    60   Input ~ 0
 r5
-Text GLabel 4950 3650 0    60   Input ~ 0
+Text GLabel 8500 1000 0    60   Input ~ 0
 a3-17-0
-Text GLabel 4950 3550 0    60   Input ~ 0
+Text GLabel 8500 900  0    60   Input ~ 0
 a3-17-1
-Text GLabel 4950 3450 0    60   Input ~ 0
+Text GLabel 8500 800  0    60   Input ~ 0
 a3-17-2
-Text GLabel 4950 4750 0    60   Input ~ 0
+Text GLabel 8500 2100 0    60   Input ~ 0
 a3-10-0
-Text GLabel 4950 4650 0    60   Input ~ 0
+Text GLabel 8500 2000 0    60   Input ~ 0
 a3-10-1
-Text GLabel 4950 4550 0    60   Input ~ 0
+Text GLabel 8500 1900 0    60   Input ~ 0
 a3-10-2
-Text GLabel 5750 4100 2    60   Input ~ 0
+Text GLabel 9300 1450 2    60   Input ~ 0
 a3
 $Comp
 L Jumper_NC_Dual JP3
 U 1 1 58BA3066
-P 5650 4100
-F 0 "JP3" H 5700 4000 50  0000 L CNN
-F 1 "Jumper_NC_Dual" H 5650 4200 50  0000 C BNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch1.27mm" H 5650 4100 50  0001 C CNN
-F 3 "" H 5650 4100 50  0000 C CNN
-	1    5650 4100
+P 9200 1450
+F 0 "JP3" H 9250 1350 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 9200 1550 50  0000 C BNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch1.27mm" H 9200 1450 50  0001 C CNN
+F 3 "" H 9200 1450 50  0000 C CNN
+	1    9200 1450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR03
+L GND #PWR4
 U 1 1 58BA412A
-P 8000 5100
-F 0 "#PWR03" H 8000 4850 50  0001 C CNN
-F 1 "GND" H 8000 4950 50  0000 C CNN
-F 2 "" H 8000 5100 50  0000 C CNN
-F 3 "" H 8000 5100 50  0000 C CNN
-	1    8000 5100
+P 10600 3150
+F 0 "#PWR4" H 10600 2900 50  0001 C CNN
+F 1 "GND" H 10600 3000 50  0000 C CNN
+F 2 "" H 10600 3150 50  0000 C CNN
+F 3 "" H 10600 3150 50  0000 C CNN
+	1    10600 3150
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR04
+L +3.3V #PWR3
 U 1 1 58BA41CE
-P 8000 5000
-F 0 "#PWR04" H 8000 4850 50  0001 C CNN
-F 1 "+3.3V" H 8000 5140 50  0000 C CNN
-F 2 "" H 8000 5000 50  0000 C CNN
-F 3 "" H 8000 5000 50  0000 C CNN
-	1    8000 5000
+P 10600 3050
+F 0 "#PWR3" H 10600 2900 50  0001 C CNN
+F 1 "+3.3V" H 10600 3190 50  0000 C CNN
+F 2 "" H 10600 3050 50  0000 C CNN
+F 3 "" H 10600 3050 50  0000 C CNN
+	1    10600 3050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Jumper_NC_Dual JP2
 U 1 1 58BA4885
-P 5250 3550
-F 0 "JP2" H 5300 3450 50  0000 L CNN
-F 1 "Jumper_NC_Dual" H 5250 3650 50  0000 C BNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch1.27mm" H 5250 3550 50  0001 C CNN
-F 3 "" H 5250 3550 50  0000 C CNN
-	1    5250 3550
+P 8800 900
+F 0 "JP2" H 8850 800 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 8800 1000 50  0000 C BNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch1.27mm" H 8800 900 50  0001 C CNN
+F 3 "" H 8800 900 50  0000 C CNN
+	1    8800 900 
 	0    1    1    0   
 $EndComp
 $Comp
 L Jumper_NC_Dual JP5
 U 1 1 58BA4CBA
-P 5250 4650
-F 0 "JP5" H 5300 4550 50  0000 L CNN
-F 1 "Jumper_NC_Dual" H 5250 4750 50  0000 C BNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch1.27mm" H 5250 4650 50  0001 C CNN
-F 3 "" H 5250 4650 50  0000 C CNN
-	1    5250 4650
+P 8800 2000
+F 0 "JP5" H 8850 1900 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 8800 2100 50  0000 C BNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch1.27mm" H 8800 2000 50  0001 C CNN
+F 3 "" H 8800 2000 50  0000 C CNN
+	1    8800 2000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1681,49 +1681,313 @@ Wire Wire Line
 Wire Wire Line
 	3150 3200 3150 3350
 Wire Wire Line
-	5250 3300 4950 3300
+	8800 650  8500 650 
 Wire Wire Line
-	4950 3300 4950 3450
+	8500 650  8500 800 
 Wire Wire Line
-	5250 3800 4950 3800
+	8800 1150 8500 1150
 Wire Wire Line
-	4950 3800 4950 3650
+	8500 1150 8500 1000
 Wire Wire Line
-	5250 4400 4950 4400
+	8800 1750 8500 1750
 Wire Wire Line
-	4950 4400 4950 4550
+	8500 1750 8500 1900
 Wire Wire Line
-	5250 4900 4950 4900
+	8800 2250 8500 2250
 Wire Wire Line
-	4950 4900 4950 4750
+	8500 2250 8500 2100
 Wire Wire Line
-	5150 3550 5150 3850
+	8700 900  8700 1200
 Wire Wire Line
-	5150 3850 5650 3850
+	8700 1200 9200 1200
 Wire Wire Line
-	5650 4350 5150 4350
+	9200 1700 8700 1700
 Wire Wire Line
-	5150 4350 5150 4650
+	8700 1700 8700 2000
 $Comp
 L Jumper_NC_Small JP1
 U 1 1 58BA67F2
-P 5050 3550
-F 0 "JP1" H 5050 3630 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 5060 3490 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch1.27mm" H 5050 3550 50  0001 C CNN
-F 3 "" H 5050 3550 50  0000 C CNN
-	1    5050 3550
+P 8600 900
+F 0 "JP1" H 8600 980 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8610 840 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch1.27mm" H 8600 900 50  0001 C CNN
+F 3 "" H 8600 900 50  0000 C CNN
+	1    8600 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper_NC_Small JP4
 U 1 1 58BA68F6
-P 5050 4650
-F 0 "JP4" H 5050 4730 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 5060 4590 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch1.27mm" H 5050 4650 50  0001 C CNN
-F 3 "" H 5050 4650 50  0000 C CNN
-	1    5050 4650
+P 8600 2000
+F 0 "JP4" H 8600 2080 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8610 1940 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch1.27mm" H 8600 2000 50  0001 C CNN
+F 3 "" H 8600 2000 50  0000 C CNN
+	1    8600 2000
 	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P4
+U 1 1 58BAB639
+P 5250 5050
+F 0 "P4" H 5250 5150 50  0000 C CNN
+F 1 "CONN_01X01" V 5350 5050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch1.27mm" H 5250 5050 50  0001 C CNN
+F 3 "" H 5250 5050 50  0000 C CNN
+	1    5250 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR5
+U 1 1 58BABD17
+P 5450 5050
+F 0 "#PWR5" H 5450 4800 50  0001 C CNN
+F 1 "GND" H 5450 4900 50  0000 C CNN
+F 2 "" H 5450 5050 50  0000 C CNN
+F 3 "" H 5450 5050 50  0000 C CNN
+	1    5450 5050
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X01 P5
+U 1 1 58BACED9
+P 5900 5050
+F 0 "P5" H 5900 5150 50  0000 C CNN
+F 1 "CONN_01X01" V 6000 5050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch1.27mm" H 5900 5050 50  0001 C CNN
+F 3 "" H 5900 5050 50  0000 C CNN
+	1    5900 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR6
+U 1 1 58BACEDF
+P 6100 5050
+F 0 "#PWR6" H 6100 4800 50  0001 C CNN
+F 1 "GND" H 6100 4900 50  0000 C CNN
+F 2 "" H 6100 5050 50  0000 C CNN
+F 3 "" H 6100 5050 50  0000 C CNN
+	1    6100 5050
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X01 P7
+U 1 1 58BAD6B3
+P 7300 5050
+F 0 "P7" H 7300 5150 50  0000 C CNN
+F 1 "CONN_01X01" V 7400 5050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch1.27mm" H 7300 5050 50  0001 C CNN
+F 3 "" H 7300 5050 50  0000 C CNN
+	1    7300 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR8
+U 1 1 58BAD6B9
+P 7500 5050
+F 0 "#PWR8" H 7500 4800 50  0001 C CNN
+F 1 "GND" H 7500 4900 50  0000 C CNN
+F 2 "" H 7500 5050 50  0000 C CNN
+F 3 "" H 7500 5050 50  0000 C CNN
+	1    7500 5050
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X01 P6
+U 1 1 58BAEE2B
+P 6550 5050
+F 0 "P6" H 6550 5150 50  0000 C CNN
+F 1 "CONN_01X01" V 6650 5050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch1.27mm" H 6550 5050 50  0001 C CNN
+F 3 "" H 6550 5050 50  0000 C CNN
+	1    6550 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR7
+U 1 1 58BAEE31
+P 6750 5050
+F 0 "#PWR7" H 6750 4800 50  0001 C CNN
+F 1 "GND" H 6750 4900 50  0000 C CNN
+F 2 "" H 6750 5050 50  0000 C CNN
+F 3 "" H 6750 5050 50  0000 C CNN
+	1    6750 5050
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X01 P9
+U 1 1 58BAEE37
+P 8450 5050
+F 0 "P9" H 8450 5150 50  0000 C CNN
+F 1 "CONN_01X01" V 8550 5050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch1.27mm" H 8450 5050 50  0001 C CNN
+F 3 "" H 8450 5050 50  0000 C CNN
+	1    8450 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR10
+U 1 1 58BAEE3D
+P 8650 5050
+F 0 "#PWR10" H 8650 4800 50  0001 C CNN
+F 1 "GND" H 8650 4900 50  0000 C CNN
+F 2 "" H 8650 5050 50  0000 C CNN
+F 3 "" H 8650 5050 50  0000 C CNN
+	1    8650 5050
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X01 P8
+U 1 1 58BAEE43
+P 7900 5050
+F 0 "P8" H 7900 5150 50  0000 C CNN
+F 1 "CONN_01X01" V 8000 5050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch1.27mm" H 7900 5050 50  0001 C CNN
+F 3 "" H 7900 5050 50  0000 C CNN
+	1    7900 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR9
+U 1 1 58BAEE49
+P 8100 5050
+F 0 "#PWR9" H 8100 4800 50  0001 C CNN
+F 1 "GND" H 8100 4900 50  0000 C CNN
+F 2 "" H 8100 5050 50  0000 C CNN
+F 3 "" H 8100 5050 50  0000 C CNN
+	1    8100 5050
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X01 P10
+U 1 1 58BB11AC
+P 5250 5750
+F 0 "P10" H 5250 5850 50  0000 C CNN
+F 1 "CONN_01X01" V 5350 5750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch1.27mm" H 5250 5750 50  0001 C CNN
+F 3 "" H 5250 5750 50  0000 C CNN
+	1    5250 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR11
+U 1 1 58BB11B2
+P 5450 5750
+F 0 "#PWR11" H 5450 5500 50  0001 C CNN
+F 1 "GND" H 5450 5600 50  0000 C CNN
+F 2 "" H 5450 5750 50  0000 C CNN
+F 3 "" H 5450 5750 50  0000 C CNN
+	1    5450 5750
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X01 P11
+U 1 1 58BB11B8
+P 5900 5750
+F 0 "P11" H 5900 5850 50  0000 C CNN
+F 1 "CONN_01X01" V 6000 5750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch1.27mm" H 5900 5750 50  0001 C CNN
+F 3 "" H 5900 5750 50  0000 C CNN
+	1    5900 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR12
+U 1 1 58BB11BE
+P 6100 5750
+F 0 "#PWR12" H 6100 5500 50  0001 C CNN
+F 1 "GND" H 6100 5600 50  0000 C CNN
+F 2 "" H 6100 5750 50  0000 C CNN
+F 3 "" H 6100 5750 50  0000 C CNN
+	1    6100 5750
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X01 P13
+U 1 1 58BB11C4
+P 7300 5750
+F 0 "P13" H 7300 5850 50  0000 C CNN
+F 1 "CONN_01X01" V 7400 5750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch1.27mm" H 7300 5750 50  0001 C CNN
+F 3 "" H 7300 5750 50  0000 C CNN
+	1    7300 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR14
+U 1 1 58BB11CA
+P 7500 5750
+F 0 "#PWR14" H 7500 5500 50  0001 C CNN
+F 1 "GND" H 7500 5600 50  0000 C CNN
+F 2 "" H 7500 5750 50  0000 C CNN
+F 3 "" H 7500 5750 50  0000 C CNN
+	1    7500 5750
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X01 P12
+U 1 1 58BB11D0
+P 6550 5750
+F 0 "P12" H 6550 5850 50  0000 C CNN
+F 1 "CONN_01X01" V 6650 5750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch1.27mm" H 6550 5750 50  0001 C CNN
+F 3 "" H 6550 5750 50  0000 C CNN
+	1    6550 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR13
+U 1 1 58BB11D6
+P 6750 5750
+F 0 "#PWR13" H 6750 5500 50  0001 C CNN
+F 1 "GND" H 6750 5600 50  0000 C CNN
+F 2 "" H 6750 5750 50  0000 C CNN
+F 3 "" H 6750 5750 50  0000 C CNN
+	1    6750 5750
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X01 P15
+U 1 1 58BB11DC
+P 8450 5750
+F 0 "P15" H 8450 5850 50  0000 C CNN
+F 1 "CONN_01X01" V 8550 5750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch1.27mm" H 8450 5750 50  0001 C CNN
+F 3 "" H 8450 5750 50  0000 C CNN
+	1    8450 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR16
+U 1 1 58BB11E2
+P 8650 5750
+F 0 "#PWR16" H 8650 5500 50  0001 C CNN
+F 1 "GND" H 8650 5600 50  0000 C CNN
+F 2 "" H 8650 5750 50  0000 C CNN
+F 3 "" H 8650 5750 50  0000 C CNN
+	1    8650 5750
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X01 P14
+U 1 1 58BB11E8
+P 7900 5750
+F 0 "P14" H 7900 5850 50  0000 C CNN
+F 1 "CONN_01X01" V 8000 5750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch1.27mm" H 7900 5750 50  0001 C CNN
+F 3 "" H 7900 5750 50  0000 C CNN
+	1    7900 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR15
+U 1 1 58BB11EE
+P 8100 5750
+F 0 "#PWR15" H 8100 5500 50  0001 C CNN
+F 1 "GND" H 8100 5600 50  0000 C CNN
+F 2 "" H 8100 5750 50  0000 C CNN
+F 3 "" H 8100 5750 50  0000 C CNN
+	1    8100 5750
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC

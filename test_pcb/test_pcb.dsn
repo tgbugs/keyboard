@@ -36,11 +36,11 @@
   )
   (placement
     (component cherry_rgb:CHERRY_PLATE_NH_100H
+      (place K9 89000 -89000 front 0 (PN KEYSW))
       (place K6 108000 -70000 front 0 (PN KEYSW))
       (place K4 70000 -70000 front 0 (PN KEYSW))
       (place K5 89000 -70000 front 0 (PN KEYSW))
       (place K8 70000 -89000 front 0 (PN KEYSW))
-      (place K9 89000 -89000 front 0 (PN KEYSW))
       (place K10 108000 -89000 front 0 (PN KEYSW))
       (place K12 70000 -108000 front 0 (PN KEYSW))
       (place K13 89000 -108000 front 0 (PN KEYSW))
@@ -139,6 +139,20 @@
     )
     (component Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.54mm
       (place P1 134750 -77500 front 0 (PN CONN_01X10))
+    )
+    (component Socket_Strips:Socket_Strip_Straight_1x01_Pitch1.27mm
+      (place P4 119000 -114250 front 90 (PN CONN_01X01))
+      (place P5 108000 -116250 front 90 (PN CONN_01X01))
+      (place P6 98500 -114250 front 90 (PN CONN_01X01))
+      (place P7 84500 -116250 front 90 (PN CONN_01X01))
+      (place P8 65500 -116250 front 90 (PN CONN_01X01))
+      (place P9 96000 -79250 front 90 (PN CONN_01X01))
+      (place P10 93500 -88250 front 90 (PN CONN_01X01))
+      (place P11 113500 -70500 front 90 (PN CONN_01X01))
+      (place P12 96000 -60250 front 90 (PN CONN_01X01))
+      (place P13 114000 -77000 front 90 (PN CONN_01X01))
+      (place P14 85500 -100750 front 90 (PN CONN_01X01))
+      (place P15 131750 -83750 front 180 (PN CONN_01X01))
     )
   )
   (library
@@ -535,6 +549,23 @@
       (pin Oval[A]Pad_1700x1700_um 9 0 -20320)
       (pin Oval[A]Pad_1700x1700_um 10 0 -22860)
     )
+    (image Socket_Strips:Socket_Strip_Straight_1x01_Pitch1.27mm
+      (outline (path signal 100  -1270 635  -1270 -635))
+      (outline (path signal 100  -1270 -635  1270 -635))
+      (outline (path signal 100  1270 -635  1270 635))
+      (outline (path signal 100  1270 635  -1270 635))
+      (outline (path signal 120  -1330 -635  -1330 -695))
+      (outline (path signal 120  -1330 -695  1330 -695))
+      (outline (path signal 120  1330 -695  1330 -635))
+      (outline (path signal 120  1330 -635  -1330 -635))
+      (outline (path signal 120  -1330 0  -1330 695))
+      (outline (path signal 120  -1330 695  0 695))
+      (outline (path signal 50  -1550 900  -1550 -900))
+      (outline (path signal 50  -1550 -900  1550 -900))
+      (outline (path signal 50  1550 -900  1550 900))
+      (outline (path signal 50  1550 900  -1550 900))
+      (pin Rect[A]Pad_1000x1000_um 1 0 0)
+    )
     (padstack Round[A]Pad_2286_um
       (shape (circle F.Cu 2286))
       (shape (circle B.Cu 2286))
@@ -604,7 +635,8 @@
       (pins D3-2 K3-2)
     )
     (net GND
-      (pins U1-1 P1-5)
+      (pins U1-1 P1-5 P4-1 P5-1 P6-1 P7-1 P8-1 P9-1 P10-1 P11-1 P12-1 P13-1 P14-1
+        P15-1)
     )
     (net "Net-(D5-Pad2)"
       (pins D5-2 K5-2)
@@ -622,7 +654,7 @@
       (pins D8-2 K8-2)
     )
     (net "Net-(D9-Pad2)"
-      (pins D9-2 K9-2)
+      (pins K9-2 D9-2)
     )
     (net "Net-(D10-Pad2)"
       (pins D10-2 K10-2)
@@ -658,13 +690,13 @@
       (pins K22-2 D22-2)
     )
     (net r0
-      (pins K0-1 K1-1 K2-1 K3-1 P3-1)
+      (pins K0-1 K1-1 K2-1 K3-1 P2-1)
     )
     (net r1
-      (pins K6-1 K4-1 K7-1 K5-1 P3-2)
+      (pins K6-1 K4-1 K7-1 K5-1 P2-2)
     )
     (net r2
-      (pins K8-1 K9-1 K10-1 P3-3)
+      (pins K9-1 K8-1 K10-1 P2-3)
     )
     (net r3
       (pins K12-1 K13-1 K14-1 K15-1 P3-4)
@@ -684,8 +716,8 @@
         SMD_LED10-5 P1-7)
     )
     (net red2
-      (pins R2-1 P2-3 SMD_LED14-5 SMD_LED15-5 SMD_LED16-5 SMD_LED18-5 SMD_LED19-5
-        SMD_LED20-5 SMD_LED17-5)
+      (pins R2-1 SMD_LED14-5 SMD_LED15-5 SMD_LED16-5 SMD_LED18-5 SMD_LED19-5 SMD_LED20-5
+        SMD_LED17-5 P3-2)
     )
     (net green0
       (pins U1-14 SMD_LED0-4 SMD_LED1-4 SMD_LED2-4 SMD_LED3-4 SMD_LED4-4 SMD_LED5-4
@@ -696,7 +728,7 @@
         SMD_LED6-6)
     )
     (net green1
-      (pins U1-13 P2-1 SMD_LED7-4 SMD_LED8-4 SMD_LED9-4 SMD_LED11-4 SMD_LED12-4 SMD_LED13-4
+      (pins U1-13 P2-4 SMD_LED7-4 SMD_LED8-4 SMD_LED9-4 SMD_LED11-4 SMD_LED12-4 SMD_LED13-4
         SMD_LED10-4)
     )
     (net blue1
@@ -704,33 +736,33 @@
         SMD_LED10-6 P1-6)
     )
     (net green2
-      (pins U1-12 P2-4 SMD_LED14-4 SMD_LED15-4 SMD_LED16-4 SMD_LED18-4 SMD_LED19-4
-        SMD_LED20-4 SMD_LED17-4)
+      (pins U1-5 SMD_LED14-4 SMD_LED15-4 SMD_LED16-4 SMD_LED18-4 SMD_LED19-4 SMD_LED20-4
+        SMD_LED17-4 P3-3)
     )
     (net blue2
-      (pins U1-18 P2-2 SMD_LED14-6 SMD_LED15-6 SMD_LED16-6 SMD_LED18-6 SMD_LED19-6
-        SMD_LED20-6 SMD_LED17-6)
+      (pins U1-18 SMD_LED14-6 SMD_LED15-6 SMD_LED16-6 SMD_LED18-6 SMD_LED19-6 SMD_LED20-6
+        SMD_LED17-6 P3-1)
     )
     (net a0
-      (pins U1-5 SMD_LED0-1 SMD_LED7-1 SMD_LED14-1)
+      (pins U1-6 SMD_LED0-1 SMD_LED7-1 SMD_LED14-1)
     )
     (net a1
-      (pins U1-6 SMD_LED1-1 SMD_LED8-1 SMD_LED15-1)
+      (pins U1-7 SMD_LED1-1 SMD_LED8-1 SMD_LED15-1)
     )
     (net a2
-      (pins U1-7 SMD_LED2-1 SMD_LED9-1 SMD_LED16-1)
+      (pins U1-8 SMD_LED2-1 SMD_LED9-1 SMD_LED16-1)
     )
     (net a3
-      (pins U1-8 SMD_LED3-1 JP3-2)
+      (pins U1-9 SMD_LED3-1 JP3-2)
     )
     (net a4
-      (pins U1-9 SMD_LED4-1 SMD_LED11-1 SMD_LED18-1)
+      (pins U1-10 SMD_LED4-1 SMD_LED11-1 SMD_LED18-1)
     )
     (net a5
-      (pins U1-10 SMD_LED5-1 SMD_LED12-1 SMD_LED19-1)
+      (pins U1-11 SMD_LED5-1 SMD_LED12-1 SMD_LED19-1)
     )
     (net a6
-      (pins U1-11 SMD_LED6-1 SMD_LED13-1 SMD_LED20-1)
+      (pins U1-12 SMD_LED6-1 SMD_LED13-1 SMD_LED20-1)
     )
     (net c0
       (pins D0-1 D4-1 D8-1 D12-1 D16-1 D20-1 P2-5)
@@ -745,13 +777,13 @@
       (pins D3-1 D7-1 D15-1 D22-1 P2-8)
     )
     (net "a3-10-1"
-      (pins SMD_LED10-2 JP4-1 P1-2)
+      (pins SMD_LED10-2 JP4-1 P1-3)
     )
     (net "a3-10-2"
       (pins SMD_LED10-3 JP5-1 P1-1)
     )
     (net "a3-10-0"
-      (pins SMD_LED10-1 JP5-3 P1-3)
+      (pins SMD_LED10-1 JP5-3 P1-2)
     )
     (net "a3-17-1"
       (pins SMD_LED17-2 JP1-1 P1-9)
