@@ -1,5 +1,5 @@
-(module CHERRY_PLATE_91.6H (layer F.Cu) (tedit 589D3D82)
-  (fp_text reference CHERRY? (at 0 3.175) (layer F.SilkS)
+(module CHERRY_PLATE_91.6H (layer F.Cu) (tedit 58B272D0)
+  (fp_text reference CHERRY? (at -5 2.5) (layer F.SilkS)
     (effects (font (size 1.27 1.524) (thickness 0.2032)))
   )
   (fp_text value MX (at 0 5.08) (layer F.SilkS) hide
