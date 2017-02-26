@@ -10,3 +10,5 @@ Need dev-embedded/teensyduino and dev-embedded/teensy_loader_cli, working ebuild
 # freerout is basically a necisity use this repo
 https://github.com/nick-less/freerouting
 Some setup needed to get maven to play nice. Just read the errors.
+# gerbv
+Before shipping out the gerber files do a once over in something other than kicad. `emerge gerbv`
