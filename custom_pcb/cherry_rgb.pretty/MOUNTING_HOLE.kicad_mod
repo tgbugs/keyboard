@@ -1,0 +1,9 @@
+(module MOUNTING_HOLE (layer F.Cu) (tedit 58B2E2CF)
+  (fp_text reference K4 (at 0 -2.75) (layer F.SilkS)
+    (effects (font (size 1.27 1.524) (thickness 0.2032)))
+  )
+  (fp_text value KEYSW (at 0 3.25) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.524) (thickness 0.2032)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu))
+)
