@@ -1,5 +1,5 @@
-(module LVC9_HOLES_for_tptest (layer F.Cu) (tedit 58B34CD3)
-  (fp_text reference LVC9_HOLES (at 0 -5.25) (layer F.SilkS)
+(module LVC9_HOLES_for_tptest (layer F.Cu) (tedit 58B35133)
+  (fp_text reference LVC9_HOLES (at 0 -5.25) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value "LVC9 Attach" (at 0 5.5) (layer F.Fab)
