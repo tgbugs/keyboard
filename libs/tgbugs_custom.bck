@@ -11,7 +11,7 @@ K led rgb diode
 $ENDCMP
 #
 $CMP SMLVN6RGB_CA
-D LED RGB 6 pins
+D LED RGB 4 pins
 K led rgb diode
 $ENDCMP
 #
