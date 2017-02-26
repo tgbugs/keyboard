@@ -1001,11 +1001,11 @@
     (pad HOLE np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu))
   )
 
-  (module cherry_rgb:MOUNTING_HOLE (layer F.Cu) (tedit 58B2E363) (tstamp 58B2E4F7)
+  (module cherry_rgb:MOUNTING_HOLE (layer F.Cu) (tedit 58B2E90F) (tstamp 58B2E4F7)
     (at 122.25 36.75)
     (path /58B3144D)
-    (fp_text reference SH0 (at 4 -0.25) (layer F.SilkS)
-      (effects (font (size 1.27 1.524) (thickness 0.2032)))
+    (fp_text reference SH0 (at 2 -2) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value CONN_01X01 (at 0 3.25) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
@@ -1013,11 +1013,11 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu))
   )
 
-  (module cherry_rgb:MOUNTING_HOLE (layer F.Cu) (tedit 58B2E370) (tstamp 58B2E4FB)
+  (module cherry_rgb:MOUNTING_HOLE (layer F.Cu) (tedit 58B2E90F) (tstamp 58B2E4FB)
     (at 153.75 36.75)
     (path /58B3164A)
-    (fp_text reference SH1 (at -3.75 -1.25) (layer F.SilkS)
-      (effects (font (size 1.27 1.524) (thickness 0.2032)))
+    (fp_text reference SH1 (at -2 -2) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value CONN_01X01 (at 0 3.25) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
@@ -1025,11 +1025,11 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu))
   )
 
-  (module cherry_rgb:MOUNTING_HOLE (layer F.Cu) (tedit 58B2E383) (tstamp 58B2E4FF)
+  (module cherry_rgb:MOUNTING_HOLE (layer F.Cu) (tedit 58B2E90F) (tstamp 58B2E4FF)
     (at 108.5 106.75)
     (path /58B316D9)
-    (fp_text reference SH2 (at 3.75 1.75) (layer F.SilkS)
-      (effects (font (size 1.27 1.524) (thickness 0.2032)))
+    (fp_text reference SH2 (at 2 2) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value CONN_01X01 (at 0 3.25) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
@@ -1037,11 +1037,11 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu))
   )
 
-  (module cherry_rgb:MOUNTING_HOLE (layer F.Cu) (tedit 58B2E379) (tstamp 58B2E503)
+  (module cherry_rgb:MOUNTING_HOLE (layer F.Cu) (tedit 58B2E90F) (tstamp 58B2E503)
     (at 169.5 106.75)
     (path /58B317E5)
-    (fp_text reference SH3 (at -3.75 1.5) (layer F.SilkS)
-      (effects (font (size 1.27 1.524) (thickness 0.2032)))
+    (fp_text reference SH3 (at -2 2) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value CONN_01X01 (at 0 3.25) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
