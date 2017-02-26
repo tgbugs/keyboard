@@ -14,7 +14,7 @@
 ; 1206 SMD RGB LED ; these could mount on front, useful for ones near the trackpoint
 ; 846-1206-1-ND SMLVN6RGB1U1  LED RGB 624/527/470NM 1411 ; thin enough at 3.5x2.8x.6 20mA draw, which is fine because that maxes 10*20 = 200mA per matrix row on at any given time
 ; DIODE GEN PURP 100V 300MA SOD123
-; STP16CP05 ; consider for led driver (16 output shift register 100mA...) STP16CP05PTR TTR is smaller?
+; STP16CP05 ; consider for led driver (16 output shift register 100mA...) STP16CP05PTR TTR is smaller? (using TTR STP16CP05TTR)
 (mounting-plate WHEEE)
 (pcb OHGODNO) ; MAX DIODES
 (connector 'molex 0532610871) ; needs the male half
