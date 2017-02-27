@@ -39,9 +39,9 @@
       (place LVC9_HOLES 161750 -119500 front 0 (PN "LVC9 Attach"))
     )
     (component "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm"
-      (place LC2 106000 -161750 back 270 (PN STP16CP05))
-      (place LC0 95800 -168800 back 0 (PN STP16CP05))
-      (place LC1 106250 -173000 back 270 (PN STP16CP05))
+      (place LC2 110500 -172000 back 180 (PN STP16CP05))
+      (place LC0 99750 -168750 back 0 (PN STP16CP05))
+      (place LC1 120750 -172000 back 180 (PN STP16CP05))
     )
     (component "Diodes_SMD:D_SOD-123"
       (place D7 169500 -50000 back 90 (PN D))
@@ -136,13 +136,13 @@
       (place J1 89000 -31750 back 180 (PN USB_mini_micro_B))
     )
     (component "MK20DX256VLH7:QFP50P1200X1200X160-64N"
-      (place U1 119000 -168500 back 270 (PN MK20DX256VLH7))
+      (place U1 121500 -156500 back 180 (PN MK20DX256VLH7))
     )
     (component "MKL02Z32VFG4:QFN50P300X300X65-17N"
-      (place U2 128250 -158000 back 180 (PN MKL02Z32VFG4))
+      (place U2 123000 -144500 back 180 (PN MKL02Z32VFG4))
     )
     (component "LP38691SD-ADJ:DFN300X300X80-7N"
-      (place U3 121250 -156250 back 0 (PN "LP38691SD-ADJ"))
+      (place U3 118000 -144500 back 0 (PN "LP38691SD-ADJ"))
     )
     (component "Connectors_Molex:Molex_PicoBlade_53261-0871_08x1.25mm_Angled"
       (place P1 161500 -157000 back 180 (PN CONN_01X08))
@@ -366,7 +366,7 @@
     )
     (component Resistors_SMD:R_0402
       (place RE0 83625 -162125 back 0 (PN R))
-      (place RE1 109000 -167400 back 180 (PN R))
+      (place RE1 126750 -175250 back 90 (PN R))
       (place RE2 109200 -156000 back 180 (PN R))
     )
   )
