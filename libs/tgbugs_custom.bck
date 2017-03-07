@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DSS5320T
+D 20V, 2A, Low Voltage Transistor, SOT-23
+K Low Voltage Transistor
+F https://www.diodes.com/assets/Datasheets/DSS5320T.pdf
+$ENDCMP
+#
 $CMP LED_RGB
 D LED RGB 6 pins
 K led rgb diode
@@ -8,11 +14,13 @@ $ENDCMP
 $CMP SMLVN6RGB
 D LED RGB 6 pins
 K led rgb diode
+F http://www.rohm.com/web/global/datasheet/SMLVN6RGB1U
 $ENDCMP
 #
 $CMP SMLVN6RGB_CA
 D LED RGB 4 pins
 K led rgb diode
+F http://www.rohm.com/web/global/datasheet/SMLVN6RGB1U
 $ENDCMP
 #
 #End Doc Library
