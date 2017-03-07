@@ -921,9 +921,9 @@ Text GLabel 9850 2825 0    60   Input ~ 0
 c3
 Text GLabel 9850 2525 0    60   Input ~ 0
 r0
-Text GLabel 9850 3025 0    60   Input ~ 0
-r1
 Text GLabel 9850 2925 0    60   Input ~ 0
+r1
+Text GLabel 9850 3025 0    60   Input ~ 0
 r2
 Text GLabel 9850 4225 0    60   Input ~ 0
 r3

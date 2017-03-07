@@ -959,12 +959,8 @@ Text GLabel 9850 3700 0    60   Input ~ 0
 CLK
 Text GLabel 9850 3600 0    60   Input ~ 0
 LE
-Text GLabel 9850 3400 0    60   Input ~ 0
-SDO
 Text GLabel 9850 3500 0    60   Input ~ 0
 OE
-Text GLabel 7600 3000 2    60   Input ~ 0
-SDO
 Text GLabel 7600 3100 2    60   Input ~ 0
 OE
 Text GLabel 6450 3100 0    60   Input ~ 0
@@ -2141,5 +2137,16 @@ F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 9025 5450 50  0001 C C
 F 3 "" H 9025 5450 50  0000 C CNN
 	1    9025 5450
 	0    1    -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58C10269
+P 7600 3000
+F 0 "#PWR?" H 7600 2750 50  0001 C CNN
+F 1 "GND" H 7600 2850 50  0000 C CNN
+F 2 "" H 7600 3000 50  0000 C CNN
+F 3 "" H 7600 3000 50  0000 C CNN
+	1    7600 3000
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
