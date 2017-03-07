@@ -23,4 +23,14 @@ K led rgb diode
 F http://www.rohm.com/web/global/datasheet/SMLVN6RGB1U
 $ENDCMP
 #
+$CMP STP16CP05
+D constant current LED driver
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/f2/92/00/f9/dd/4a/43/22/CD00126634.pdf/files/CD00126634.pdf/jcr:content/translations/en.CD00126634.pdf
+$ENDCMP
+#
+$CMP Si3993CDV
+D MOSFET 2P-CH 30V 2.9A SOT-23-6
+F http://www.vishay.com/docs/67331/si3993cd.pdf
+$ENDCMP
+#
 #End Doc Library
