@@ -35,27 +35,89 @@
     )
   )
   (placement
+    (component cherry_rgb:CHERRY_PLATE_NH_100H
+      (place K27 185500 -92000 front 0 (PN KEYSW))
+      (place K14 119000 -73000 front 0 (PN KEYSW))
+      (place K85 290000 -168000 front 0 (PN KEYSW))
+      (place K10 43000 -73000 front 0 (PN KEYSW))
+      (place K11 62000 -73000 front 0 (PN KEYSW))
+      (place K12 81000 -73000 front 0 (PN KEYSW))
+      (place K13 100000 -73000 front 0 (PN KEYSW))
+      (place K15 138000 -73000 front 0 (PN KEYSW))
+      (place K16 157000 -73000 front 0 (PN KEYSW))
+      (place K17 176000 -73000 front 0 (PN KEYSW))
+      (place K18 195000 -73000 front 0 (PN KEYSW))
+      (place K19 214000 -73000 front 0 (PN KEYSW))
+      (place K21 71500 -92000 front 0 (PN KEYSW))
+      (place K22 90500 -92000 front 0 (PN KEYSW))
+      (place K23 109500 -92000 front 0 (PN KEYSW))
+      (place K24 128500 -92000 front 0 (PN KEYSW))
+      (place K25 147500 -92000 front 0 (PN KEYSW))
+      (place K26 166500 -92000 front 0 (PN KEYSW))
+      (place K28 204500 -92000 front 0 (PN KEYSW))
+      (place K29 223500 -92000 front 0 (PN KEYSW))
+      (place K31 76250 -111000 front 0 (PN KEYSW))
+      (place K32 95250 -111000 front 0 (PN KEYSW))
+      (place K33 114250 -111000 front 0 (PN KEYSW))
+      (place K34 133250 -111000 front 0 (PN KEYSW))
+      (place K35 152250 -111000 front 0 (PN KEYSW))
+      (place K36 171250 -111000 front 0 (PN KEYSW))
+      (place K37 190250 -111000 front 0 (PN KEYSW))
+      (place K38 209250 -111000 front 0 (PN KEYSW))
+      (place K39 228250 -111000 front 0 (PN KEYSW))
+      (place K41 85750 -130000 front 0 (PN KEYSW))
+      (place K42 104750 -130000 front 0 (PN KEYSW))
+      (place K43 123750 -130000 front 0 (PN KEYSW))
+      (place K44 142750 -130000 front 0 (PN KEYSW))
+      (place K45 161750 -130000 front 0 (PN KEYSW))
+      (place K46 180750 -130000 front 0 (PN KEYSW))
+      (place K47 199750 -130000 front 0 (PN KEYSW))
+      (place K48 218750 -130000 front 0 (PN KEYSW))
+      (place K49 237750 -130000 front 0 (PN KEYSW))
+      (place K50 43000 -149000 front 0 (PN KEYSW))
+      (place K52 85750 -149000 front 0 (PN KEYSW))
+      (place K53 104750 -149000 front 0 (PN KEYSW))
+      (place K57 271000 -149000 front 0 (PN KEYSW))
+      (place K58 290000 -149000 front 0 (PN KEYSW))
+      (place K59 309000 -149000 front 0 (PN KEYSW))
+      (place K65 290000 -35000 front 0 (PN KEYSW))
+      (place K66 309000 -35000 front 0 (PN KEYSW))
+      (place K69 290000 -54000 front 0 (PN KEYSW))
+      (place K70 309000 -54000 front 0 (PN KEYSW))
+      (place K71 233000 -73000 front 0 (PN KEYSW))
+      (place K72 252000 -73000 front 0 (PN KEYSW))
+      (place K73 271000 -73000 front 0 (PN KEYSW))
+      (place K75 242500 -92000 front 0 (PN KEYSW))
+      (place K76 261500 -92000 front 0 (PN KEYSW))
+      (place K77 280500 -92000 front 0 (PN KEYSW))
+      (place K79 247250 -111000 front 0 (PN KEYSW))
+      (place K80 266250 -111000 front 0 (PN KEYSW))
+      (place K82 256750 -130000 front 0 (PN KEYSW))
+      (place K84 271000 -168000 front 0 (PN KEYSW))
+      (place K86 309000 -168000 front 0 (PN KEYSW))
+      (place MOUSE1 161750 -168000 front 0 (PN KEYSW))
+    )
     (component cherry_rgb:LVC9_HOLES
       (place LVC9_HOLES 161750 -119500 front 0 (PN "LVC9 Attach"))
     )
     (component "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm"
-      (place LC2 110500 -172000 back 180 (PN STP16CP05))
-      (place LC0 99750 -168750 back 0 (PN STP16CP05))
-      (place LC1 120750 -172000 back 180 (PN STP16CP05))
+      (place LC2 154250 -38000 back 270 (PN STP16CP05))
+      (place LC0 165000 -35250 back 180 (PN STP16CP05))
+      (place LC1 142250 -45000 back 90 (PN STP16CP05))
     )
     (component "Diodes_SMD:D_SOD-123"
-      (place D7 169500 -50000 back 90 (PN D))
+      (place D7 161750 -55600 back 270 (PN D))
       (place D58 283500 -144000 back 90 (PN D))
       (place D57 264500 -144000 back 90 (PN D))
       (place D0 36500 -50000 back 270 (PN D))
-      (place D1 55500 -50000 back 90 (PN D))
-      (place D2 74500 -49750 back 90 (PN D))
-      (place D3 93250 -53500 back 180 (PN D))
-      (place D4 112500 -50000 back 90 (PN D))
-      (place D5 131500 -50000 back 90 (PN D))
-      (place D6 150500 -50000 back 90 (PN D))
-      (place D8 188500 -50000 back 90 (PN D))
-      (place D9 207500 -50000 back 90 (PN D))
+      (place D1 54250 -52850 back 270 (PN D))
+      (place D2 71750 -52600 back 270 (PN D))
+      (place D3 89000 -52350 back 270 (PN D))
+      (place D4 109000 -55650 back 270 (PN D))
+      (place D5 128650 -48500 back 0 (PN D))
+      (place D6 144250 -56150 back 270 (PN D))
+      (place D8 176000 -53400 back 270 (PN D))
+      (place D9 193750 -54500 back 270 (PN D))
       (place D10 36500 -68000 back 90 (PN D))
       (place D11 55500 -68000 back 90 (PN D))
       (place D12 74500 -68000 back 90 (PN D))
@@ -104,15 +166,12 @@
       (place D55 214500 -144000 back 90 (PN D))
       (place D56 240500 -144000 back 90 (PN D))
       (place D59 302500 -144000 back 90 (PN D))
-      (place D60 190000 -36000 back 180 (PN D))
-      (place D61 209000 -36000 back 180 (PN D))
-      (place D62 228000 -35500 back 180 (PN D))
-      (place D63 247000 -35750 back 180 (PN D))
+      (place D63 245500 -49350 back 90 (PN D))
       (place D64 266000 -51500 back 180 (PN D))
       (place D65 285000 -35000 back 180 (PN D))
       (place D66 304250 -35250 back 180 (PN D))
-      (place D67 226500 -50000 back 90 (PN D))
-      (place D68 245500 -50000 back 90 (PN D))
+      (place D67 210750 -53450 back 270 (PN D))
+      (place D68 228250 -49350 back 90 (PN D))
       (place D69 283500 -49000 back 90 (PN D))
       (place D70 302500 -49000 back 90 (PN D))
       (place D71 226500 -68000 back 90 (PN D))
@@ -136,13 +195,13 @@
       (place J1 89000 -31750 back 180 (PN USB_mini_micro_B))
     )
     (component "MK20DX256VLH7:QFP50P1200X1200X160-64N"
-      (place U1 121500 -156500 back 180 (PN MK20DX256VLH7))
+      (place U1 136250 -33250 back 180 (PN MK20DX256VLH7))
     )
     (component "MKL02Z32VFG4:QFN50P300X300X65-17N"
-      (place U2 123000 -144500 back 180 (PN MKL02Z32VFG4))
+      (place U2 121250 -30750 back 180 (PN MKL02Z32VFG4))
     )
     (component "LP38691SD-ADJ:DFN300X300X80-7N"
-      (place U3 118000 -144500 back 0 (PN "LP38691SD-ADJ"))
+      (place U3 116647 -38250 back 0 (PN "LP38691SD-ADJ"))
     )
     (component "Connectors_Molex:Molex_PicoBlade_53261-0871_08x1.25mm_Angled"
       (place P1 161500 -157000 back 180 (PN CONN_01X08))
@@ -174,203 +233,167 @@
     (component cherry_rgb:CHERRY_PLATE_NH_5000H
       (place K54 161750 -149000 front 0 (PN KEYSW))
     )
-    (component cherry_rgb:CHERRY_PLATE_NH_100H
-      (place K14 119000 -73000 front 0 (PN KEYSW))
-      (place K2 81000 -54000 front 0 (PN KEYSW))
-      (place K60 195000 -35000 front 0 (PN KEYSW))
-      (place K1 62000 -54000 front 0 (PN KEYSW))
-      (place K85 290000 -168000 front 0 (PN KEYSW))
-      (place K3 100000 -54000 front 0 (PN KEYSW))
-      (place K4 119000 -54000 front 0 (PN KEYSW))
-      (place K5 138000 -54000 front 0 (PN KEYSW))
-      (place K6 157000 -54000 front 0 (PN KEYSW))
-      (place K7 176000 -54000 front 0 (PN KEYSW))
-      (place K8 195000 -54000 front 0 (PN KEYSW))
-      (place K9 214000 -54000 front 0 (PN KEYSW))
-      (place K10 43000 -73000 front 0 (PN KEYSW))
-      (place K11 62000 -73000 front 0 (PN KEYSW))
-      (place K12 81000 -73000 front 0 (PN KEYSW))
-      (place K13 100000 -73000 front 0 (PN KEYSW))
-      (place K15 138000 -73000 front 0 (PN KEYSW))
-      (place K16 157000 -73000 front 0 (PN KEYSW))
-      (place K17 176000 -73000 front 0 (PN KEYSW))
-      (place K18 195000 -73000 front 0 (PN KEYSW))
-      (place K19 214000 -73000 front 0 (PN KEYSW))
-      (place K21 71500 -92000 front 0 (PN KEYSW))
-      (place K22 90500 -92000 front 0 (PN KEYSW))
-      (place K23 109500 -92000 front 0 (PN KEYSW))
-      (place K24 128500 -92000 front 0 (PN KEYSW))
-      (place K25 147500 -92000 front 0 (PN KEYSW))
-      (place K26 166500 -92000 front 0 (PN KEYSW))
-      (place K27 185500 -92000 front 0 (PN KEYSW))
-      (place K28 204500 -92000 front 0 (PN KEYSW))
-      (place K29 223500 -92000 front 0 (PN KEYSW))
-      (place K31 76250 -111000 front 0 (PN KEYSW))
-      (place K32 95250 -111000 front 0 (PN KEYSW))
-      (place K33 114250 -111000 front 0 (PN KEYSW))
-      (place K34 133250 -111000 front 0 (PN KEYSW))
-      (place K35 152250 -111000 front 0 (PN KEYSW))
-      (place K36 171250 -111000 front 0 (PN KEYSW))
-      (place K37 190250 -111000 front 0 (PN KEYSW))
-      (place K38 209250 -111000 front 0 (PN KEYSW))
-      (place K39 228250 -111000 front 0 (PN KEYSW))
-      (place K41 85750 -130000 front 0 (PN KEYSW))
-      (place K42 104750 -130000 front 0 (PN KEYSW))
-      (place K43 123750 -130000 front 0 (PN KEYSW))
-      (place K44 142750 -130000 front 0 (PN KEYSW))
-      (place K45 161750 -130000 front 0 (PN KEYSW))
-      (place K46 180750 -130000 front 0 (PN KEYSW))
-      (place K47 199750 -130000 front 0 (PN KEYSW))
-      (place K48 218750 -130000 front 0 (PN KEYSW))
-      (place K49 237750 -130000 front 0 (PN KEYSW))
-      (place K50 43000 -149000 front 0 (PN KEYSW))
-      (place K52 85750 -149000 front 0 (PN KEYSW))
-      (place K53 104750 -149000 front 0 (PN KEYSW))
-      (place K57 271000 -149000 front 0 (PN KEYSW))
-      (place K58 290000 -149000 front 0 (PN KEYSW))
-      (place K59 309000 -149000 front 0 (PN KEYSW))
-      (place K61 214000 -35000 front 0 (PN KEYSW))
-      (place K62 233000 -35000 front 0 (PN KEYSW))
-      (place K63 252000 -35000 front 0 (PN KEYSW))
-      (place K65 290000 -35000 front 0 (PN KEYSW))
-      (place K66 309000 -35000 front 0 (PN KEYSW))
-      (place K67 233000 -54000 front 0 (PN KEYSW))
-      (place K68 252000 -54000 front 0 (PN KEYSW))
-      (place K69 290000 -54000 front 0 (PN KEYSW))
-      (place K70 309000 -54000 front 0 (PN KEYSW))
-      (place K71 233000 -73000 front 0 (PN KEYSW))
-      (place K72 252000 -73000 front 0 (PN KEYSW))
-      (place K73 271000 -73000 front 0 (PN KEYSW))
-      (place K75 242500 -92000 front 0 (PN KEYSW))
-      (place K76 261500 -92000 front 0 (PN KEYSW))
-      (place K77 280500 -92000 front 0 (PN KEYSW))
-      (place K79 247250 -111000 front 0 (PN KEYSW))
-      (place K80 266250 -111000 front 0 (PN KEYSW))
-      (place K82 256750 -130000 front 0 (PN KEYSW))
-      (place K84 271000 -168000 front 0 (PN KEYSW))
-      (place K86 309000 -168000 front 0 (PN KEYSW))
-      (place MOUSE1 161750 -168000 front 0 (PN KEYSW))
-    )
     (component cherry_rgb:SMLVN6RGB_CA
-      (place SLD7 195000 -39000 front 0 (PN SMLVN6RGB_CA))
-      (place SLD8 214000 -39500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD9 233000 -39500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD10 252000 -39500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD11 275500 -44500 front 90 (PN SMLVN6RGB_CA))
-      (place SLD12 290000 -39500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD13 309000 -39500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD15 47500 -44500 front 270 (PN SMLVN6RGB_CA))
-      (place SLD16 62000 -58500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD17 81000 -58500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD18 100000 -58500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD19 119000 -58500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD20 138000 -58500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD21 157000 -58500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD22 176000 -58500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD23 195000 -58500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD24 214000 -58500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD25 233000 -58500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD26 252000 -58500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD27 290000 -58500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD28 309000 -58500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD30 43000 -77500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD31 62000 -77500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD32 81000 -77500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD33 100000 -77500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD34 119000 -77500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD35 138000 -77500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD36 157000 -77500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD37 176000 -77500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD38 195000 -77500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD39 214000 -77500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD40 233000 -77500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD41 252000 -77500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD42 271000 -77500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD43 299500 -77500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD45 47750 -96500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD46 71500 -96500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD47 90500 -96500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD48 109500 -96500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD49 128500 -96500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD50 147500 -96500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD51 166500 -96500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD52 185500 -96500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD53 204500 -96500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD54 223500 -96500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD55 242500 -96500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD56 261500 -96500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD57 280500 -96500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD58 304250 -96500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD60 50125 -115500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD61 76250 -115500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD62 95250 -115500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD63 114250 -115500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD64 133250 -115500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD65 152250 -115500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD66 171250 -115500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD67 190250 -115500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD68 209250 -115500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD69 228250 -115500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD70 247250 -115500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD71 266250 -115500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD72 297125 -115500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD75 54875 -134500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD76 85750 -134500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD77 104750 -134500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD78 123750 -134500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD79 142750 -134500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD80 161750 -153000 front 0 (PN SMLVN6RGB_CA))
-      (place SLD81 161750 -134500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD82 180750 -134500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD83 199750 -134500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD84 218750 -134500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD85 237750 -134500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD86 256750 -134500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD87 292375 -134500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD88 290000 -153500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD89 309000 -153500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD90 43000 -153500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD91 64375 -153500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD92 85750 -153500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD93 104750 -153500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD94 133250 -149000 front 0 (PN SMLVN6RGB_CA))
-      (place SLD95 135500 -172500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD96 162000 -172500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD97 188000 -172500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD98 190250 -149000 front 0 (PN SMLVN6RGB_CA))
-      (place SLD99 221250 -153500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD100 247250 -153500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD101 271000 -153500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD102 271000 -172500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD103 290000 -172500 front 0 (PN SMLVN6RGB_CA))
-      (place SLD104 309000 -172500 front 0 (PN SMLVN6RGB_CA))
+      (place SLD7 165708 -59250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD8 183125 -59250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD9 200542 -59250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD10 217958 -59250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD11 235375 -59250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD12 290000 -40250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD15 48250 -44500 front 270 (PN SMLVN6RGB_CA))
+      (place SLD16 61208.3 -59250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD17 78625 -59250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD18 96041.7 -59250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD19 113458 -59250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD20 130875 -59250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD21 148292 -59250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD22 176000 -78250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD23 195000 -78250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD24 214000 -78250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD25 233000 -78250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD26 252792 -59250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD27 309000 -59250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD28 309000 -40250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD30 43000 -78250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD31 62000 -78250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD32 81000 -78250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD33 100000 -78250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD34 119000 -78250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD35 138000 -78250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD36 157000 -78250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD37 185500 -97250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD38 204500 -97250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD39 223500 -97250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD40 242500 -97250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD41 252000 -78250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD42 276250 -44500 front 90 (PN SMLVN6RGB_CA))
+      (place SLD43 304250 -97250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD45 47750 -97250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD46 71500 -97250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD47 90500 -97250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD48 109500 -97250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD49 128500 -97250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD50 147500 -97250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD51 166500 -97250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD52 190250 -116250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD53 209250 -116250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD54 247250 -116250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD55 261500 -97250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD56 290000 -59250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD57 280500 -97250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD58 309000 -173250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD60 50125 -116250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD61 76250 -116250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD62 95250 -116250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD63 114250 -116250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD64 133250 -116250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD65 152250 -116250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD66 171250 -116250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD67 218750 -135250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD68 228250 -116250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD69 256750 -135250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD70 292375 -135250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD71 271000 -78250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD72 266250 -116250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD75 54875 -135250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD76 85750 -135250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD77 104750 -135250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD78 123750 -135250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD79 142750 -135250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD80 199750 -135250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD81 161750 -135250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD82 237750 -135250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD83 271000 -154250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD84 290000 -154250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD85 308975 -154250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD86 299500 -78250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD87 297125 -116250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD88 271000 -173250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD89 290000 -173250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD90 43000 -154250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD91 64375 -154250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD92 85750 -154250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD93 104750 -154250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD94 161750 -153000 front 0 (PN SMLVN6RGB_CA))
+      (place SLD95 161750 -173250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD96 221125 -154250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD97 185525 -173250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD98 95250 -135250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD99 114225 -135200 front 0 (PN SMLVN6RGB_CA))
+      (place SLD100 133775 -149750 front 0 (PN SMLVN6RGB_CA))
+      (place SLD101 138000 -173250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD102 180750 -135250 front 0 (PN SMLVN6RGB_CA))
+      (place SLD103 187500 -150000 front 0 (PN SMLVN6RGB_CA))
+      (place SLD104 247250 -154250 front 0 (PN SMLVN6RGB_CA))
     )
     (component cherry_rgb:CHERRY_PLATE_200V
       (place K0 43000 -44500 front 0 (PN KEYSW))
       (place K64 271000 -44500 front 0 (PN KEYSW))
     )
     (component Resistors_SMD:R_0402_NoSilk
-      (place R0 92875 -175125 back 90 (PN R))
-      (place R1 94625 -175125 back 90 (PN R))
-      (place R2 96375 -175125 back 90 (PN R))
-      (place R3 98125 -175625 back 90 (PN R))
-      (place R4 88875 -160125 back 270 (PN R))
-      (place R5 90625 -160125 back 270 (PN R))
-      (place R6 92375 -160125 back 270 (PN R))
-      (place R7 94125 -160125 back 270 (PN R))
-      (place R8 84375 -170875 back 180 (PN R))
-      (place R9 84125 -169125 back 0 (PN R))
-      (place R10 83875 -167375 back 0 (PN R))
-      (place R11 83625 -165625 back 0 (PN R))
-      (place R12 83625 -163875 back 0 (PN R))
+      (place R0 161250 -42750 back 270 (PN R))
+      (place R1 162500 -42750 back 270 (PN R))
+      (place R2 163750 -42750 back 270 (PN R))
+      (place R3 165000 -42750 back 270 (PN R))
+      (place R4 166250 -42750 back 270 (PN R))
+      (place R5 167500 -42750 back 270 (PN R))
+      (place R6 168750 -42750 back 270 (PN R))
+      (place R7 170000 -42750 back 270 (PN R))
+      (place R8 172750 -36500 back 180 (PN R))
+      (place R9 172750 -34750 back 180 (PN R))
+      (place R10 172800 -33000 back 180 (PN R))
+      (place R11 172750 -31500 back 180 (PN R))
+      (place R12 172750 -30250 back 180 (PN R))
     )
     (component Resistors_SMD:R_0402
-      (place RE0 83625 -162125 back 0 (PN R))
+      (place RE0 171250 -39750 back 0 (PN R))
       (place RE1 126750 -175250 back 90 (PN R))
       (place RE2 109200 -156000 back 180 (PN R))
     )
+    (component cherry_rgb:CHERRY_PLATE_91.6H
+      (place K1 61208.3 -54000 front 0 (PN KEYSW))
+      (place K2 78625 -54000 front 0 (PN KEYSW))
+      (place K3 96041.7 -54000 front 0 (PN KEYSW))
+      (place K4 113458 -54000 front 0 (PN KEYSW))
+      (place K5 130875 -54000 front 0 (PN KEYSW))
+      (place K6 148292 -54000 front 0 (PN KEYSW))
+      (place K7 165708 -54000 front 0 (PN KEYSW))
+      (place K8 183125 -54000 front 0 (PN KEYSW))
+      (place K9 200542 -54000 front 0 (PN KEYSW))
+      (place K63 252792 -54000 front 0 (PN KEYSW))
+      (place K67 217958 -54000 front 0 (PN KEYSW))
+      (place K68 235375 -54000 front 0 (PN KEYSW))
+    )
+    (component "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering"
+      (place Q0 221000 -63500 back 180 (PN Si3993CDV))
+      (place Q1 182250 -63500 back 270 (PN Si3993CDV))
+      (place Q2 201250 -63500 back 90 (PN Si3993CDV))
+      (place Q3 104750 -63500 back 270 (PN Si3993CDV))
+    )
   )
   (library
+    (image cherry_rgb:CHERRY_PLATE_NH_100H
+      (outline (path signal 152.4  -6350 6350  6350 6350))
+      (outline (path signal 152.4  6350 6350  6350 -6350))
+      (outline (path signal 152.4  6350 -6350  -6350 -6350))
+      (outline (path signal 152.4  -6350 -6350  -6350 6350))
+      (outline (path signal 152.4  -9398 9398  9398 9398))
+      (outline (path signal 152.4  9398 9398  9398 -9398))
+      (outline (path signal 152.4  9398 -9398  -9398 -9398))
+      (outline (path signal 152.4  -9398 -9398  -9398 9398))
+      (outline (path signal 381  -6350 6350  -4572 6350))
+      (outline (path signal 381  4572 6350  6350 6350))
+      (outline (path signal 381  6350 6350  6350 4572))
+      (outline (path signal 381  6350 -4572  6350 -6350))
+      (outline (path signal 381  6350 -6350  4572 -6350))
+      (outline (path signal 381  -4572 -6350  -6350 -6350))
+      (outline (path signal 381  -6350 -6350  -6350 -4572))
+      (outline (path signal 381  -6350 4572  -6350 6350))
+      (pin Round[A]Pad_2286_um 1 2540 5080)
+      (pin Round[A]Pad_2286_um 2 -3810 2540)
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
+    )
     (image cherry_rgb:LVC9_HOLES
       (outline (path signal 150  -14500 7500  12000 7500))
       (outline (path signal 150  13500 6000  13500 -21000))
@@ -1053,28 +1076,6 @@
       (keepout "" (circle F.Cu 3987.8))
       (keepout "" (circle B.Cu 3987.8))
     )
-    (image cherry_rgb:CHERRY_PLATE_NH_100H
-      (outline (path signal 152.4  -6350 6350  6350 6350))
-      (outline (path signal 152.4  6350 6350  6350 -6350))
-      (outline (path signal 152.4  6350 -6350  -6350 -6350))
-      (outline (path signal 152.4  -6350 -6350  -6350 6350))
-      (outline (path signal 152.4  -9398 9398  9398 9398))
-      (outline (path signal 152.4  9398 9398  9398 -9398))
-      (outline (path signal 152.4  9398 -9398  -9398 -9398))
-      (outline (path signal 152.4  -9398 -9398  -9398 9398))
-      (outline (path signal 381  -6350 6350  -4572 6350))
-      (outline (path signal 381  4572 6350  6350 6350))
-      (outline (path signal 381  6350 6350  6350 4572))
-      (outline (path signal 381  6350 -4572  6350 -6350))
-      (outline (path signal 381  6350 -6350  4572 -6350))
-      (outline (path signal 381  -4572 -6350  -6350 -6350))
-      (outline (path signal 381  -6350 -6350  -6350 -4572))
-      (outline (path signal 381  -6350 4572  -6350 6350))
-      (pin Round[A]Pad_2286_um 1 2540 5080)
-      (pin Round[A]Pad_2286_um 2 -3810 2540)
-      (keepout "" (circle F.Cu 3987.8))
-      (keepout "" (circle B.Cu 3987.8))
-    )
     (image cherry_rgb:SMLVN6RGB_CA
       (outline (path signal 150  -2600 1800  -2100 1800))
       (outline (path signal 150  -2600 1800  -2600 1300))
@@ -1130,6 +1131,47 @@
       (outline (path signal 50  800 -450  -800 -450))
       (pin Rect[T]Pad_400x600_um 1 -450 0)
       (pin Rect[T]Pad_400x600_um 2 450 0)
+    )
+    (image cherry_rgb:CHERRY_PLATE_91.6H
+      (outline (path signal 152.4  -6350 6350  6350 6350))
+      (outline (path signal 152.4  6350 6350  6350 -6350))
+      (outline (path signal 152.4  6350 -6350  -6350 -6350))
+      (outline (path signal 152.4  -6350 -6350  -6350 6350))
+      (outline (path signal 152.4  -8606.3 9398  8606.3 9398))
+      (outline (path signal 152.4  8606.3 9398  8606.3 -9398))
+      (outline (path signal 152.4  8606.3 -9398  -8606.3 -9398))
+      (outline (path signal 152.4  -8606.3 -9398  -8606.3 9398))
+      (outline (path signal 381  -6350 6350  -4572 6350))
+      (outline (path signal 381  4572 6350  6350 6350))
+      (outline (path signal 381  6350 6350  6350 4572))
+      (outline (path signal 381  6350 -4572  6350 -6350))
+      (outline (path signal 381  6350 -6350  4572 -6350))
+      (outline (path signal 381  -4572 -6350  -6350 -6350))
+      (outline (path signal 381  -6350 -6350  -6350 -4572))
+      (outline (path signal 381  -6350 4572  -6350 6350))
+      (pin Round[A]Pad_2286_um 1 2540 5080)
+      (pin Round[A]Pad_2286_um 2 -3810 2540)
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
+    )
+    (image "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering"
+      (outline (path signal 120  -900 -1610  900 -1610))
+      (outline (path signal 120  900 1610  -2050 1610))
+      (outline (path signal 50  -2400 -1800  -2400 1800))
+      (outline (path signal 50  2400 -1800  -2400 -1800))
+      (outline (path signal 50  2400 1800  2400 -1800))
+      (outline (path signal 50  -2400 1800  2400 1800))
+      (outline (path signal 100  -900 900  -250 1550))
+      (outline (path signal 100  900 1550  -250 1550))
+      (outline (path signal 100  -900 900  -900 -1550))
+      (outline (path signal 100  900 -1550  -900 -1550))
+      (outline (path signal 100  900 1550  900 -1550))
+      (pin Rect[T]Pad_1560x650_um 1 -1350 950)
+      (pin Rect[T]Pad_1560x650_um 2 -1350 0)
+      (pin Rect[T]Pad_1560x650_um 3 -1350 -950)
+      (pin Rect[T]Pad_1560x650_um 4 1350 -950)
+      (pin Rect[T]Pad_1560x650_um 6 1350 950)
+      (pin Rect[T]Pad_1560x650_um 5 1350 0)
     )
     (padstack Round[A]Pad_2286_um
       (shape (circle F.Cu 2286))
@@ -1195,6 +1237,10 @@
     )
     (padstack Rect[T]Pad_1498.6x2006.6_um
       (shape (rect F.Cu -749.3 -1003.3 749.3 1003.3))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1560x650_um
+      (shape (rect F.Cu -780 -325 780 325))
       (attach off)
     )
     (padstack "Via[0-1]_600:400_um"
@@ -1291,7 +1337,7 @@
       (pins D26-2 K26-2)
     )
     (net "Net-(D27-Pad2)"
-      (pins D27-2 K27-2)
+      (pins K27-2 D27-2)
     )
     (net "Net-(D28-Pad2)"
       (pins D28-2 K28-2)
@@ -1389,15 +1435,6 @@
     (net "Net-(D59-Pad2)"
       (pins D59-2 K59-2)
     )
-    (net "Net-(D60-Pad2)"
-      (pins D60-2 K60-2)
-    )
-    (net "Net-(D61-Pad2)"
-      (pins D61-2 K61-2)
-    )
-    (net "Net-(D62-Pad2)"
-      (pins D62-2 K62-2)
-    )
     (net "Net-(D63-Pad2)"
       (pins D63-2 K63-2)
     )
@@ -1483,8 +1520,8 @@
       (pins P1-8 MOUSE2-1)
     )
     (net GND
-      (pins LC2-1 LC0-1 J1-5 J1-6 J1-6@1 U1-4 U1-31 U1-47 P1-1 LC1-1 MOUSE1-2 MOUSE0-2
-        MOUSE2-2 RE0-2 RE1-2 RE2-2)
+      (pins LC2-1 LC2-22 LC0-1 J1-5 J1-6 J1-6@1 U1-4 U1-31 U1-47 P1-1 LC1-1 MOUSE1-2
+        MOUSE0-2 MOUSE2-2 RE0-2 RE1-2 RE2-2)
     )
     (net TP_DATA
       (pins U1-53 P1-4)
@@ -1496,19 +1533,19 @@
       (pins U1-54 P1-5)
     )
     (net LED_DATA1
-      (pins U1-29 LC1-2)
+      (pins LC0-22 LC1-2)
     )
     (net LED_DATA2
-      (pins LC2-2 U1-27)
+      (pins LC2-2 LC1-22)
     )
     (net LED_CLK
-      (pins LC2-3 LC0-3 U1-28 LC1-3)
+      (pins LC2-3 LC0-3 U1-50 LC1-3)
     )
     (net LED_DATA0
-      (pins LC0-2 U1-26)
+      (pins LC0-2 U1-52)
     )
     (net c0
-      (pins D0-1 D10-1 D20-1 D30-1 D40-1 D50-1 U1-58)
+      (pins D0-1 D10-1 D20-1 D30-1 D40-1 D50-1 U1-43)
     )
     (net c1
       (pins D1-1 D11-1 D21-1 D31-1 D41-1 D51-1 U1-57)
@@ -1529,55 +1566,52 @@
       (pins D6-1 D16-1 D26-1 D36-1 D46-1 U1-44)
     )
     (net c7
-      (pins D7-1 D17-1 D27-1 D37-1 D47-1 D55-1 U1-43)
+      (pins D7-1 D17-1 D27-1 D37-1 D47-1 U1-35)
     )
     (net c8
-      (pins D8-1 D18-1 D28-1 D38-1 D48-1 D56-1 D60-1 U1-42)
+      (pins D8-1 D18-1 D28-1 D38-1 D48-1 D55-1 U1-42)
     )
     (net c9
-      (pins D57-1 D9-1 D19-1 D29-1 D39-1 D49-1 D61-1 U1-41)
+      (pins D9-1 D19-1 D29-1 D39-1 D49-1 D56-1 U1-41)
     )
     (net c10
-      (pins D58-1 D62-1 D67-1 D71-1 D75-1 D79-1 D82-1 U1-40)
+      (pins D57-1 D67-1 D71-1 D75-1 D79-1 D82-1 U1-40)
     )
     (net c11
-      (pins D59-1 D63-1 D68-1 D72-1 D76-1 D80-1 U1-39)
+      (pins D58-1 D59-1 D63-1 D68-1 D72-1 D80-1 U1-39)
     )
     (net c12
-      (pins D64-1 D73-1 D77-1 D81-1 D83-1 D84-1 U1-38)
+      (pins D64-1 D73-1 D76-1 D81-1 D83-1 D84-1 U1-38)
     )
     (net c13
-      (pins D65-1 D69-1 D74-1 D78-1 D85-1 U1-37)
+      (pins D65-1 D69-1 D77-1 D78-1 D85-1 U1-37)
     )
     (net c14
       (pins D66-1 D70-1 D86-1 U1-36)
     )
     (net r0
-      (pins U1-59 K2-1 K1-1 K3-1 K4-1 K5-1 K6-1 K7-1 K8-1 K9-1 K67-1 K68-1 K69-1 K70-1
-        K0-1 K64-1)
+      (pins U1-59 K65-1 K66-1 K0-1 K64-1 K1-1 K2-1 K3-1 K4-1 K5-1 K6-1 K7-1 K8-1 K9-1
+        K63-1 K67-1)
     )
     (net r1
-      (pins U1-60 K74-1 K14-1 K10-1 K11-1 K12-1 K13-1 K15-1 K16-1 K17-1 K18-1 K19-1
-        K71-1 K72-1 K73-1)
+      (pins U1-60 K14-1 K10-1 K11-1 K12-1 K13-1 K15-1 K16-1 K17-1 K18-1 K19-1 K69-1
+        K70-1 K71-1 K73-1 K68-1)
     )
     (net r2
-      (pins U1-61 K20-1 K78-1 K21-1 K22-1 K23-1 K24-1 K25-1 K26-1 K27-1 K28-1 K29-1
+      (pins K27-1 U1-61 K20-1 K21-1 K22-1 K23-1 K24-1 K25-1 K26-1 K28-1 K29-1 K72-1
         K75-1 K76-1 K77-1)
     )
     (net r3
-      (pins U1-62 K30-1 K81-1 K31-1 K32-1 K33-1 K34-1 K35-1 K36-1 K37-1 K38-1 K39-1
-        K79-1 K80-1)
+      (pins U1-62 K30-1 K81-1 K74-1 K31-1 K32-1 K33-1 K34-1 K35-1 K36-1 K37-1 K38-1
+        K39-1 K79-1 K80-1)
     )
     (net r4
       (pins U1-63 K40-1 K83-1 K41-1 K42-1 K43-1 K44-1 K45-1 K46-1 K47-1 K48-1 K49-1
-        K82-1)
+        K59-1 K82-1)
     )
     (net r5
-      (pins U1-64 K51-1 K54-1 K55-1 K56-1 K85-1 K50-1 K52-1 K53-1 K57-1 K58-1 K59-1
-        K84-1 K86-1)
-    )
-    (net r6
-      (pins U1-35 K60-1 K61-1 K62-1 K63-1 K65-1 K66-1)
+      (pins U1-64 K51-1 K54-1 K55-1 K56-1 K85-1 K50-1 K52-1 K53-1 K57-1 K58-1 K84-1
+        K86-1)
     )
     (net red0
       (pins SLD15-5 SLD30-5 SLD45-5 SLD60-5 SLD75-5 SLD90-5 SLD97-5 R0-1)
@@ -1601,8 +1635,8 @@
       (pins SLD21-5 SLD36-5 SLD51-5 SLD66-5 SLD81-5 SLD96-5 SLD103-5 R6-1)
     )
     (net anode0
-      (pins LC2-20 SLD7-1 SLD8-1 SLD9-1 SLD10-1 SLD11-1 SLD12-1 SLD15-1 SLD16-1 SLD17-1
-        SLD18-1 SLD19-1 SLD20-1 SLD21-1)
+      (pins SLD7-1 SLD8-1 SLD9-1 SLD10-1 SLD11-1 SLD12-1 SLD15-1 SLD16-1 SLD17-1 SLD18-1
+        SLD19-1 SLD20-1 SLD21-1 Q0-6)
     )
     (net green0
       (pins LC2-5 SLD15-4 SLD30-4 SLD45-4 SLD60-4 SLD75-4 SLD90-4 SLD97-4)
@@ -1611,28 +1645,28 @@
       (pins LC1-5 SLD15-6 SLD30-6 SLD45-6 SLD60-6 SLD75-6 SLD90-6 SLD97-6)
     )
     (net anode1
-      (pins LC2-19 SLD22-1 SLD23-1 SLD24-1 SLD25-1 SLD26-1 SLD27-1 SLD30-1 SLD31-1
-        SLD32-1 SLD33-1 SLD34-1 SLD35-1 SLD36-1)
+      (pins SLD22-1 SLD23-1 SLD24-1 SLD25-1 SLD26-1 SLD27-1 SLD30-1 SLD31-1 SLD32-1
+        SLD33-1 SLD34-1 SLD35-1 SLD36-1 Q0-4)
     )
     (net anode2
-      (pins LC2-18 SLD37-1 SLD38-1 SLD39-1 SLD40-1 SLD41-1 SLD42-1 SLD45-1 SLD46-1
-        SLD47-1 SLD48-1 SLD49-1 SLD50-1 SLD51-1)
+      (pins SLD37-1 SLD38-1 SLD39-1 SLD40-1 SLD41-1 SLD42-1 SLD45-1 SLD46-1 SLD47-1
+        SLD48-1 SLD49-1 SLD50-1 SLD51-1 Q1-6)
     )
     (net anode3
-      (pins LC1-20 SLD52-1 SLD53-1 SLD54-1 SLD55-1 SLD56-1 SLD57-1 SLD60-1 SLD61-1
-        SLD62-1 SLD63-1 SLD64-1 SLD65-1 SLD66-1)
+      (pins SLD52-1 SLD53-1 SLD54-1 SLD55-1 SLD56-1 SLD57-1 SLD60-1 SLD61-1 SLD62-1
+        SLD63-1 SLD64-1 SLD65-1 SLD66-1 Q1-4)
     )
     (net anode4
-      (pins LC1-19 SLD67-1 SLD68-1 SLD69-1 SLD70-1 SLD71-1 SLD72-1 SLD75-1 SLD76-1
-        SLD77-1 SLD78-1 SLD79-1 SLD80-1 SLD81-1)
+      (pins SLD67-1 SLD68-1 SLD69-1 SLD70-1 SLD71-1 SLD72-1 SLD75-1 SLD76-1 SLD77-1
+        SLD78-1 SLD79-1 SLD80-1 SLD81-1 Q2-6)
     )
     (net anode5
-      (pins LC1-18 SLD82-1 SLD83-1 SLD84-1 SLD85-1 SLD86-1 SLD87-1 SLD90-1 SLD91-1
-        SLD92-1 SLD93-1 SLD94-1 SLD95-1 SLD96-1)
+      (pins SLD82-1 SLD83-1 SLD84-1 SLD85-1 SLD86-1 SLD87-1 SLD90-1 SLD91-1 SLD92-1
+        SLD93-1 SLD94-1 SLD95-1 SLD96-1 Q2-4)
     )
     (net anode6
-      (pins LC0-18 SLD28-1 SLD43-1 SLD58-1 SLD88-1 SLD89-1 SLD97-1 SLD98-1 SLD99-1
-        SLD100-1 SLD101-1 SLD102-1 SLD103-1 SLD104-1)
+      (pins SLD28-1 SLD43-1 SLD58-1 SLD88-1 SLD89-1 SLD97-1 SLD98-1 SLD99-1 SLD100-1
+        SLD101-1 SLD102-1 SLD103-1 SLD104-1 Q3-6)
     )
     (net green1
       (pins LC2-6 SLD16-4 SLD31-4 SLD46-4 SLD61-4 SLD76-4 SLD91-4 SLD98-4)
@@ -1669,9 +1703,6 @@
     )
     (net blue6
       (pins LC1-11 SLD21-6 SLD36-6 SLD51-6 SLD66-6 SLD81-6 SLD96-6 SLD103-6)
-    )
-    (net V3.3
-      (pins LC2-24 LC0-24 U1-7 LC1-24)
     )
     (net red7
       (pins SLD7-5 SLD22-5 SLD37-5 SLD52-5 SLD67-5 SLD82-5 SLD104-5 R7-1)
@@ -1775,58 +1806,86 @@
     (net "Net-(LC2-Pad23)"
       (pins LC2-23 RE2-1)
     )
-    (class kicad_default "" BTN0 BTN1 BTN2 GND LED_CLK LED_DATA0 LED_DATA1
-      LED_DATA2 "Net-(D0-Pad2)" "Net-(D1-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)"
-      "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)" "Net-(D15-Pad2)"
-      "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)"
-      "Net-(D2-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)" "Net-(D22-Pad2)" "Net-(D23-Pad2)"
-      "Net-(D24-Pad2)" "Net-(D25-Pad2)" "Net-(D26-Pad2)" "Net-(D27-Pad2)"
-      "Net-(D28-Pad2)" "Net-(D29-Pad2)" "Net-(D3-Pad2)" "Net-(D30-Pad2)" "Net-(D31-Pad2)"
-      "Net-(D32-Pad2)" "Net-(D33-Pad2)" "Net-(D34-Pad2)" "Net-(D35-Pad2)"
-      "Net-(D36-Pad2)" "Net-(D37-Pad2)" "Net-(D38-Pad2)" "Net-(D39-Pad2)"
-      "Net-(D4-Pad2)" "Net-(D40-Pad2)" "Net-(D41-Pad2)" "Net-(D42-Pad2)" "Net-(D43-Pad2)"
-      "Net-(D44-Pad2)" "Net-(D45-Pad2)" "Net-(D46-Pad2)" "Net-(D47-Pad2)"
-      "Net-(D48-Pad2)" "Net-(D49-Pad2)" "Net-(D5-Pad2)" "Net-(D50-Pad2)" "Net-(D51-Pad2)"
-      "Net-(D52-Pad2)" "Net-(D53-Pad2)" "Net-(D54-Pad2)" "Net-(D55-Pad2)"
-      "Net-(D56-Pad2)" "Net-(D57-Pad2)" "Net-(D58-Pad2)" "Net-(D59-Pad2)"
-      "Net-(D6-Pad2)" "Net-(D60-Pad2)" "Net-(D61-Pad2)" "Net-(D62-Pad2)" "Net-(D63-Pad2)"
-      "Net-(D64-Pad2)" "Net-(D65-Pad2)" "Net-(D66-Pad2)" "Net-(D67-Pad2)"
-      "Net-(D68-Pad2)" "Net-(D69-Pad2)" "Net-(D7-Pad2)" "Net-(D70-Pad2)" "Net-(D71-Pad2)"
-      "Net-(D72-Pad2)" "Net-(D73-Pad2)" "Net-(D74-Pad2)" "Net-(D75-Pad2)"
-      "Net-(D76-Pad2)" "Net-(D77-Pad2)" "Net-(D78-Pad2)" "Net-(D79-Pad2)"
-      "Net-(D8-Pad2)" "Net-(D80-Pad2)" "Net-(D81-Pad2)" "Net-(D82-Pad2)" "Net-(D83-Pad2)"
-      "Net-(D84-Pad2)" "Net-(D85-Pad2)" "Net-(D86-Pad2)" "Net-(D9-Pad2)" "Net-(J1-Pad2)"
-      "Net-(J1-Pad3)" "Net-(J1-Pad4)" "Net-(LC0-Pad10)" "Net-(LC0-Pad11)"
-      "Net-(LC0-Pad12)" "Net-(LC0-Pad13)" "Net-(LC0-Pad14)" "Net-(LC0-Pad15)"
-      "Net-(LC0-Pad16)" "Net-(LC0-Pad17)" "Net-(LC0-Pad19)" "Net-(LC0-Pad20)"
-      "Net-(LC0-Pad21)" "Net-(LC0-Pad22)" "Net-(LC0-Pad23)" "Net-(LC0-Pad4)"
-      "Net-(LC0-Pad5)" "Net-(LC0-Pad6)" "Net-(LC0-Pad7)" "Net-(LC0-Pad8)"
-      "Net-(LC0-Pad9)" "Net-(LC1-Pad21)" "Net-(LC1-Pad22)" "Net-(LC1-Pad23)"
-      "Net-(LC1-Pad4)" "Net-(LC2-Pad21)" "Net-(LC2-Pad22)" "Net-(LC2-Pad23)"
-      "Net-(LC2-Pad4)" "Net-(R0-Pad2)" "Net-(R1-Pad2)" "Net-(R10-Pad1)" "Net-(R11-Pad1)"
-      "Net-(R12-Pad1)" "Net-(R2-Pad2)" "Net-(R3-Pad2)" "Net-(R4-Pad2)" "Net-(R5-Pad2)"
-      "Net-(R6-Pad2)" "Net-(R7-Pad2)" "Net-(R8-Pad1)" "Net-(R9-Pad1)" "Net-(SLD13-Pad1)"
-      "Net-(SLD13-Pad4)" "Net-(SLD13-Pad5)" "Net-(SLD13-Pad6)" "Net-(U1-Pad1)"
-      "Net-(U1-Pad10)" "Net-(U1-Pad11)" "Net-(U1-Pad12)" "Net-(U1-Pad13)"
-      "Net-(U1-Pad14)" "Net-(U1-Pad15)" "Net-(U1-Pad16)" "Net-(U1-Pad17)"
-      "Net-(U1-Pad18)" "Net-(U1-Pad19)" "Net-(U1-Pad2)" "Net-(U1-Pad20)" "Net-(U1-Pad21)"
-      "Net-(U1-Pad22)" "Net-(U1-Pad23)" "Net-(U1-Pad24)" "Net-(U1-Pad25)"
-      "Net-(U1-Pad3)" "Net-(U1-Pad32)" "Net-(U1-Pad33)" "Net-(U1-Pad34)" "Net-(U1-Pad5)"
-      "Net-(U1-Pad50)" "Net-(U1-Pad51)" "Net-(U1-Pad52)" "Net-(U1-Pad6)" "Net-(U1-Pad8)"
-      "Net-(U1-Pad9)" "Net-(U2-Pad1)" "Net-(U2-Pad10)" "Net-(U2-Pad11)" "Net-(U2-Pad12)"
-      "Net-(U2-Pad13)" "Net-(U2-Pad14)" "Net-(U2-Pad15)" "Net-(U2-Pad16)"
-      "Net-(U2-Pad17)" "Net-(U2-Pad2)" "Net-(U2-Pad3)" "Net-(U2-Pad4)" "Net-(U2-Pad5)"
-      "Net-(U2-Pad6)" "Net-(U2-Pad7)" "Net-(U2-Pad8)" "Net-(U2-Pad9)" "Net-(U3-Pad1)"
-      "Net-(U3-Pad2)" "Net-(U3-Pad3)" "Net-(U3-Pad4)" "Net-(U3-Pad5)" "Net-(U3-Pad6)"
-      "Net-(U3-Pad7)" "Net-(U4-Pad19)" "Net-(U4-Pad20)" "Net-(U4-Pad21)" "Net-(U4-Pad22)"
-      "Net-(U4-Pad23)" "Net-(U4-Pad4)" "Net-(U5-Pad21)" "Net-(U5-Pad22)" "Net-(U5-Pad23)"
-      "Net-(U5-Pad4)" "Net-(U6-Pad21)" "Net-(U6-Pad22)" "Net-(U6-Pad23)" "Net-(U6-Pad4)"
+    (net LED_LE
+      (pins LC2-4 LC0-4 U1-58 LC1-4)
+    )
+    (net LED_OE
+      (pins LC2-21 LC0-21 U1-51 LC1-21)
+    )
+    (net as6
+      (pins LC0-18 Q3-1)
+    )
+    (net +3V3
+      (pins LC2-24 LC0-24 U1-7 LC1-24 Q0-2 Q0-5 Q1-2 Q1-5 Q2-2 Q2-5 Q3-5)
+    )
+    (net as5
+      (pins LC1-18 Q2-3)
+    )
+    (net as4
+      (pins LC1-19 Q2-1)
+    )
+    (net as3
+      (pins LC1-20 Q1-3)
+    )
+    (net as2
+      (pins LC2-18 Q1-1)
+    )
+    (net as1
+      (pins LC2-19 Q0-3)
+    )
+    (net as0
+      (pins LC2-20 Q0-1)
+    )
+    (class kicad_default "" +3V3 BTN0 BTN1 BTN2 GND LED_CLK LED_DATA0 LED_DATA1
+      LED_DATA2 LED_LE LED_OE "Net-(D0-Pad2)" "Net-(D1-Pad2)" "Net-(D10-Pad2)"
+      "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)"
+      "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)"
+      "Net-(D19-Pad2)" "Net-(D2-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)" "Net-(D22-Pad2)"
+      "Net-(D23-Pad2)" "Net-(D24-Pad2)" "Net-(D25-Pad2)" "Net-(D26-Pad2)"
+      "Net-(D27-Pad2)" "Net-(D28-Pad2)" "Net-(D29-Pad2)" "Net-(D3-Pad2)" "Net-(D30-Pad2)"
+      "Net-(D31-Pad2)" "Net-(D32-Pad2)" "Net-(D33-Pad2)" "Net-(D34-Pad2)"
+      "Net-(D35-Pad2)" "Net-(D36-Pad2)" "Net-(D37-Pad2)" "Net-(D38-Pad2)"
+      "Net-(D39-Pad2)" "Net-(D4-Pad2)" "Net-(D40-Pad2)" "Net-(D41-Pad2)" "Net-(D42-Pad2)"
+      "Net-(D43-Pad2)" "Net-(D44-Pad2)" "Net-(D45-Pad2)" "Net-(D46-Pad2)"
+      "Net-(D47-Pad2)" "Net-(D48-Pad2)" "Net-(D49-Pad2)" "Net-(D5-Pad2)" "Net-(D50-Pad2)"
+      "Net-(D51-Pad2)" "Net-(D52-Pad2)" "Net-(D53-Pad2)" "Net-(D54-Pad2)"
+      "Net-(D55-Pad2)" "Net-(D56-Pad2)" "Net-(D57-Pad2)" "Net-(D58-Pad2)"
+      "Net-(D59-Pad2)" "Net-(D6-Pad2)" "Net-(D60-Pad2)" "Net-(D61-Pad2)" "Net-(D62-Pad2)"
+      "Net-(D63-Pad2)" "Net-(D64-Pad2)" "Net-(D65-Pad2)" "Net-(D66-Pad2)"
+      "Net-(D67-Pad2)" "Net-(D68-Pad2)" "Net-(D69-Pad2)" "Net-(D7-Pad2)" "Net-(D70-Pad2)"
+      "Net-(D71-Pad2)" "Net-(D72-Pad2)" "Net-(D73-Pad2)" "Net-(D74-Pad1)"
+      "Net-(D74-Pad2)" "Net-(D75-Pad2)" "Net-(D76-Pad2)" "Net-(D77-Pad2)"
+      "Net-(D78-Pad2)" "Net-(D79-Pad2)" "Net-(D8-Pad2)" "Net-(D80-Pad2)" "Net-(D81-Pad2)"
+      "Net-(D82-Pad2)" "Net-(D83-Pad2)" "Net-(D84-Pad2)" "Net-(D85-Pad2)"
+      "Net-(D86-Pad2)" "Net-(D9-Pad2)" "Net-(J1-Pad2)" "Net-(J1-Pad3)" "Net-(J1-Pad4)"
+      "Net-(K78-Pad1)" "Net-(LC0-Pad10)" "Net-(LC0-Pad11)" "Net-(LC0-Pad12)"
+      "Net-(LC0-Pad13)" "Net-(LC0-Pad14)" "Net-(LC0-Pad15)" "Net-(LC0-Pad16)"
+      "Net-(LC0-Pad17)" "Net-(LC0-Pad19)" "Net-(LC0-Pad20)" "Net-(LC0-Pad21)"
+      "Net-(LC0-Pad22)" "Net-(LC0-Pad23)" "Net-(LC0-Pad4)" "Net-(LC0-Pad5)"
+      "Net-(LC0-Pad6)" "Net-(LC0-Pad7)" "Net-(LC0-Pad8)" "Net-(LC0-Pad9)"
+      "Net-(LC1-Pad21)" "Net-(LC1-Pad22)" "Net-(LC1-Pad23)" "Net-(LC1-Pad4)"
+      "Net-(LC2-Pad21)" "Net-(LC2-Pad22)" "Net-(LC2-Pad23)" "Net-(LC2-Pad4)"
+      "Net-(Q3-Pad2)" "Net-(Q3-Pad3)" "Net-(Q3-Pad4)" "Net-(SLD13-Pad1)" "Net-(SLD13-Pad4)"
+      "Net-(SLD13-Pad5)" "Net-(SLD13-Pad6)" "Net-(U1-Pad1)" "Net-(U1-Pad10)"
+      "Net-(U1-Pad11)" "Net-(U1-Pad12)" "Net-(U1-Pad13)" "Net-(U1-Pad14)"
+      "Net-(U1-Pad15)" "Net-(U1-Pad16)" "Net-(U1-Pad17)" "Net-(U1-Pad18)"
+      "Net-(U1-Pad19)" "Net-(U1-Pad2)" "Net-(U1-Pad20)" "Net-(U1-Pad21)" "Net-(U1-Pad22)"
+      "Net-(U1-Pad23)" "Net-(U1-Pad24)" "Net-(U1-Pad25)" "Net-(U1-Pad26)"
+      "Net-(U1-Pad27)" "Net-(U1-Pad28)" "Net-(U1-Pad29)" "Net-(U1-Pad3)" "Net-(U1-Pad32)"
+      "Net-(U1-Pad33)" "Net-(U1-Pad34)" "Net-(U1-Pad5)" "Net-(U1-Pad50)" "Net-(U1-Pad51)"
+      "Net-(U1-Pad52)" "Net-(U1-Pad6)" "Net-(U1-Pad8)" "Net-(U1-Pad9)" "Net-(U2-Pad1)"
+      "Net-(U2-Pad10)" "Net-(U2-Pad11)" "Net-(U2-Pad12)" "Net-(U2-Pad13)"
+      "Net-(U2-Pad14)" "Net-(U2-Pad15)" "Net-(U2-Pad16)" "Net-(U2-Pad17)"
+      "Net-(U2-Pad2)" "Net-(U2-Pad3)" "Net-(U2-Pad4)" "Net-(U2-Pad5)" "Net-(U2-Pad6)"
+      "Net-(U2-Pad7)" "Net-(U2-Pad8)" "Net-(U2-Pad9)" "Net-(U3-Pad1)" "Net-(U3-Pad2)"
+      "Net-(U3-Pad3)" "Net-(U3-Pad4)" "Net-(U3-Pad5)" "Net-(U3-Pad6)" "Net-(U3-Pad7)"
       TP_5V TP_CLK TP_DATA TP_RST V3.3 VCC anode0 anode1 anode2 anode3 anode4
-      anode5 anode6 blue0 blue1 blue10 blue11 blue12 blue2 blue3 blue4 blue5
-      blue6 blue7 blue8 blue9 c0 c1 c10 c11 c12 c13 c14 c2 c3 c4 c5 c6 c7
-      c8 c9 green0 green1 green10 green11 green12 green2 green3 green4 green5
-      green6 green7 green8 green9 r0 r1 r2 r3 r4 r5 r6 red0 red1 red10 red11
-      red12 red2 red3 red4 red5 red6 red7 red8 red9
+      anode5 anode6 as0 as1 as2 as3 as4 as5 as6 blue0 blue1 blue10 blue11
+      blue12 blue2 blue3 blue4 blue5 blue6 blue7 blue8 blue9 c0 c1 c10 c11
+      c12 c13 c14 c2 c3 c4 c5 c6 c7 c8 c9 green0 green1 green10 green11 green12
+      green2 green3 green4 green5 green6 green7 green8 green9 r0 r1 r2 r3
+      r4 r5 r6 red0 red1 red10 red11 red12 red2 red3 red4 red5 red6 red7 red8
+      red9
       (circuit
         (use_via Via[0-1]_600:400_um)
       )
@@ -1846,5 +1905,23 @@
     )
   )
   (wiring
+    (wire (path B.Cu 250  137700 -40254.2  138003 -39951.6)(net TP_DATA)(type protect))
+    (wire (path B.Cu 250  137022 -109325  134322 -106625)(net TP_DATA)(type protect))
+    (wire (path B.Cu 250  138003 -39951.6  138003 -38965)(net TP_DATA)(type protect))
+    (wire (path B.Cu 250  160800 -159625  153989 -159625)(net TP_DATA)(type protect))
+    (wire (path B.Cu 250  160875 -158450  160875 -159550)(net TP_DATA)(type protect))
+    (wire (path B.Cu 250  137022 -142658  137022 -109325)(net TP_DATA)(type protect))
+    (wire (path B.Cu 250  134322 -106625  134322 -72500.6  137700 -69122.7)(net TP_DATA)(type protect))
+    (wire (path B.Cu 250  160875 -159550  160800 -159625)(net TP_DATA)(type protect))
+    (wire (path B.Cu 250  153989 -159625  137022 -142658)(net TP_DATA)(type protect))
+    (wire (path B.Cu 250  137700 -69122.7  137700 -40254.2)(net TP_DATA)(type protect))
+    (wire (path B.Cu 250  140319 -69871.5  138150 -67702.6  138150 -40824.2)(net TP_CLK)(type protect))
+    (wire (path B.Cu 250  140009 -39951.6  140009 -38965)(net TP_CLK)(type protect))
+    (wire (path B.Cu 250  138948 -40026.6  139934 -40026.6)(net TP_CLK)(type protect))
+    (wire (path B.Cu 250  159625 -157350  137472 -135197)(net TP_CLK)(type protect))
+    (wire (path B.Cu 250  159625 -158450  159625 -157350)(net TP_CLK)(type protect))
+    (wire (path B.Cu 250  137472 -135197  137472 -76960  140319 -74113.1  140319 -69871.5)(net TP_CLK)(type protect))
+    (wire (path B.Cu 250  138150 -40824.2  138948 -40026.6)(net TP_CLK)(type protect))
+    (wire (path B.Cu 250  139934 -40026.6  140009 -39951.6)(net TP_CLK)(type protect))
   )
 )
