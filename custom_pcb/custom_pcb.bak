@@ -2294,7 +2294,7 @@ Text GLabel 8875 8950 0    60   Input ~ 0
 blue3
 Text GLabel 8875 9050 0    60   Input ~ 0
 green3
-Text GLabel 8325 8950 0    60   Input ~ 0
+Text GLabel 10025 8850 2    60   Input ~ 0
 blue4
 Text GLabel 10025 8950 2    60   Input ~ 0
 green4
