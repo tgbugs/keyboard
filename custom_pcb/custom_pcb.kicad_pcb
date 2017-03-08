@@ -4890,7 +4890,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B2EE)
-    (at 165.70834 59.25)
+    (at 165.70834 48.75)
     (path /58B5FEB4)
     (fp_text reference SLD7 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4911,7 +4911,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B2F5)
-    (at 183.125 59.25)
+    (at 183.125 48.75)
     (path /58B5FEBA)
     (fp_text reference SLD8 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4932,7 +4932,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B2FC)
-    (at 200.54167 59.25)
+    (at 200.54167 48.75)
     (path /58B5FEC0)
     (fp_text reference SLD9 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4953,7 +4953,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B303)
-    (at 217.95834 59.25)
+    (at 217.95834 48.75)
     (path /58B5FEC6)
     (fp_text reference SLD10 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4974,7 +4974,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B30A)
-    (at 235.375 59.25)
+    (at 235.375 48.75)
     (path /58B5FECC)
     (fp_text reference SLD11 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5037,7 +5037,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B326)
-    (at 61.20834 59.25)
+    (at 61.20834 48.75)
     (path /58B5FDA3)
     (fp_text reference SLD16 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5058,7 +5058,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B32D)
-    (at 78.625 59.25)
+    (at 78.625 48.75)
     (path /58B5FDA9)
     (fp_text reference SLD17 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5079,7 +5079,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B334)
-    (at 96.04167 59.25)
+    (at 96.04167 48.75)
     (path /58B5FDAF)
     (fp_text reference SLD18 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5100,7 +5100,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B33B)
-    (at 113.45834 59.25)
+    (at 113.45834 48.75)
     (path /58B5FDB5)
     (fp_text reference SLD19 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5121,7 +5121,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B342)
-    (at 130.875 59.25)
+    (at 130.875 48.75)
     (path /58B5FDBB)
     (fp_text reference SLD20 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5142,7 +5142,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B349)
-    (at 148.29167 59.25)
+    (at 148.29167 48.75)
     (path /58B5FDC1)
     (fp_text reference SLD21 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5163,7 +5163,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B350)
-    (at 176 78.25)
+    (at 176 67.75)
     (path /58B5FDC7)
     (fp_text reference SLD22 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5184,7 +5184,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B357)
-    (at 195 78.25)
+    (at 195 67.75)
     (path /58B5FDCD)
     (fp_text reference SLD23 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5205,7 +5205,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B35E)
-    (at 214 78.25)
+    (at 214 67.75)
     (path /58B5FDD3)
     (fp_text reference SLD24 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5226,7 +5226,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B365)
-    (at 233 78.25)
+    (at 233 67.75)
     (path /58B5FDD9)
     (fp_text reference SLD25 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5247,7 +5247,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B36C)
-    (at 252.79167 59.25)
+    (at 252.79167 48.75)
     (path /58B5FDDF)
     (fp_text reference SLD26 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5268,7 +5268,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B373)
-    (at 309 59.25)
+    (at 309 48.75)
     (path /58B5FDE5)
     (fp_text reference SLD27 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5310,7 +5310,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B381)
-    (at 43 78.25)
+    (at 43 67.75)
     (path /58B5FCB0)
     (fp_text reference SLD30 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5331,7 +5331,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B388)
-    (at 62 78.25)
+    (at 62 67.75)
     (path /58B5FCB6)
     (fp_text reference SLD31 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5352,7 +5352,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B38F)
-    (at 81 78.25)
+    (at 81 67.75)
     (path /58B5FCBC)
     (fp_text reference SLD32 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5373,7 +5373,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B396)
-    (at 100 78.25)
+    (at 100 67.75)
     (path /58B5FCC2)
     (fp_text reference SLD33 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5394,7 +5394,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B39D)
-    (at 119 78.25)
+    (at 119 67.75)
     (path /58B5FCC8)
     (fp_text reference SLD34 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5415,7 +5415,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B3A4)
-    (at 138 78.25)
+    (at 138 67.75)
     (path /58B5FCCE)
     (fp_text reference SLD35 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5436,7 +5436,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B3AB)
-    (at 157 78.25)
+    (at 157 67.75)
     (path /58B5FCD4)
     (fp_text reference SLD36 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5457,7 +5457,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B3B2)
-    (at 185.5 97.25)
+    (at 185.5 86.75)
     (path /58B5FCDA)
     (fp_text reference SLD37 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5478,7 +5478,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B3B9)
-    (at 204.5 97.25)
+    (at 204.5 86.75)
     (path /58B5FCE0)
     (fp_text reference SLD38 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5499,7 +5499,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B3C0)
-    (at 223.5 97.25)
+    (at 223.5 86.75)
     (path /58B5FCE6)
     (fp_text reference SLD39 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5520,7 +5520,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B3C7)
-    (at 242.5 97.25)
+    (at 242.5 86.75)
     (path /58B5FCEC)
     (fp_text reference SLD40 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5541,7 +5541,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B3CE)
-    (at 252 78.25)
+    (at 252 67.75)
     (path /58B5FCF2)
     (fp_text reference SLD41 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5583,7 +5583,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B3DC)
-    (at 304.25 97.25)
+    (at 304.25 86.75)
     (path /58B5FCFE)
     (fp_text reference SLD43 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5604,7 +5604,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B3E3)
-    (at 47.75 97.25)
+    (at 47.75 86.75)
     (path /58B5FBC3)
     (fp_text reference SLD45 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5625,7 +5625,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B3EA)
-    (at 71.5 97.25)
+    (at 71.5 86.75)
     (path /58B5FBC9)
     (fp_text reference SLD46 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5646,7 +5646,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B3F1)
-    (at 90.5 97.25)
+    (at 90.5 86.75)
     (path /58B5FBCF)
     (fp_text reference SLD47 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5667,7 +5667,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B3F8)
-    (at 109.5 97.25)
+    (at 109.5 86.75)
     (path /58B5FBD5)
     (fp_text reference SLD48 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5688,7 +5688,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B3FF)
-    (at 128.5 97.25)
+    (at 128.5 86.75)
     (path /58B5FBDB)
     (fp_text reference SLD49 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5709,7 +5709,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B406)
-    (at 147.5 97.25)
+    (at 147.5 86.75)
     (path /58B5FBE1)
     (fp_text reference SLD50 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5730,7 +5730,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B40D)
-    (at 166.5 97.25)
+    (at 166.5 86.75)
     (path /58B5FBE7)
     (fp_text reference SLD51 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5751,7 +5751,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B414)
-    (at 190.25 116.25)
+    (at 190.25 105.75)
     (path /58B5FBED)
     (fp_text reference SLD52 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5772,7 +5772,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B41B)
-    (at 209.25 116.25)
+    (at 209.25 105.75)
     (path /58B5FBF3)
     (fp_text reference SLD53 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5793,7 +5793,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B422)
-    (at 247.25 116.25)
+    (at 247.25 105.75)
     (path /58B5FBF9)
     (fp_text reference SLD54 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5814,7 +5814,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B429)
-    (at 261.5 97.25)
+    (at 261.5 86.75)
     (path /58B5FBFF)
     (fp_text reference SLD55 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5835,7 +5835,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B430)
-    (at 290 59.25)
+    (at 290 48.75)
     (path /58B5FC05)
     (fp_text reference SLD56 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5856,7 +5856,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B437)
-    (at 280.5 97.25)
+    (at 280.5 86.75)
     (path /58B5FC0B)
     (fp_text reference SLD57 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5877,7 +5877,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B43E)
-    (at 309 173.25)
+    (at 309 162.75)
     (path /58B5FC11)
     (fp_text reference SLD58 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5898,7 +5898,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B445)
-    (at 50.125 116.25)
+    (at 50.125 105.75)
     (path /58B5FAD6)
     (fp_text reference SLD60 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5919,7 +5919,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B44C)
-    (at 76.25 116.25)
+    (at 76.25 105.75)
     (path /58B5FADC)
     (fp_text reference SLD61 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5940,7 +5940,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B453)
-    (at 95.25 116.25)
+    (at 95.25 105.75)
     (path /58B5FAE2)
     (fp_text reference SLD62 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5961,7 +5961,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B45A)
-    (at 114.25 116.25)
+    (at 114.25 105.75)
     (path /58B5FAE8)
     (fp_text reference SLD63 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5982,7 +5982,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B461)
-    (at 133.25 116.25)
+    (at 133.25 105.75)
     (path /58B5FAEE)
     (fp_text reference SLD64 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6003,7 +6003,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B468)
-    (at 152.25 116.25)
+    (at 152.25 105.75)
     (path /58B5FAF4)
     (fp_text reference SLD65 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6024,7 +6024,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B46F)
-    (at 171.25 116.25)
+    (at 171.25 105.75)
     (path /58B5FAFA)
     (fp_text reference SLD66 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6045,7 +6045,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B476)
-    (at 218.75 135.25)
+    (at 218.75 124.75)
     (path /58B5FB00)
     (fp_text reference SLD67 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6066,7 +6066,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B47D)
-    (at 228.25 116.25)
+    (at 228.25 105.75)
     (path /58B5FB06)
     (fp_text reference SLD68 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6087,7 +6087,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B484)
-    (at 256.75 135.25)
+    (at 256.75 124.75)
     (path /58B5FB0C)
     (fp_text reference SLD69 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6108,7 +6108,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B48B)
-    (at 292.375 135.25)
+    (at 292.375 124.75)
     (path /58B5FB12)
     (fp_text reference SLD70 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6129,7 +6129,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B492)
-    (at 271 78.25)
+    (at 271 67.75)
     (path /58B5FB18)
     (fp_text reference SLD71 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6150,7 +6150,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B499)
-    (at 266.25 116.25)
+    (at 266.25 105.75)
     (path /58B5FB1E)
     (fp_text reference SLD72 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6171,7 +6171,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B4A0)
-    (at 54.875 135.25)
+    (at 54.875 124.75)
     (path /58B5F9E9)
     (fp_text reference SLD75 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6192,7 +6192,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B4A7)
-    (at 85.75 135.25)
+    (at 85.75 124.75)
     (path /58B5F9EF)
     (fp_text reference SLD76 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6213,7 +6213,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B4AE)
-    (at 104.75 135.25)
+    (at 104.75 124.75)
     (path /58B5F9F5)
     (fp_text reference SLD77 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6234,7 +6234,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B4B5)
-    (at 123.75 135.25)
+    (at 123.75 124.75)
     (path /58B5F9FB)
     (fp_text reference SLD78 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6255,7 +6255,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B4BC)
-    (at 142.75 135.25)
+    (at 142.75 124.75)
     (path /58B5FA01)
     (fp_text reference SLD79 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6276,7 +6276,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B4C3)
-    (at 199.75 135.25)
+    (at 199.75 124.75)
     (path /58B5FA07)
     (fp_text reference SLD80 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6297,7 +6297,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B4CA)
-    (at 161.75 135.25)
+    (at 161.75 124.75)
     (path /58B5FA0D)
     (fp_text reference SLD81 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6318,7 +6318,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B4D1)
-    (at 237.75 135.25)
+    (at 237.75 124.75)
     (path /58B5FA13)
     (fp_text reference SLD82 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6339,7 +6339,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B4D8)
-    (at 271 154.25)
+    (at 271 143.75)
     (path /58B5FA19)
     (fp_text reference SLD83 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6360,7 +6360,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B4DF)
-    (at 290 154.25)
+    (at 290 143.75)
     (path /58B5FA1F)
     (fp_text reference SLD84 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6381,7 +6381,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B4E6)
-    (at 308.975 154.25)
+    (at 308.975 143.75)
     (path /58B5FA25)
     (fp_text reference SLD85 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6402,7 +6402,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B4ED)
-    (at 299.5 78.25)
+    (at 299.5 67.75)
     (path /58B5FA2B)
     (fp_text reference SLD86 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6423,7 +6423,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B4F4)
-    (at 297.125 116.25)
+    (at 297.125 105.75)
     (path /58B5FA31)
     (fp_text reference SLD87 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6444,7 +6444,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B4FB)
-    (at 271 173.25)
+    (at 271 162.75)
     (path /58B5FA37)
     (fp_text reference SLD88 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6465,7 +6465,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B502)
-    (at 290 173.25)
+    (at 290 162.75)
     (path /58B5FA3D)
     (fp_text reference SLD89 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6486,7 +6486,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B509)
-    (at 43 154.25)
+    (at 43 143.75)
     (path /58B5F8FC)
     (fp_text reference SLD90 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6507,7 +6507,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B510)
-    (at 64.375 154.25)
+    (at 64.375 143.75)
     (path /58B5F902)
     (fp_text reference SLD91 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6528,7 +6528,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B517)
-    (at 85.75 154.25)
+    (at 85.75 143.75)
     (path /58B5F908)
     (fp_text reference SLD92 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6549,7 +6549,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B51E)
-    (at 104.75 154.25)
+    (at 104.75 143.75)
     (path /58B5F90E)
     (fp_text reference SLD93 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6570,7 +6570,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B525)
-    (at 161.75 154.25)
+    (at 161.75 143.75)
     (path /58B5F914)
     (fp_text reference SLD94 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6591,7 +6591,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B52C)
-    (at 161.75 173.25)
+    (at 161.75 162.75)
     (path /58B5F91A)
     (fp_text reference SLD95 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6612,7 +6612,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B533)
-    (at 221.125 154.25)
+    (at 221.125 143.75)
     (path /58B5F920)
     (fp_text reference SLD96 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6633,7 +6633,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B53A)
-    (at 185.525 173.25)
+    (at 185.525 162.75)
     (path /58B5F926)
     (fp_text reference SLD97 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6717,7 +6717,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B556)
-    (at 138 173.25)
+    (at 138 162.75)
     (path /58B5F93E)
     (fp_text reference SLD101 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6738,7 +6738,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B55D)
-    (at 180.75 135.25)
+    (at 180.75 124.75)
     (path /58B5F944)
     (fp_text reference SLD102 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6780,7 +6780,7 @@
   )
 
   (module cherry_rgb:SMLVN6RGB_CA (layer F.Cu) (tedit 58B27A91) (tstamp 58B0B56B)
-    (at 247.25 154.25)
+    (at 247.25 143.75)
     (path /58B5F950)
     (fp_text reference SLD104 (at 0 2.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
