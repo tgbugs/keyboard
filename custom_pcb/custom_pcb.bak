@@ -2280,33 +2280,33 @@ Text GLabel 12725 8925 2    60   Input ~ 0
 as6
 Text GLabel 8875 8350 0    60   Input ~ 0
 blue0
-Text GLabel 8875 8850 0    60   Input ~ 0
-green0
 Text GLabel 8875 8450 0    60   Input ~ 0
-blue1
-Text GLabel 8875 8950 0    60   Input ~ 0
-green1
+green0
 Text GLabel 8875 8550 0    60   Input ~ 0
-blue2
-Text GLabel 8875 9050 0    60   Input ~ 0
-green2
+blue1
 Text GLabel 8875 8650 0    60   Input ~ 0
-blue3
-Text GLabel 10025 8850 2    60   Input ~ 0
-green3
+green1
 Text GLabel 8875 8750 0    60   Input ~ 0
+blue2
+Text GLabel 8875 8850 0    60   Input ~ 0
+green2
+Text GLabel 8875 8950 0    60   Input ~ 0
+blue3
+Text GLabel 8875 9050 0    60   Input ~ 0
+green3
+Text GLabel 8325 8950 0    60   Input ~ 0
 blue4
 Text GLabel 10025 8950 2    60   Input ~ 0
 green4
-Text GLabel 11575 8325 0    60   Input ~ 0
+Text GLabel 10025 9050 2    60   Input ~ 0
 blue5
-Text GLabel 11575 8525 0    60   Input ~ 0
+Text GLabel 11575 8325 0    60   Input ~ 0
 green5
-Text GLabel 11575 8625 0    60   Input ~ 0
+Text GLabel 11575 8825 0    60   Input ~ 0
 blue6
 Text GLabel 11075 8725 0    60   Input ~ 0
 red6
-Text GLabel 11575 8825 0    60   Input ~ 0
+Text GLabel 11575 8625 0    60   Input ~ 0
 green6
 Text GLabel 11075 8425 0    60   Input ~ 0
 red5
