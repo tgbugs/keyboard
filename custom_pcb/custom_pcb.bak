@@ -2012,11 +2012,11 @@ Text GLabel 1050 3150 0    60   Input ~ 0
 c5
 Text GLabel 1050 3050 0    60   Input ~ 0
 c6
-Text GLabel 1050 2450 0    60   Input ~ 0
-c7
-Text GLabel 1050 3350 0    60   Input ~ 0
-c8
 Text GLabel 1050 4050 0    60   Input ~ 0
+c7
+Text GLabel 1050 950  0    60   Input ~ 0
+c8
+Text GLabel 1050 2650 0    60   Input ~ 0
 c9
 Text GLabel 1050 1550 0    60   Input ~ 0
 r0
@@ -2082,15 +2082,15 @@ F 3 "" H 4150 2700 50  0000 C CNN
 	1    4150 2700
 	0    1    1    0   
 $EndComp
-Text GLabel 1050 950  0    60   Input ~ 0
-c10
-Text GLabel 1050 850  0    60   Input ~ 0
-c11
-Text GLabel 1050 2650 0    60   Input ~ 0
-c12
 Text GLabel 1050 2750 0    60   Input ~ 0
-c13
+c10
 Text GLabel 1050 2550 0    60   Input ~ 0
+c11
+Text GLabel 1050 2450 0    60   Input ~ 0
+c12
+Text GLabel 1050 1250 0    60   Input ~ 0
+c13
+Text GLabel 1050 1150 0    60   Input ~ 0
 c14
 Text GLabel 1050 2150 0    60   Input ~ 0
 LED_CLK
@@ -2098,7 +2098,7 @@ Text GLabel 1050 2050 0    60   Input ~ 0
 LED_DATA0
 Text GLabel 1050 3650 0    60   Input ~ 0
 TP_DATA
-Text GLabel 1050 1850 0    60   Input ~ 0
+Text GLabel 1050 3550 0    60   Input ~ 0
 TP_CLK
 Text GLabel 4200 2500 1    60   Input ~ 0
 TP_DATA
@@ -2122,11 +2122,11 @@ Text GLabel 4500 3650 2    60   Input ~ 0
 BTN2
 Text Notes 3650 4150 0    60   ~ 0
 Note that when wiring the LVC9 -> mainboard \nconnector the BTN0 and BTN2 leads need to be\nswapped since the order is reversed here to simplify routing.
-Text GLabel 8825 8000 0    60   Input ~ 0
-LED_DATA0
 Text GLabel 11250 8000 0    60   Input ~ 0
-LED_DATA1
+LED_DATA0
 Text GLabel 13675 7975 0    60   Input ~ 0
+LED_DATA1
+Text GLabel 8825 8000 0    60   Input ~ 0
 LED_DATA2
 Text GLabel 8825 8100 0    60   Input ~ 0
 LED_CLK
@@ -2269,17 +2269,17 @@ Text GLabel 14700 5850 2    60   Input ~ 0
 anode5
 Text GLabel 14700 6700 2    60   Input ~ 0
 anode6
-Text GLabel 14825 8275 2    60   Input ~ 0
-as0
 Text GLabel 14825 8375 2    60   Input ~ 0
-as1
+as0
 Text GLabel 14825 8475 2    60   Input ~ 0
-as2
-Text GLabel 12400 8300 2    60   Input ~ 0
-as3
-Text GLabel 12400 8400 2    60   Input ~ 0
-as4
+as1
 Text GLabel 12400 8500 2    60   Input ~ 0
+as2
+Text GLabel 14825 8275 2    60   Input ~ 0
+as3
+Text GLabel 12400 8300 2    60   Input ~ 0
+as4
+Text GLabel 12400 8400 2    60   Input ~ 0
 as5
 Text GLabel 9975 8500 2    60   Input ~ 0
 as6
@@ -2325,7 +2325,7 @@ Text GLabel 8325 8400 0    60   Input ~ 0
 red1
 Text GLabel 8325 8300 0    60   Input ~ 0
 red0
-Text GLabel 1050 3550 0    60   Input ~ 0
+Text GLabel 475  2525 0    60   Input ~ 0
 TP_RST
 Text GLabel 4400 1150 3    60   Input ~ 0
 VCC
@@ -3508,15 +3508,15 @@ Text GLabel 13675 8975 0    60   Input ~ 0
 green7
 Text GLabel 12400 9000 2    60   Input ~ 0
 blue8
-Text GLabel 10475 9000 2    60   Input ~ 0
+Text GLabel 10475 8600 2    60   Input ~ 0
 red8
-Text GLabel 14825 8975 2    60   Input ~ 0
+Text GLabel 14825 8575 2    60   Input ~ 0
 green8
 Text GLabel 12400 8900 2    60   Input ~ 0
 blue9
-Text GLabel 10475 8900 2    60   Input ~ 0
+Text GLabel 10475 8700 2    60   Input ~ 0
 red9
-Text GLabel 14825 8875 2    60   Input ~ 0
+Text GLabel 14825 8675 2    60   Input ~ 0
 green9
 Text GLabel 12400 8800 2    60   Input ~ 0
 blue10
@@ -3526,26 +3526,26 @@ Text GLabel 14825 8775 2    60   Input ~ 0
 green10
 Text GLabel 12400 8700 2    60   Input ~ 0
 blue11
-Text GLabel 10475 8700 2    60   Input ~ 0
+Text GLabel 10475 8900 2    60   Input ~ 0
 red11
-Text GLabel 14825 8675 2    60   Input ~ 0
+Text GLabel 14825 8875 2    60   Input ~ 0
 green11
 Text GLabel 12400 8600 2    60   Input ~ 0
 blue12
-Text GLabel 10475 8600 2    60   Input ~ 0
+Text GLabel 10475 9000 2    60   Input ~ 0
 red12
-Text GLabel 14825 8575 2    60   Input ~ 0
+Text GLabel 14825 8975 2    60   Input ~ 0
 green12
 $Comp
 L R R12
 U 1 1 58B7B427
-P 10225 8600
-F 0 "R12" V 10305 8600 50  0000 C CNN
-F 1 "R" V 10225 8600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" H 10225 8600 60  0001 C CNN
-F 3 "" H 10225 8600 60  0000 C CNN
-	1    10225 8600
-	0    -1   -1   0   
+P 10225 9000
+F 0 "R12" V 10305 9000 50  0000 C CNN
+F 1 "R" V 10225 9000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 10225 9000 60  0001 C CNN
+F 3 "" H 10225 9000 60  0000 C CNN
+	1    10225 9000
+	0    -1   1    0   
 $EndComp
 $Comp
 L R R10
@@ -3556,29 +3556,29 @@ F 1 "R" V 10225 8800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402_NoSilk" H 10225 8800 60  0001 C CNN
 F 3 "" H 10225 8800 60  0000 C CNN
 	1    10225 8800
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L R R9
 U 1 1 58B7B433
-P 10225 8900
-F 0 "R9" V 10305 8900 50  0000 C CNN
-F 1 "R" V 10225 8900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" H 10225 8900 60  0001 C CNN
-F 3 "" H 10225 8900 60  0000 C CNN
-	1    10225 8900
-	0    -1   -1   0   
+P 10225 8700
+F 0 "R9" V 10305 8700 50  0000 C CNN
+F 1 "R" V 10225 8700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 10225 8700 60  0001 C CNN
+F 3 "" H 10225 8700 60  0000 C CNN
+	1    10225 8700
+	0    -1   1    0   
 $EndComp
 $Comp
 L R R8
 U 1 1 58B7B439
-P 10225 9000
-F 0 "R8" V 10305 9000 50  0000 C CNN
-F 1 "R" V 10225 9000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" H 10225 9000 60  0001 C CNN
-F 3 "" H 10225 9000 60  0000 C CNN
-	1    10225 9000
-	0    -1   -1   0   
+P 10225 8600
+F 0 "R8" V 10305 8600 50  0000 C CNN
+F 1 "R" V 10225 8600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 10225 8600 60  0001 C CNN
+F 3 "" H 10225 8600 60  0000 C CNN
+	1    10225 8600
+	0    -1   1    0   
 $EndComp
 $Comp
 L R R7
@@ -3594,13 +3594,13 @@ $EndComp
 $Comp
 L R R11
 U 1 1 58B7B952
-P 10225 8700
-F 0 "R11" V 10305 8700 50  0000 C CNN
-F 1 "R" V 10225 8700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" H 10225 8700 60  0001 C CNN
-F 3 "" H 10225 8700 60  0000 C CNN
-	1    10225 8700
-	0    -1   1    0   
+P 10225 8900
+F 0 "R11" V 10305 8900 50  0000 C CNN
+F 1 "R" V 10225 8900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 10225 8900 60  0001 C CNN
+F 3 "" H 10225 8900 60  0000 C CNN
+	1    10225 8900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R RE0
@@ -3668,19 +3668,19 @@ F 3 "" H 15325 7975 50  0000 C CNN
 	1    15325 7975
 	-1   0    0    1   
 $EndComp
-Text GLabel 9975 8100 2    60   Input ~ 0
-LED_DATA1
 Text GLabel 12400 8100 2    60   Input ~ 0
+LED_DATA1
+Text GLabel 14825 8075 2    60   Input ~ 0
 LED_DATA2
 $Comp
 L GND #PWR014
 U 1 1 58C8A1E7
-P 14825 8075
-F 0 "#PWR014" H 14825 7825 50  0001 C CNN
-F 1 "GND" H 14825 7925 50  0000 C CNN
-F 2 "" H 14825 8075 50  0000 C CNN
-F 3 "" H 14825 8075 50  0000 C CNN
-	1    14825 8075
+P 9975 8100
+F 0 "#PWR014" H 9975 7850 50  0001 C CNN
+F 1 "GND" H 9975 7950 50  0000 C CNN
+F 2 "" H 9975 8100 50  0000 C CNN
+F 3 "" H 9975 8100 50  0000 C CNN
+	1    9975 8100
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1050 1950 0    60   Input ~ 0
@@ -3697,7 +3697,7 @@ Text GLabel 11250 8200 0    60   Input ~ 0
 LED_LE
 Text GLabel 13675 8175 0    60   Input ~ 0
 LED_LE
-Text GLabel 1050 2250 0    60   Input ~ 0
+Text GLabel 1050 1850 0    60   Input ~ 0
 LED_LE
 $Comp
 L Si3993CDV Q0
@@ -3826,7 +3826,7 @@ Connection ~ 6700 9600
 Wire Wire Line
 	600  10450 7700 10450
 Wire Wire Line
-	600  9600 6700 9600
+	600  9600 7200 9600
 Wire Wire Line
 	600  8750 7200 8750
 Wire Wire Line
@@ -11898,8 +11898,6 @@ Connection ~ 14700 4150
 Connection ~ 14700 3300
 Connection ~ 14700 2450
 Connection ~ 14700 1600
-Wire Wire Line
-	6725 9600 7200 9600
 Connection ~ 7950 6450
 Connection ~ 7450 9000
 Connection ~ 7200 9600
