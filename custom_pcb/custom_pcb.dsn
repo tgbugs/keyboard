@@ -300,7 +300,7 @@
       (place SLD76 85750 -124750 front 0 (PN SMLVN6RGB_CA))
       (place SLD77 104750 -124750 front 0 (PN SMLVN6RGB_CA))
       (place SLD78 142750 -124750 front 0 (PN SMLVN6RGB_CA))
-      (place SLD79 161750 -124750 front 0 (PN SMLVN6RGB_CA))
+      (place SLD79 161750 -126000 front 0 (PN SMLVN6RGB_CA))
       (place SLD80 181000 -124750 front 0 (PN SMLVN6RGB_CA))
       (place SLD81 199750 -124750 front 0 (PN SMLVN6RGB_CA))
       (place SLD82 218750 -124750 front 0 (PN SMLVN6RGB_CA))
@@ -2927,6 +2927,7 @@
             140509 -31285)(net "Net-(U1-Pad32)")(type protect))
     (wire (path B.Cu 250  145950 -30900  145950 -32050  144759 -33240.8  143452 -33240.8
             142465 -33240.8)(net "Net-(U1-Pad33)")(type protect))
+    (wire (path B.Cu 250  123000 -29820  123000 -35150  125000 -37150  125000 -38180)(net "Net-(U1-Pad34)")(type protect))
     (wire (path F.Cu 250  150027 -30525  150327 -30225)(net LED_LE)(type protect))
     (wire (path F.Cu 250  149971 -32929.5  149971 -30581.3  150027 -30525)(net LED_LE)(type protect))
     (wire (path B.Cu 250  150625 -30523.2  150327 -30225)(net LED_LE)(type protect))
