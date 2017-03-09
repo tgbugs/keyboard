@@ -91,7 +91,7 @@ F 6 "0.85 USD" H 4225 1975 50  0001 L CNN "Price"
 F 7 "500mA Low Dropout CMOS Linear Regulators with Adjustable Output Stable with Ceramic Output Capacito 6-WSON -40 to 125" H 4225 1975 50  0001 L CNN "Description"
 F 8 "Good" H 4225 1975 50  0001 L CNN "Availability"
 	1    4225 1975
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L KEYSW K0
@@ -2017,16 +2017,14 @@ Text GLabel 1050 2750 0    60   Input ~ 0
 c9
 Text GLabel 1050 1350 0    60   Input ~ 0
 r0
-Text GLabel 1050 2950 0    60   Input ~ 0
-r1
-Text GLabel 1050 2850 0    60   Input ~ 0
-r2
 Text GLabel 1050 1450 0    60   Input ~ 0
+r1
+Text GLabel 1050 1050 0    60   Input ~ 0
+r2
+Text GLabel 1050 2950 0    60   Input ~ 0
 r3
-Text GLabel 1050 1650 0    60   Input ~ 0
+Text GLabel 1050 2850 0    60   Input ~ 0
 r4
-Text GLabel 1050 1550 0    60   Input ~ 0
-r5
 Text GLabel 5950 5200 1    60   Input ~ 0
 c10
 Text GLabel 6450 5200 1    60   Input ~ 0
@@ -2093,9 +2091,9 @@ Text GLabel 1050 2150 0    60   Input ~ 0
 LED_CLK
 Text GLabel 1050 2050 0    60   Input ~ 0
 LED_DATA0
-Text GLabel 1050 1050 0    60   Input ~ 0
+Text GLabel 1050 1550 0    60   Input ~ 0
 TP_DATA
-Text GLabel 1050 2250 0    60   Input ~ 0
+Text GLabel 1050 1650 0    60   Input ~ 0
 TP_CLK
 Text GLabel 8325 1075 1    60   Input ~ 0
 TP_DATA
@@ -3493,9 +3491,9 @@ Text GLabel 15350 950  0    60   Input ~ 0
 red11
 Text GLabel 15350 1150 0    60   Input ~ 0
 green11
-Text GLabel 11575 9025 0    60   Input ~ 0
+Text GLabel 11575 8925 0    60   Input ~ 0
 blue7
-Text GLabel 11075 8925 0    60   Input ~ 0
+Text GLabel 11075 9025 0    60   Input ~ 0
 red7
 Text GLabel 12725 9025 2    60   Input ~ 0
 green7
@@ -3576,12 +3574,12 @@ $EndComp
 $Comp
 L R R7
 U 1 1 58B7B43F
-P 11325 8925
-F 0 "R7" V 11325 9025 50  0000 C CNN
-F 1 "R" V 11325 8925 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 11325 8925 60  0001 C CNN
-F 3 "" H 11325 8925 60  0000 C CNN
-	1    11325 8925
+P 11325 9025
+F 0 "R7" V 11325 9125 50  0000 C CNN
+F 1 "R" V 11325 9025 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 11325 9025 60  0001 C CNN
+F 3 "" H 11325 9025 60  0000 C CNN
+	1    11325 9025
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -12369,7 +12367,7 @@ Connection ~ 5400 2900
 Connection ~ 7950 7300
 Connection ~ 7950 9000
 Connection ~ 7700 9600
-Text GLabel 1050 3850 0    60   Input ~ 0
+Text GLabel 1050 2250 0    60   Input ~ 0
 r5
 $Comp
 L CONN_01X01 V0
@@ -12434,6 +12432,28 @@ F 1 "GND" H 9050 7300 50  0000 C CNN
 F 2 "" H 9050 7450 50  0000 C CNN
 F 3 "" H 9050 7450 50  0000 C CNN
 	1    9050 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 V?
+U 1 1 58C4D105
+P 8475 6650
+F 0 "V?" H 8475 6750 50  0000 C CNN
+F 1 "CONN_01X01" V 8575 6650 50  0000 C CNN
+F 2 "cherry_rgb:VIA127" H 8475 6650 50  0001 C CNN
+F 3 "" H 8475 6650 50  0000 C CNN
+	1    8475 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58C4D10B
+P 8475 6850
+F 0 "#PWR?" H 8475 6600 50  0001 C CNN
+F 1 "GND" H 8475 6700 50  0000 C CNN
+F 2 "" H 8475 6850 50  0000 C CNN
+F 3 "" H 8475 6850 50  0000 C CNN
+	1    8475 6850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
