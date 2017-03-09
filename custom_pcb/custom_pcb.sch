@@ -2270,13 +2270,13 @@ Text GLabel 12725 8425 2    60   Input ~ 0
 as1
 Text GLabel 12725 8525 2    60   Input ~ 0
 as2
-Text GLabel 12725 8625 2    60   Input ~ 0
+Text GLabel 12725 8925 2    60   Input ~ 0
 as3
 Text GLabel 12725 8725 2    60   Input ~ 0
 as4
-Text GLabel 12725 8825 2    60   Input ~ 0
+Text GLabel 12725 8625 2    60   Input ~ 0
 as5
-Text GLabel 12725 8925 2    60   Input ~ 0
+Text GLabel 12725 8825 2    60   Input ~ 0
 as6
 Text GLabel 8875 8350 0    60   Input ~ 0
 blue0
@@ -3740,13 +3740,13 @@ Text GLabel 9050 9400 3    60   Input ~ 0
 anode0
 Text GLabel 10100 9400 3    60   Input ~ 0
 anode2
-Text GLabel 10100 10300 3    60   Input ~ 0
+Text GLabel 12100 9400 3    60   Input ~ 0
 anode3
 Text GLabel 11100 9400 3    60   Input ~ 0
 anode4
-Text GLabel 11100 10300 3    60   Input ~ 0
+Text GLabel 10100 10300 3    60   Input ~ 0
 anode5
-Text GLabel 12100 9400 3    60   Input ~ 0
+Text GLabel 11100 10300 3    60   Input ~ 0
 anode6
 Text GLabel 9050 10300 3    60   Input ~ 0
 anode1
@@ -3800,13 +3800,13 @@ Text GLabel 8400 10300 3    60   Input ~ 0
 as1
 Text GLabel 9450 9400 3    60   Input ~ 0
 as2
-Text GLabel 9450 10300 3    60   Input ~ 0
+Text GLabel 11450 9400 3    60   Input ~ 0
 as3
 Text GLabel 10450 9400 3    60   Input ~ 0
 as4
-Text GLabel 10450 10300 3    60   Input ~ 0
+Text GLabel 9450 10300 3    60   Input ~ 0
 as5
-Text GLabel 11450 9400 3    60   Input ~ 0
+Text GLabel 10450 10300 3    60   Input ~ 0
 as6
 $Comp
 L +3.3V #PWR019
