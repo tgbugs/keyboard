@@ -91,7 +91,7 @@ F 6 "0.85 USD" H 4225 1975 50  0001 L CNN "Price"
 F 7 "500mA Low Dropout CMOS Linear Regulators with Adjustable Output Stable with Ceramic Output Capacito 6-WSON -40 to 125" H 4225 1975 50  0001 L CNN "Description"
 F 8 "Good" H 4225 1975 50  0001 L CNN "Availability"
 	1    4225 1975
-	0    -1   1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L KEYSW K0
@@ -2017,13 +2017,13 @@ Text GLabel 1050 2750 0    60   Input ~ 0
 c9
 Text GLabel 1050 1350 0    60   Input ~ 0
 r0
-Text GLabel 1050 1450 0    60   Input ~ 0
+Text GLabel 675  2700 0    60   Input ~ 0
 r1
 Text GLabel 1050 1050 0    60   Input ~ 0
 r2
 Text GLabel 1050 2950 0    60   Input ~ 0
 r3
-Text GLabel 1050 2850 0    60   Input ~ 0
+Text GLabel 1050 1450 0    60   Input ~ 0
 r4
 Text GLabel 5950 5200 1    60   Input ~ 0
 c10
@@ -12432,28 +12432,6 @@ F 1 "GND" H 9050 7300 50  0000 C CNN
 F 2 "" H 9050 7450 50  0000 C CNN
 F 3 "" H 9050 7450 50  0000 C CNN
 	1    9050 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 V2
-U 1 1 58C4D105
-P 8475 6650
-F 0 "V2" H 8475 6750 50  0000 C CNN
-F 1 "CONN_01X01" V 8575 6650 50  0000 C CNN
-F 2 "cherry_rgb:VIA127" H 8475 6650 50  0001 C CNN
-F 3 "" H 8475 6650 50  0000 C CNN
-	1    8475 6650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR23
-U 1 1 58C4D10B
-P 8475 6850
-F 0 "#PWR23" H 8475 6600 50  0001 C CNN
-F 1 "GND" H 8475 6700 50  0000 C CNN
-F 2 "" H 8475 6850 50  0000 C CNN
-F 3 "" H 8475 6850 50  0000 C CNN
-	1    8475 6850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
