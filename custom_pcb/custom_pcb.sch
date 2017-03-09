@@ -2015,17 +2015,17 @@ Text GLabel 1050 2750 0    60   Input ~ 0
 c8
 Text GLabel 1050 2550 0    60   Input ~ 0
 c9
-Text GLabel 1050 1550 0    60   Input ~ 0
-r0
-Text GLabel 1050 1650 0    60   Input ~ 0
-r1
-Text GLabel 1050 1450 0    60   Input ~ 0
-r2
-Text GLabel 1050 2850 0    60   Input ~ 0
-r3
-Text GLabel 1050 2950 0    60   Input ~ 0
-r4
 Text GLabel 1050 1350 0    60   Input ~ 0
+r0
+Text GLabel 1050 2950 0    60   Input ~ 0
+r1
+Text GLabel 1050 2850 0    60   Input ~ 0
+r2
+Text GLabel 1050 1450 0    60   Input ~ 0
+r3
+Text GLabel 1050 1650 0    60   Input ~ 0
+r4
+Text GLabel 1050 1550 0    60   Input ~ 0
 r5
 Text GLabel 5950 5200 1    60   Input ~ 0
 c10
@@ -12395,4 +12395,6 @@ Connection ~ 5400 2900
 Connection ~ 7950 7300
 Connection ~ 7950 9000
 Connection ~ 7700 9600
+Text GLabel 1050 3850 0    60   Input ~ 0
+r5
 $EndSCHEMATC
