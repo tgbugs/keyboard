@@ -2264,13 +2264,13 @@ Text GLabel 15950 5650 2    60   Input ~ 0
 anode5
 Text GLabel 15950 6500 2    60   Input ~ 0
 anode6
-Text GLabel 12725 8525 2    60   Input ~ 0
-as0
-Text GLabel 12725 8625 2    60   Input ~ 0
-as1
 Text GLabel 12725 8325 2    60   Input ~ 0
-as2
+as0
 Text GLabel 12725 8425 2    60   Input ~ 0
+as1
+Text GLabel 12725 8525 2    60   Input ~ 0
+as2
+Text GLabel 12725 8625 2    60   Input ~ 0
 as3
 Text GLabel 12725 8725 2    60   Input ~ 0
 as4
@@ -12391,4 +12391,5 @@ Wire Wire Line
 Connection ~ 7200 8750
 Connection ~ 7450 8150
 Connection ~ 7950 8150
+Connection ~ 5400 2900
 $EndSCHEMATC
