@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/tom/git/keyboard/custom_pcb/custom_pcb.sch)
-    (date "Wed 08 Mar 2017 06:08:55 PM PST")
+    (date "Wed 08 Mar 2017 06:17:02 PM PST")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -281,7 +281,7 @@
       (tstamp 5893955A))
     (comp (ref K54)
       (value KEYSW)
-      (footprint cherry_rgb:CHERRY_PLATE_NH_5000H)
+      (footprint cherry_rgb:CHERRY_PLATE_5000H)
       (libsource (lib keyboard_parts) (part KEYSW))
       (sheetpath (names /) (tstamps /))
       (tstamp 58939560))

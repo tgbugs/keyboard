@@ -12391,4 +12391,5 @@ Wire Wire Line
 Connection ~ 7200 8750
 Connection ~ 7450 8150
 Connection ~ 7950 8150
+Connection ~ 5400 2900
 $EndSCHEMATC

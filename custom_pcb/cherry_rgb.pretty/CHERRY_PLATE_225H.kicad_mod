@@ -1,5 +1,5 @@
-(module CHERRY_PLATE_225H (layer F.Cu) (tedit 5899662B)
-  (fp_text reference K40 (at 0 -3.175 180) (layer F.SilkS)
+(module CHERRY_PLATE_225H (layer F.Cu) (tedit 58C0BA8D)
+  (fp_text reference K40 (at 5 -2.5) (layer F.SilkS)
     (effects (font (size 1.27 1.524) (thickness 0.2032)))
   )
   (fp_text value KEYSW (at 0 -5.08 180) (layer F.SilkS) hide
