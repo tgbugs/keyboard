@@ -2203,12 +2203,12 @@ red3
 $Comp
 L R R3
 U 1 1 58B80FF6
-P 10275 8550
-F 0 "R3" V 10275 8450 50  0000 C CNN
-F 1 "R" V 10275 8550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 10275 8550 60  0001 C CNN
-F 3 "" H 10275 8550 60  0000 C CNN
-	1    10275 8550
+P 10275 8450
+F 0 "R3" V 10275 8350 50  0000 C CNN
+F 1 "R" V 10275 8450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 10275 8450 60  0001 C CNN
+F 3 "" H 10275 8450 60  0000 C CNN
+	1    10275 8450
 	0    1    1    0   
 $EndComp
 Text GLabel 10850 950  0    60   Input ~ 0
@@ -2216,13 +2216,13 @@ red2
 $Comp
 L R R2
 U 1 1 58B81E39
-P 8625 9050
-F 0 "R2" V 8625 8950 50  0000 C CNN
-F 1 "R" V 8625 9050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 8625 9050 60  0001 C CNN
-F 3 "" H 8625 9050 60  0000 C CNN
-	1    8625 9050
-	0    -1   1    0   
+P 8625 8550
+F 0 "R2" V 8625 8450 50  0000 C CNN
+F 1 "R" V 8625 8550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 8625 8550 60  0001 C CNN
+F 3 "" H 8625 8550 60  0000 C CNN
+	1    8625 8550
+	0    -1   -1   0   
 $EndComp
 Text GLabel 10350 950  0    60   Input ~ 0
 red1
@@ -2242,13 +2242,13 @@ red0
 $Comp
 L R R0
 U 1 1 58B827F9
-P 8625 8450
-F 0 "R0" V 8625 8350 50  0000 C CNN
-F 1 "R" V 8625 8450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 8625 8450 60  0001 C CNN
-F 3 "" H 8625 8450 60  0000 C CNN
-	1    8625 8450
-	0    -1   1    0   
+P 8625 8950
+F 0 "R0" V 8625 8850 50  0000 C CNN
+F 1 "R" V 8625 8950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 8625 8950 60  0001 C CNN
+F 3 "" H 8625 8950 60  0000 C CNN
+	1    8625 8950
+	0    -1   -1   0   
 $EndComp
 Text GLabel 15950 1400 2    60   Input ~ 0
 anode0
@@ -2278,19 +2278,19 @@ Text GLabel 12725 8625 2    60   Input ~ 0
 as5
 Text GLabel 12725 8825 2    60   Input ~ 0
 as6
-Text GLabel 8875 8350 0    60   Input ~ 0
+Text GLabel 8875 9050 0    60   Input ~ 0
 blue0
-Text GLabel 8875 8550 0    60   Input ~ 0
-green0
-Text GLabel 8875 8650 0    60   Input ~ 0
-blue1
 Text GLabel 8875 8850 0    60   Input ~ 0
+green0
+Text GLabel 8875 8350 0    60   Input ~ 0
+blue1
+Text GLabel 8875 8450 0    60   Input ~ 0
 green1
-Text GLabel 8875 8950 0    60   Input ~ 0
+Text GLabel 8875 8650 0    60   Input ~ 0
 blue2
-Text GLabel 10025 8350 2    60   Input ~ 0
+Text GLabel 10025 8550 2    60   Input ~ 0
 green2
-Text GLabel 10025 8450 2    60   Input ~ 0
+Text GLabel 10025 8350 2    60   Input ~ 0
 blue3
 Text GLabel 10025 8650 2    60   Input ~ 0
 green3
@@ -2312,13 +2312,13 @@ Text GLabel 11075 8425 0    60   Input ~ 0
 red5
 Text GLabel 10525 8850 2    60   Input ~ 0
 red4
-Text GLabel 10525 8550 2    60   Input ~ 0
+Text GLabel 10525 8450 2    60   Input ~ 0
 red3
-Text GLabel 8375 9050 0    60   Input ~ 0
+Text GLabel 8375 8550 0    60   Input ~ 0
 red2
 Text GLabel 8375 8750 0    60   Input ~ 0
 red1
-Text GLabel 8375 8450 0    60   Input ~ 0
+Text GLabel 8375 8950 0    60   Input ~ 0
 red0
 Text GLabel 7875 2750 0    60   Input ~ 0
 TP_RST
