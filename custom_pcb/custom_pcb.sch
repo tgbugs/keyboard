@@ -2005,7 +2005,7 @@ Text GLabel 1050 2350 0    60   Input ~ 0
 c3
 Text GLabel 1050 3050 0    60   Input ~ 0
 c4
-Text GLabel 1050 3150 0    60   Input ~ 0
+Text GLabel 1050 3650 0    60   Input ~ 0
 c5
 Text GLabel 1050 850  0    60   Input ~ 0
 c6
@@ -3499,78 +3499,78 @@ Text GLabel 11075 8925 0    60   Input ~ 0
 red7
 Text GLabel 12725 9025 2    60   Input ~ 0
 green7
-Text GLabel 14200 8625 0    60   Input ~ 0
+Text GLabel 15350 9025 2    60   Input ~ 0
 blue8
-Text GLabel 15850 8625 2    60   Input ~ 0
-red8
-Text GLabel 14200 8325 0    60   Input ~ 0
-green8
-Text GLabel 14200 8725 0    60   Input ~ 0
-blue9
-Text GLabel 15850 8725 2    60   Input ~ 0
-red9
-Text GLabel 14200 8425 0    60   Input ~ 0
-green9
-Text GLabel 14200 8825 0    60   Input ~ 0
-blue10
-Text GLabel 15850 8825 2    60   Input ~ 0
-red10
-Text GLabel 14200 8525 0    60   Input ~ 0
-green10
-Text GLabel 14200 8925 0    60   Input ~ 0
-blue11
 Text GLabel 15850 8925 2    60   Input ~ 0
-red11
+red8
+Text GLabel 15350 8825 2    60   Input ~ 0
+green8
+Text GLabel 15350 8725 2    60   Input ~ 0
+blue9
+Text GLabel 15850 8625 2    60   Input ~ 0
+red9
+Text GLabel 15350 8525 2    60   Input ~ 0
+green9
+Text GLabel 14200 8925 0    60   Input ~ 0
+blue10
+Text GLabel 13700 9025 0    60   Input ~ 0
+red10
 Text GLabel 15350 8425 2    60   Input ~ 0
+green10
+Text GLabel 14200 8625 0    60   Input ~ 0
+blue11
+Text GLabel 13700 8725 0    60   Input ~ 0
+red11
+Text GLabel 14200 8825 0    60   Input ~ 0
 green11
-Text GLabel 14200 9025 0    60   Input ~ 0
+Text GLabel 14200 8325 0    60   Input ~ 0
 blue12
-Text GLabel 15850 9025 2    60   Input ~ 0
+Text GLabel 13700 8425 0    60   Input ~ 0
 red12
-Text GLabel 15350 8325 2    60   Input ~ 0
+Text GLabel 14200 8525 0    60   Input ~ 0
 green12
 $Comp
 L R R12
 U 1 1 58B7B427
-P 15600 9025
-F 0 "R12" V 15600 9100 50  0000 C CNN
-F 1 "R" V 15600 8925 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 15600 9025 60  0001 C CNN
-F 3 "" H 15600 9025 60  0000 C CNN
-	1    15600 9025
-	0    -1   1    0   
+P 13950 8425
+F 0 "R12" V 13950 8500 50  0000 C CNN
+F 1 "R" V 13950 8325 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 13950 8425 60  0001 C CNN
+F 3 "" H 13950 8425 60  0000 C CNN
+	1    13950 8425
+	0    1    1    0   
 $EndComp
 $Comp
 L R R10
 U 1 1 58B7B42D
-P 15600 8825
-F 0 "R10" V 15600 8900 50  0000 C CNN
-F 1 "R" V 15600 8725 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 15600 8825 60  0001 C CNN
-F 3 "" H 15600 8825 60  0000 C CNN
-	1    15600 8825
-	0    -1   1    0   
+P 13950 9025
+F 0 "R10" V 13950 9100 50  0000 C CNN
+F 1 "R" V 13950 8925 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 13950 9025 60  0001 C CNN
+F 3 "" H 13950 9025 60  0000 C CNN
+	1    13950 9025
+	0    1    -1   0   
 $EndComp
 $Comp
 L R R9
 U 1 1 58B7B433
-P 15600 8725
-F 0 "R9" V 15600 8825 50  0000 C CNN
-F 1 "R" V 15600 8725 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 15600 8725 60  0001 C CNN
-F 3 "" H 15600 8725 60  0000 C CNN
-	1    15600 8725
+P 15600 8625
+F 0 "R9" V 15600 8725 50  0000 C CNN
+F 1 "R" V 15600 8625 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 15600 8625 60  0001 C CNN
+F 3 "" H 15600 8625 60  0000 C CNN
+	1    15600 8625
 	0    -1   1    0   
 $EndComp
 $Comp
 L R R8
 U 1 1 58B7B439
-P 15600 8625
-F 0 "R8" V 15600 8725 50  0000 C CNN
-F 1 "R" V 15600 8625 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 15600 8625 60  0001 C CNN
-F 3 "" H 15600 8625 60  0000 C CNN
-	1    15600 8625
+P 15600 8925
+F 0 "R8" V 15600 9025 50  0000 C CNN
+F 1 "R" V 15600 8925 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 15600 8925 60  0001 C CNN
+F 3 "" H 15600 8925 60  0000 C CNN
+	1    15600 8925
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -3587,13 +3587,13 @@ $EndComp
 $Comp
 L R R11
 U 1 1 58B7B952
-P 15600 8925
-F 0 "R11" V 15600 9000 50  0000 C CNN
-F 1 "R" V 15600 8825 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 15600 8925 60  0001 C CNN
-F 3 "" H 15600 8925 60  0000 C CNN
-	1    15600 8925
-	0    -1   -1   0   
+P 13950 8725
+F 0 "R11" V 13950 8800 50  0000 C CNN
+F 1 "R" V 13950 8625 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 13950 8725 60  0001 C CNN
+F 3 "" H 13950 8725 60  0000 C CNN
+	1    13950 8725
+	0    1    -1   0   
 $EndComp
 $Comp
 L R RE0
