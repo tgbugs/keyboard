@@ -2017,13 +2017,13 @@ Text GLabel 1050 2750 0    60   Input ~ 0
 c9
 Text GLabel 1050 1350 0    60   Input ~ 0
 r0
-Text GLabel 1050 2850 0    60   Input ~ 0
+Text GLabel 1050 1450 0    60   Input ~ 0
 r1
 Text GLabel 1050 1050 0    60   Input ~ 0
 r2
 Text GLabel 1050 2950 0    60   Input ~ 0
 r3
-Text GLabel 1050 1450 0    60   Input ~ 0
+Text GLabel 1050 2850 0    60   Input ~ 0
 r4
 Text GLabel 5950 5200 1    60   Input ~ 0
 c10
@@ -12391,27 +12391,10 @@ F 3 "" H 8500 7450 50  0000 C CNN
 	1    8500 7450
 	1    0    0    -1  
 $EndComp
-Text GLabel 3700 4300 3    60   Input ~ 0
-GND2
-Text GLabel 3300 4300 3    60   Input ~ 0
-GND2
-Text GLabel 5600 1800 1    60   Input ~ 0
-GND2
 Wire Wire Line
 	5550 2300 5600 2300
 Wire Wire Line
 	5600 2300 5600 2400
-$Comp
-L R R16
-U 1 1 59129E09
-P 5600 2050
-F 0 "R16" V 5680 2050 50  0000 C CNN
-F 1 "R" V 5600 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0201_NoSilk" H 5600 2050 60  0001 C CNN
-F 3 "" H 5600 2050 60  0000 C CNN
-	1    5600 2050
-	1    0    0    -1  
-$EndComp
 $Comp
 L CONN_01X01 V1
 U 1 1 5912DDC2
@@ -12436,4 +12419,29 @@ F 3 "" H 9050 7450 50  0000 C CNN
 $EndComp
 Entry Wire Line
 	16200 8800 16300 8900
+$Comp
+L GND #PWR036
+U 1 1 58C33B40
+P 3300 4300
+F 0 "#PWR036" H 3300 4050 50  0001 C CNN
+F 1 "GND" H 3300 4150 50  0000 C CNN
+F 2 "" H 3300 4300 50  0000 C CNN
+F 3 "" H 3300 4300 50  0000 C CNN
+	1    3300 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR037
+U 1 1 58C3487C
+P 3700 4300
+F 0 "#PWR037" H 3700 4050 50  0001 C CNN
+F 1 "GND" H 3700 4150 50  0000 C CNN
+F 2 "" H 3700 4300 50  0000 C CNN
+F 3 "" H 3700 4300 50  0000 C CNN
+	1    3700 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 9850 11450 9800
+Connection ~ 11450 9800
 $EndSCHEMATC
