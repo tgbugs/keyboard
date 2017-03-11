@@ -1994,7 +1994,7 @@ Text GLabel 1050 2350 0    60   Input ~ 0
 c3
 Text GLabel 1050 3050 0    60   Input ~ 0
 c4
-Text GLabel 1050 3650 0    60   Input ~ 0
+Text GLabel 1050 3850 0    60   Input ~ 0
 c5
 Text GLabel 1050 850  0    60   Input ~ 0
 c6
@@ -12554,4 +12554,8 @@ F 3 "" H 9000 5625 50  0000 C CNN
 	1    9000 5625
 	1    0    0    -1  
 $EndComp
+Text GLabel 11575 8525 0    60   Input ~ 0
+OFF?
+Text GLabel 15350 8325 2    60   Input ~ 0
+OFF?
 $EndSCHEMATC

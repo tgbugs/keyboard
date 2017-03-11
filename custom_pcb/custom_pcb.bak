@@ -1994,7 +1994,7 @@ Text GLabel 1050 2350 0    60   Input ~ 0
 c3
 Text GLabel 1050 3050 0    60   Input ~ 0
 c4
-Text GLabel 1050 3650 0    60   Input ~ 0
+Text GLabel 1050 3850 0    60   Input ~ 0
 c5
 Text GLabel 1050 850  0    60   Input ~ 0
 c6
@@ -2190,12 +2190,12 @@ red3
 $Comp
 L R R3
 U 1 1 58B80FF6
-P 10275 8350
-F 0 "R3" V 10275 8250 50  0000 C CNN
-F 1 "R" V 10275 8350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 10275 8350 60  0001 C CNN
-F 3 "" H 10275 8350 60  0000 C CNN
-	1    10275 8350
+P 10275 8450
+F 0 "R3" V 10275 8350 50  0000 C CNN
+F 1 "R" V 10275 8450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 10275 8450 60  0001 C CNN
+F 3 "" H 10275 8450 60  0000 C CNN
+	1    10275 8450
 	0    1    1    0   
 $EndComp
 Text GLabel 10850 950  0    60   Input ~ 0
@@ -2275,9 +2275,9 @@ Text GLabel 8875 8450 0    60   Input ~ 0
 green1
 Text GLabel 8875 8650 0    60   Input ~ 0
 blue2
-Text GLabel 10025 8550 2    60   Input ~ 0
+Text GLabel 10025 8350 2    60   Input ~ 0
 green2
-Text GLabel 10025 8450 2    60   Input ~ 0
+Text GLabel 10025 8550 2    60   Input ~ 0
 blue3
 Text GLabel 10025 8650 2    60   Input ~ 0
 green3
@@ -2299,7 +2299,7 @@ Text GLabel 11075 8425 0    60   Input ~ 0
 red5
 Text GLabel 10525 8850 2    60   Input ~ 0
 red4
-Text GLabel 10525 8350 2    60   Input ~ 0
+Text GLabel 10525 8450 2    60   Input ~ 0
 red3
 Text GLabel 8375 8550 0    60   Input ~ 0
 red2
