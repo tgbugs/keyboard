@@ -2151,12 +2151,12 @@ green12
 $Comp
 L R R6
 U 1 1 58B730FD
-P 11325 8725
-F 0 "R6" V 11325 8825 50  0000 C CNN
-F 1 "R" V 11325 8725 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 11325 8725 60  0001 C CNN
-F 3 "" H 11325 8725 60  0000 C CNN
-	1    11325 8725
+P 11325 8625
+F 0 "R6" V 11325 8725 50  0000 C CNN
+F 1 "R" V 11325 8625 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 11325 8625 60  0001 C CNN
+F 3 "" H 11325 8625 60  0000 C CNN
+	1    11325 8625
 	0    -1   1    0   
 $EndComp
 Text GLabel 12350 950  0    60   Input ~ 0
@@ -2289,11 +2289,11 @@ Text GLabel 10025 9050 2    60   Input ~ 0
 blue5
 Text GLabel 11575 8325 0    60   Input ~ 0
 green5
-Text GLabel 11575 8825 0    60   Input ~ 0
+Text GLabel 11575 8725 0    60   Input ~ 0
 blue6
-Text GLabel 11075 8725 0    60   Input ~ 0
+Text GLabel 11075 8625 0    60   Input ~ 0
 red6
-Text GLabel 11575 8625 0    60   Input ~ 0
+Text GLabel 11575 8525 0    60   Input ~ 0
 green6
 Text GLabel 11075 8425 0    60   Input ~ 0
 red5
@@ -12554,7 +12554,7 @@ F 3 "" H 9000 5625 50  0000 C CNN
 	1    9000 5625
 	1    0    0    -1  
 $EndComp
-Text GLabel 11575 8525 0    60   Input ~ 0
+Text GLabel 11575 8825 0    60   Input ~ 0
 OFF?
 Text GLabel 15350 8325 2    60   Input ~ 0
 OFF?
