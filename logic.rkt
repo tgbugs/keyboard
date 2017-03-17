@@ -47,3 +47,5 @@
 (writeln R-1)
 (writeln R-2)
 (writeln R-3)
+
+; actually just use in series so we get 3x 606 (saftey in the design) 400, 1050 (1k)
