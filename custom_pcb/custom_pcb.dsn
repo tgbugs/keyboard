@@ -75,7 +75,7 @@
       (place R9 209250 -43750 front 0 (PN R))
       (place R10 226750 -43750 front 0 (PN R))
       (place R11 244000 -43750 front 0 (PN R))
-      (place R12 256100 -33500 front 0 (PN R))
+      (place R12 256250 -33250 front 0 (PN R))
       (place R13 112000 -39750 back 180 (PN R))
       (place R14 112000 -41250 back 180 (PN R))
       (place R15 144700 -158500 back 180 (PN R))
@@ -3690,8 +3690,7 @@
     (wire (path B.Cu 250  159750 -33750  160500 -34500)(net "Net-(LC0-Pad8)")(type protect))
     (wire (path B.Cu 250  153225 -31400  153225 -32200  153300 -32275  158275 -32275
             159750 -33750)(net "Net-(LC0-Pad8)")(type protect))
-    (wire (path F.Cu 250  162750 -33500  164250 -33500)(net "Net-(LC0-Pad10)")(type protect))
-    (wire (path F.Cu 250  162500 -33250  162750 -33500)(net "Net-(LC0-Pad10)")(type protect))
+    (wire (path F.Cu 250  162500 -33250  164250 -33250)(net "Net-(LC0-Pad10)")(type protect))
     (wire (path F.Cu 250  162500 -33250  162250 -33000  161500 -32250  161250 -32250)(net "Net-(LC0-Pad10)")(type protect))
     (wire (path B.Cu 250  159750 -32250  161250 -32250)(net "Net-(LC0-Pad10)")(type protect))
     (wire (path B.Cu 250  159500 -32000  159750 -32250)(net "Net-(LC0-Pad10)")(type protect))
