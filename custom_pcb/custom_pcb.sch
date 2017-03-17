@@ -1994,7 +1994,7 @@ Text GLabel 1050 2350 0    60   Input ~ 0
 c3
 Text GLabel 1050 3050 0    60   Input ~ 0
 c4
-Text GLabel 1050 3850 0    60   Input ~ 0
+Text GLabel 1050 2250 0    60   Input ~ 0
 c5
 Text GLabel 1050 850  0    60   Input ~ 0
 c6
@@ -2008,7 +2008,7 @@ Text GLabel 1050 1350 0    60   Input ~ 0
 r0
 Text GLabel 1050 1450 0    60   Input ~ 0
 r1
-Text GLabel 1050 1050 0    60   Input ~ 0
+Text GLabel 1050 3850 0    60   Input ~ 0
 r2
 Text GLabel 1050 2950 0    60   Input ~ 0
 r3
@@ -12334,7 +12334,7 @@ Connection ~ 5400 2900
 Connection ~ 7950 7300
 Connection ~ 7950 9000
 Connection ~ 7700 9600
-Text GLabel 1050 2250 0    60   Input ~ 0
+Text GLabel 1050 1050 0    60   Input ~ 0
 r5
 $Comp
 L CONN_01X01 V0
@@ -12546,7 +12546,7 @@ U 1 1 58CD82A7
 P 7725 4100
 F 0 "SW1" H 7725 4250 50  0000 C CNN
 F 1 "CONN_02X02" H 7725 3950 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_DIP_x2_W5.08mm_Slide_Copal_CHS-A" H 7725 2900 50  0001 C CNN
+F 2 "cherry_rgb:CVS-02TB" H 7725 2900 50  0001 C CNN
 F 3 "" H 7725 2900 50  0000 C CNN
 	1    7725 4100
 	1    0    0    -1  

@@ -1994,7 +1994,7 @@ Text GLabel 1050 2350 0    60   Input ~ 0
 c3
 Text GLabel 1050 3050 0    60   Input ~ 0
 c4
-Text GLabel 1050 3850 0    60   Input ~ 0
+Text GLabel 1050 2250 0    60   Input ~ 0
 c5
 Text GLabel 1050 850  0    60   Input ~ 0
 c6
@@ -2008,7 +2008,7 @@ Text GLabel 1050 1350 0    60   Input ~ 0
 r0
 Text GLabel 1050 1450 0    60   Input ~ 0
 r1
-Text GLabel 1050 1050 0    60   Input ~ 0
+Text GLabel 1050 3850 0    60   Input ~ 0
 r2
 Text GLabel 1050 2950 0    60   Input ~ 0
 r3
@@ -3618,12 +3618,12 @@ $EndComp
 $Comp
 L GND #PWR011
 U 1 1 58B583D7
-P 8075 4425
-F 0 "#PWR011" H 8075 4175 50  0001 C CNN
-F 1 "GND" H 8075 4275 50  0000 C CNN
-F 2 "" H 8075 4425 50  0000 C CNN
-F 3 "" H 8075 4425 50  0000 C CNN
-	1    8075 4425
+P 8100 4350
+F 0 "#PWR011" H 8100 4100 50  0001 C CNN
+F 1 "GND" H 8100 4200 50  0000 C CNN
+F 2 "" H 8100 4350 50  0000 C CNN
+F 3 "" H 8100 4350 50  0000 C CNN
+	1    8100 4350
 	1    0    0    -1  
 $EndComp
 Text GLabel 10025 8150 2    60   Input ~ 0
@@ -12334,7 +12334,7 @@ Connection ~ 5400 2900
 Connection ~ 7950 7300
 Connection ~ 7950 9000
 Connection ~ 7700 9600
-Text GLabel 1050 2250 0    60   Input ~ 0
+Text GLabel 1050 1050 0    60   Input ~ 0
 r5
 $Comp
 L CONN_01X01 V0
@@ -12579,4 +12579,11 @@ Wire Wire Line
 	7975 3850 8100 3850
 Wire Wire Line
 	7975 4050 7975 3850
+Wire Wire Line
+	7475 4350 8100 4350
+Wire Wire Line
+	7975 4350 7975 4150
+Wire Wire Line
+	7475 4350 7475 4150
+Connection ~ 7975 4350
 $EndSCHEMATC
