@@ -33,4 +33,10 @@ D MOSFET 2P-CH 30V 2.9A SOT-23-6
 F http://www.vishay.com/docs/67331/si3993cd.pdf
 $ENDCMP
 #
+$CMP TL1963A-33
+D Linear Voltage Regulator IC Positive Fixed Output 3.3V 1.5A SOT-223-4
+K IC REG LDO 3.3V 1.5A SOT223
+F http://www.ti.com/lit/ds/symlink/tl1963a.pdf
+$ENDCMP
+#
 #End Doc Library
