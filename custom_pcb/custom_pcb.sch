@@ -1968,25 +1968,25 @@ Text GLabel 600  9600 1    60   Input ~ 0
 r4
 Text GLabel 600  10450 1    60   Input ~ 0
 r5
-Text GLabel 1050 950  0    60   Input ~ 0
-c0
-Text GLabel 1050 4050 0    60   Input ~ 0
-c1
 Text GLabel 1050 3350 0    60   Input ~ 0
-c2
+c0
 Text GLabel 1050 2350 0    60   Input ~ 0
-c3
+c1
 Text GLabel 1050 3050 0    60   Input ~ 0
+c2
+Text GLabel 1050 3150 0    60   Input ~ 0
+c3
+Text GLabel 1050 1750 0    60   Input ~ 0
 c4
 Text GLabel 1050 2250 0    60   Input ~ 0
 c5
-Text GLabel 1050 850  0    60   Input ~ 0
+Text GLabel 1050 4050 0    60   Input ~ 0
 c6
 Text GLabel 1050 2550 0    60   Input ~ 0
 c7
 Text GLabel 1050 2450 0    60   Input ~ 0
 c8
-Text GLabel 1050 2750 0    60   Input ~ 0
+Text GLabel 1050 850  0    60   Input ~ 0
 c9
 Text GLabel 1050 1350 0    60   Input ~ 0
 r0
@@ -2050,7 +2050,7 @@ F 3 "" H 8275 1275 50  0000 C CNN
 	1    8275 1275
 	0    1    1    0   
 $EndComp
-Text GLabel 1050 2650 0    60   Input ~ 0
+Text GLabel 1050 950  0    60   Input ~ 0
 c10
 Text GLabel 1050 4150 0    60   Input ~ 0
 c11
