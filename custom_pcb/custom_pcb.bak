@@ -1968,25 +1968,25 @@ Text GLabel 600  9600 1    60   Input ~ 0
 r4
 Text GLabel 600  10450 1    60   Input ~ 0
 r5
-Text GLabel 1050 950  0    60   Input ~ 0
-c0
-Text GLabel 1050 4050 0    60   Input ~ 0
-c1
 Text GLabel 1050 3350 0    60   Input ~ 0
-c2
+c0
 Text GLabel 1050 2350 0    60   Input ~ 0
-c3
+c1
 Text GLabel 1050 3050 0    60   Input ~ 0
+c2
+Text GLabel 1050 3150 0    60   Input ~ 0
+c3
+Text GLabel 1050 1750 0    60   Input ~ 0
 c4
 Text GLabel 1050 2250 0    60   Input ~ 0
 c5
-Text GLabel 1050 850  0    60   Input ~ 0
+Text GLabel 1050 4050 0    60   Input ~ 0
 c6
 Text GLabel 1050 2550 0    60   Input ~ 0
 c7
 Text GLabel 1050 2450 0    60   Input ~ 0
 c8
-Text GLabel 1050 2750 0    60   Input ~ 0
+Text GLabel 1050 850  0    60   Input ~ 0
 c9
 Text GLabel 1050 1350 0    60   Input ~ 0
 r0
@@ -2020,12 +2020,12 @@ $EndComp
 $Comp
 L STP16CP05 LC0
 U 1 1 589F5697
-P 14400 9075
-F 0 "LC0" H 14800 10325 60  0000 C CNN
-F 1 "STP16CP05" H 14750 9025 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14400 10625 60  0001 C CNN
-F 3 "" H 14400 10625 60  0001 C CNN
-	1    14400 9075
+P 14750 9075
+F 0 "LC0" H 15150 10325 60  0000 C CNN
+F 1 "STP16CP05" H 15100 9025 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 14750 10625 60  0001 C CNN
+F 3 "" H 14750 10625 60  0001 C CNN
+	1    14750 9075
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2050,7 +2050,7 @@ F 3 "" H 8275 1275 50  0000 C CNN
 	1    8275 1275
 	0    1    1    0   
 $EndComp
-Text GLabel 1050 2650 0    60   Input ~ 0
+Text GLabel 1050 950  0    60   Input ~ 0
 c10
 Text GLabel 1050 4150 0    60   Input ~ 0
 c11
@@ -2092,9 +2092,9 @@ Text GLabel 8875 8050 0    60   Input ~ 0
 LED_DATA0
 Text GLabel 11575 8025 0    60   Input ~ 0
 LED_DATA1
-Text GLabel 14200 8025 0    60   Input ~ 0
+Text GLabel 14550 8025 0    60   Input ~ 0
 LED_DATA2
-Text GLabel 14200 8125 0    60   Input ~ 0
+Text GLabel 14550 8125 0    60   Input ~ 0
 LED_CLK
 Text GLabel 8875 8150 0    60   Input ~ 0
 LED_CLK
@@ -2235,19 +2235,19 @@ Text GLabel 15950 5650 2    60   Input ~ 0
 anode5
 Text GLabel 15950 6500 2    60   Input ~ 0
 anode6
-Text GLabel 12725 8325 2    60   Input ~ 0
+Text GLabel 13225 8325 2    60   Input ~ 0
 as0
-Text GLabel 12725 8425 2    60   Input ~ 0
+Text GLabel 13225 8425 2    60   Input ~ 0
 as1
-Text GLabel 12725 8525 2    60   Input ~ 0
+Text GLabel 13225 8525 2    60   Input ~ 0
 as2
-Text GLabel 12725 8925 2    60   Input ~ 0
+Text GLabel 13225 8925 2    60   Input ~ 0
 as3
-Text GLabel 12725 8725 2    60   Input ~ 0
+Text GLabel 13225 8725 2    60   Input ~ 0
 as4
-Text GLabel 12725 8625 2    60   Input ~ 0
+Text GLabel 13225 8625 2    60   Input ~ 0
 as5
-Text GLabel 12725 8825 2    60   Input ~ 0
+Text GLabel 13225 8825 2    60   Input ~ 0
 as6
 Text GLabel 8875 9050 0    60   Input ~ 0
 blue0
@@ -2362,12 +2362,12 @@ $EndComp
 $Comp
 L GND #PWR07
 U 1 1 589F4307
-P 14050 7675
-F 0 "#PWR07" H 14050 7425 50  0001 C CNN
-F 1 "GND" H 14050 7525 50  0000 C CNN
-F 2 "" H 14050 7675 50  0000 C CNN
-F 3 "" H 14050 7675 50  0000 C CNN
-	1    14050 7675
+P 14400 7675
+F 0 "#PWR07" H 14400 7425 50  0001 C CNN
+F 1 "GND" H 14400 7525 50  0000 C CNN
+F 2 "" H 14400 7675 50  0000 C CNN
+F 3 "" H 14400 7675 50  0000 C CNN
+	1    14400 7675
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3470,78 +3470,78 @@ Text GLabel 11075 9025 0    60   Input ~ 0
 red7
 Text GLabel 12725 9025 2    60   Input ~ 0
 green7
-Text GLabel 15350 9025 2    60   Input ~ 0
+Text GLabel 15700 9025 2    60   Input ~ 0
 blue8
-Text GLabel 15850 8525 2    60   Input ~ 0
+Text GLabel 16200 8525 2    60   Input ~ 0
 red8
-Text GLabel 15350 8425 2    60   Input ~ 0
+Text GLabel 15700 8425 2    60   Input ~ 0
 green8
-Text GLabel 15350 8725 2    60   Input ~ 0
+Text GLabel 15700 8725 2    60   Input ~ 0
 blue9
-Text GLabel 15850 8825 2    60   Input ~ 0
+Text GLabel 16200 8825 2    60   Input ~ 0
 red9
-Text GLabel 15350 8925 2    60   Input ~ 0
+Text GLabel 15700 8925 2    60   Input ~ 0
 green9
-Text GLabel 14200 8425 0    60   Input ~ 0
+Text GLabel 14550 8425 0    60   Input ~ 0
 blue10
-Text GLabel 13700 8325 0    60   Input ~ 0
+Text GLabel 14050 8325 0    60   Input ~ 0
 red10
-Text GLabel 15350 8625 2    60   Input ~ 0
+Text GLabel 15700 8625 2    60   Input ~ 0
 green10
-Text GLabel 14200 9025 0    60   Input ~ 0
+Text GLabel 14550 9025 0    60   Input ~ 0
 blue11
-Text GLabel 13700 8625 0    60   Input ~ 0
+Text GLabel 14050 8625 0    60   Input ~ 0
 red11
-Text GLabel 14200 8525 0    60   Input ~ 0
+Text GLabel 14550 8525 0    60   Input ~ 0
 green11
-Text GLabel 14200 8725 0    60   Input ~ 0
+Text GLabel 14550 8725 0    60   Input ~ 0
 blue12
-Text GLabel 13700 8825 0    60   Input ~ 0
+Text GLabel 14050 8825 0    60   Input ~ 0
 red12
-Text GLabel 14200 8925 0    60   Input ~ 0
+Text GLabel 14550 8925 0    60   Input ~ 0
 green12
 $Comp
 L R R12
 U 1 1 58B7B427
-P 13950 8825
-F 0 "R12" V 13950 8900 50  0000 C CNN
-F 1 "R" V 13950 8725 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 13950 8825 60  0001 C CNN
-F 3 "" H 13950 8825 60  0000 C CNN
-	1    13950 8825
+P 14300 8825
+F 0 "R12" V 14300 8900 50  0000 C CNN
+F 1 "R" V 14300 8725 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 14300 8825 60  0001 C CNN
+F 3 "" H 14300 8825 60  0000 C CNN
+	1    14300 8825
 	0    1    1    0   
 $EndComp
 $Comp
 L R R10
 U 1 1 58B7B42D
-P 13950 8325
-F 0 "R10" V 13950 8400 50  0000 C CNN
-F 1 "R" V 13950 8225 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 13950 8325 60  0001 C CNN
-F 3 "" H 13950 8325 60  0000 C CNN
-	1    13950 8325
+P 14300 8325
+F 0 "R10" V 14300 8400 50  0000 C CNN
+F 1 "R" V 14300 8225 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 14300 8325 60  0001 C CNN
+F 3 "" H 14300 8325 60  0000 C CNN
+	1    14300 8325
 	0    1    -1   0   
 $EndComp
 $Comp
 L R R9
 U 1 1 58B7B433
-P 15600 8825
-F 0 "R9" V 15600 8925 50  0000 C CNN
-F 1 "R" V 15600 8825 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 15600 8825 60  0001 C CNN
-F 3 "" H 15600 8825 60  0000 C CNN
-	1    15600 8825
+P 15950 8825
+F 0 "R9" V 15950 8925 50  0000 C CNN
+F 1 "R" V 15950 8825 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 15950 8825 60  0001 C CNN
+F 3 "" H 15950 8825 60  0000 C CNN
+	1    15950 8825
 	0    -1   1    0   
 $EndComp
 $Comp
 L R R8
 U 1 1 58B7B439
-P 15600 8525
-F 0 "R8" V 15600 8625 50  0000 C CNN
-F 1 "R" V 15600 8525 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 15600 8525 60  0001 C CNN
-F 3 "" H 15600 8525 60  0000 C CNN
-	1    15600 8525
+P 15950 8525
+F 0 "R8" V 15950 8625 50  0000 C CNN
+F 1 "R" V 15950 8525 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 15950 8525 60  0001 C CNN
+F 3 "" H 15950 8525 60  0000 C CNN
+	1    15950 8525
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -3558,23 +3558,23 @@ $EndComp
 $Comp
 L R R11
 U 1 1 58B7B952
-P 13950 8625
-F 0 "R11" V 13950 8700 50  0000 C CNN
-F 1 "R" V 13950 8525 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 13950 8625 60  0001 C CNN
-F 3 "" H 13950 8625 60  0000 C CNN
-	1    13950 8625
+P 14300 8625
+F 0 "R11" V 14300 8700 50  0000 C CNN
+F 1 "R" V 14300 8525 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 14300 8625 60  0001 C CNN
+F 3 "" H 14300 8625 60  0000 C CNN
+	1    14300 8625
 	0    1    -1   0   
 $EndComp
 $Comp
 L R RE0
 U 1 1 58B4CCC8
-P 15600 8025
-F 0 "RE0" V 15600 8100 50  0000 C CNN
-F 1 "R" V 15600 7925 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 15600 8025 60  0001 C CNN
-F 3 "" H 15600 8025 60  0000 C CNN
-	1    15600 8025
+P 15950 8025
+F 0 "RE0" V 15950 8100 50  0000 C CNN
+F 1 "R" V 15950 7925 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 15950 8025 60  0001 C CNN
+F 3 "" H 15950 8025 60  0000 C CNN
+	1    15950 8025
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -3617,23 +3617,23 @@ LED_DATA2
 $Comp
 L GND #PWR012
 U 1 1 58C8A1E7
-P 15350 8125
-F 0 "#PWR012" H 15350 7875 50  0001 C CNN
-F 1 "GND" H 15350 7975 50  0000 C CNN
-F 2 "" H 15350 8125 50  0000 C CNN
-F 3 "" H 15350 8125 50  0000 C CNN
-	1    15350 8125
+P 15700 8125
+F 0 "#PWR012" H 15700 7875 50  0001 C CNN
+F 1 "GND" H 15700 7975 50  0000 C CNN
+F 2 "" H 15700 8125 50  0000 C CNN
+F 3 "" H 15700 8125 50  0000 C CNN
+	1    15700 8125
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1050 1950 0    60   Input ~ 0
 LED_OE
-Text GLabel 15350 8225 2    60   Input ~ 0
+Text GLabel 15700 8225 2    60   Input ~ 0
 LED_OE
 Text GLabel 10025 8250 2    60   Input ~ 0
 LED_OE
 Text GLabel 12725 8225 2    60   Input ~ 0
 LED_OE
-Text GLabel 14200 8225 0    60   Input ~ 0
+Text GLabel 14550 8225 0    60   Input ~ 0
 LED_LE
 Text GLabel 8875 8250 0    60   Input ~ 0
 LED_LE
@@ -3724,12 +3724,12 @@ $EndComp
 $Comp
 L +3.3V #PWR015
 U 1 1 58CFC11A
-P 15350 7925
-F 0 "#PWR015" H 15350 7775 50  0001 C CNN
-F 1 "+3.3V" H 15350 8065 50  0000 C CNN
-F 2 "" H 15350 7925 50  0000 C CNN
-F 3 "" H 15350 7925 50  0000 C CNN
-	1    15350 7925
+P 15700 7925
+F 0 "#PWR015" H 15700 7775 50  0001 C CNN
+F 1 "+3.3V" H 15700 8065 50  0000 C CNN
+F 2 "" H 15700 7925 50  0000 C CNN
+F 3 "" H 15700 7925 50  0000 C CNN
+	1    15700 7925
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4344,9 +4344,9 @@ Wire Wire Line
 Wire Wire Line
 	8625 1075 8825 1075
 Wire Wire Line
-	14200 7925 14200 7675
+	14550 7925 14550 7675
 Wire Wire Line
-	14200 7675 14050 7675
+	14550 7675 14400 7675
 Wire Wire Line
 	11575 7925 11375 7925
 Wire Wire Line
@@ -12343,8 +12343,6 @@ F 3 "" H 9050 7450 50  0000 C CNN
 	1    9050 7450
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	16200 8800 16300 8900
 $Comp
 L GND #PWR033
 U 1 1 58C33B40
@@ -12497,7 +12495,7 @@ Text GLabel 10525 8050 2    60   Input ~ 0
 rec
 Text GLabel 13225 8025 2    60   Input ~ 0
 rec
-Text GLabel 15850 8025 2    60   Input ~ 0
+Text GLabel 16200 8025 2    60   Input ~ 0
 rec
 $Comp
 L CONN_02X02 SW1
@@ -12587,5 +12585,82 @@ F 2 "TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2" H 4650 2550 50  0000 C CIN
 F 3 "" H 4650 2450 50  0000 C CNN
 	1    4650 2450
 	-1   0    0    1   
+$EndComp
+$Comp
+L R GR0
+U 1 1 58DCCEB3
+P 12975 8325
+F 0 "GR0" V 12975 8250 50  0000 C CNN
+F 1 "R" V 12975 8425 50  0000 C CNN
+F 2 "" H 12975 8325 60  0000 C CNN
+F 3 "" H 12975 8325 60  0000 C CNN
+	1    12975 8325
+	0    1    1    0   
+$EndComp
+$Comp
+L R GR1
+U 1 1 58DD0C2B
+P 12975 8425
+F 0 "GR1" V 12975 8350 50  0000 C CNN
+F 1 "R" V 12975 8525 50  0000 C CNN
+F 2 "" H 12975 8425 60  0000 C CNN
+F 3 "" H 12975 8425 60  0000 C CNN
+	1    12975 8425
+	0    1    1    0   
+$EndComp
+$Comp
+L R GR2
+U 1 1 58DD1009
+P 12975 8525
+F 0 "GR2" V 12975 8450 50  0000 C CNN
+F 1 "R" V 12975 8625 50  0000 C CNN
+F 2 "" H 12975 8525 60  0000 C CNN
+F 3 "" H 12975 8525 60  0000 C CNN
+	1    12975 8525
+	0    1    1    0   
+$EndComp
+$Comp
+L R GR5
+U 1 1 58DD13DA
+P 12975 8625
+F 0 "GR5" V 12975 8550 50  0000 C CNN
+F 1 "R" V 12975 8725 50  0000 C CNN
+F 2 "" H 12975 8625 60  0000 C CNN
+F 3 "" H 12975 8625 60  0000 C CNN
+	1    12975 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L R GR4
+U 1 1 58DD17C0
+P 12975 8725
+F 0 "GR4" V 12975 8650 50  0000 C CNN
+F 1 "R" V 12975 8825 50  0000 C CNN
+F 2 "" H 12975 8725 60  0000 C CNN
+F 3 "" H 12975 8725 60  0000 C CNN
+	1    12975 8725
+	0    1    1    0   
+$EndComp
+$Comp
+L R GR6
+U 1 1 58DD1B97
+P 12975 8825
+F 0 "GR6" V 12975 8750 50  0000 C CNN
+F 1 "R" V 12975 8925 50  0000 C CNN
+F 2 "" H 12975 8825 60  0000 C CNN
+F 3 "" H 12975 8825 60  0000 C CNN
+	1    12975 8825
+	0    1    1    0   
+$EndComp
+$Comp
+L R GR3
+U 1 1 58DD1F79
+P 12975 8925
+F 0 "GR3" V 12975 8850 50  0000 C CNN
+F 1 "R" V 12975 9025 50  0000 C CNN
+F 2 "" H 12975 8925 60  0000 C CNN
+F 3 "" H 12975 8925 60  0000 C CNN
+	1    12975 8925
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
