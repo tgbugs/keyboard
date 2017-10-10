@@ -1,4 +1,5 @@
-#kicad libs and mods needed
+![current layout](https://github.com/tgbugs/keyboard/blob/master/tpk.png?raw=true)
+# kicad libs and mods needed
 https://github.com/tmk/kicad_lib_tmk.git
 https://github.com/tmk/keyboard_parts.pretty
 https://github.com/stormbard/Keyboard.pretty.git
